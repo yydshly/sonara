@@ -21,7 +21,7 @@ GitHub Pages 一个仓库只提供一个站点；本配置在该站点下提供�
 
 ## GitHub Actions
 
-`checks.yml` 在提交与 PR 上运行检查、测试和静态构建。`pages.yml` 通过手动触发部署整个统一站点；启用 Pages 的 GitHub Actions 发布方式后使用。
+`checks.yml` 在提交与 PR 上运行检查、测试和静态构建。`pages.yml` 在推送 `main` 后自动部署整个统一站点，也支持手动触发；启用 Pages 的 GitHub Actions 发布方式后使用。
 
 `package-space.yml` 可选择一个独立入口，输出对应发布包。它只是可下载的部署产物，不意味着已在外部托管平台创建了另一个站点。
 
@@ -29,4 +29,11 @@ GitHub Pages 支持范围以[官方说明](https://docs.github.com/en/pages/gett
 
 ## 发布状态
 
-构建与本机验证正在本轮完成。实际仓库、提交和上线地址应在发布成功后写入；此文件不把待发布状态视为已经上线。
+- 源码仓库：[yydshly/sonara](https://github.com/yydshly/sonara)，已按拥有者确认设为公开。
+- 统一入口：[声间音乐创作室](https://yydshly.github.io/sonara/)。
+- 独立功能地址：[故事与歌曲](https://yydshly.github.io/sonara/studio/)、[青春歌曲](https://yydshly.github.io/sonara/song/)、[声音与风格](https://yydshly.github.io/sonara/lab/)、[按谱试唱](https://yydshly.github.io/sonara/score/)、[音轨工作台](https://yydshly.github.io/sonara/tools/)。
+- 进展页：[当前进展与能力边界](https://yydshly.github.io/sonara/progress.html)。
+- 首次源码提交：`7953b7fa9a02840b00a5804668ae39750e8db255`。
+- [首次远端检查](https://github.com/yydshly/sonara/actions/runs/36261639539)与[首次部署](https://github.com/yydshly/sonara/actions/runs/36261732010)成功，网页已实际打开验证。
+
+以上为一个 Pages 站点内的统一首页和五个功能地址。六种独立构建配置仍保留；尚未在其他平台建立多个独立站点。后续推送 `main` 将重新检查并发布全部页面，部署结果见仓库 Actions。

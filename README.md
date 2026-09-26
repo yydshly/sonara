@@ -1,5 +1,7 @@
 # 声间 Sonara
 
+[打开统一入口](https://yydshly.github.io/sonara/) · [源码仓库](https://github.com/yydshly/sonara) · [当前进展](https://yydshly.github.io/sonara/progress.html)
+
 从故事与情绪出发，让模型共同设计歌词、旋律、唱法和伴奏，再通过试听、局部修改和版本比较完成创作。当前重点是中文短段的自然感与共鸣。
 
 **一个仓库、一个统一入口、五个功能空间。** 本仓库同时保存本机创作程序、网页展示版、进展文档和部署配置。
