@@ -1,0 +1,21 @@
+{
+  "status": "rendered",
+  "title": "那条放学后的路",
+  "duration": 185,
+  "sampleRate": 44100,
+  "bitDepth": 24,
+  "peak": 0.7643571496009827,
+  "renderSeconds": 269.3,
+  "phrases": 26,
+  "voice": "Ria / 狸安",
+  "voiceAuthor": "RibosomeK",
+  "qualityAssessment": "需要人工试听，尚未判定为发行成品",
+  "arrangement": "程序按原创乐谱制作的合成器编配",
+  "files": {
+    "song.wav": "e59722964fe4101988ae8eea5c061148cd666698cea5a1459de2462ac83c2fe4",
+    "vocal.wav": "cd2ea9eb659310755d839db68ae82ccd92bcd083f3a6a56a4a3e13087bef4cc7",
+    "accompaniment.wav": "c04bdbd302687d5bb6f76725176d1aa1e116212de73380d880d4dc91390fd68a",
+    "guide.wav": "93c04b9be9df92515bd80aab8dd2694656629a30291a5738adb51d03a3f9c242",
+    "score.json": "f3f87758d6329cdf91589769d2a908c2d42c9524698f45613e74132e656513b1"
+  }
+}

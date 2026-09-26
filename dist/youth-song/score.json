@@ -1,0 +1,2775 @@
+{
+  "title": "那条放学后的路",
+  "subtitle": "给长大后的我们",
+  "bpm": 82,
+  "key": "C major",
+  "meter": "4/4",
+  "sampleRate": 44100,
+  "duration": 185,
+  "scoreDuration": 181.46341463414635,
+  "bars": 62,
+  "sections": [
+    {
+      "id": "intro",
+      "name": "前奏",
+      "startBar": 0,
+      "bars": 4,
+      "start": 0.0,
+      "end": 11.707317073170731,
+      "intention": "木吉他先给出节奏，钢琴提前带出副歌的旋律动机。",
+      "lyrics": []
+    },
+    {
+      "id": "verse1",
+      "name": "主歌一 · 放学",
+      "startBar": 4,
+      "bars": 8,
+      "start": 11.707317073170731,
+      "end": 35.1219512195122,
+      "intention": "低一些的音区、较轻的伴奏，从两个人共享耳机的画面进入。",
+      "lyrics": [
+        "风把试卷吹过窗台",
+        "粉笔灰落满你刘海",
+        "一副耳机分给两人",
+        "放学铃响还舍不得摘"
+      ]
+    },
+    {
+      "id": "pre1",
+      "name": "预副歌 · 那时",
+      "startBar": 12,
+      "bars": 4,
+      "start": 35.1219512195122,
+      "end": 46.829268292682926,
+      "intention": "旋律逐步抬高，鼓和弦乐进入，把期待引向副歌。",
+      "lyrics": [
+        "那时以为夏天很长",
+        "长到足够慢慢讲"
+      ]
+    },
+    {
+      "id": "chorus1",
+      "name": "副歌 · 那条路",
+      "startBar": 16,
+      "bars": 8,
+      "start": 46.829268292682926,
+      "end": 70.2439024390244,
+      "intention": "重复的短动机配句尾长音，让“那条放学后的路”成为记忆点。",
+      "lyrics": [
+        "那条放学后的路",
+        "怎么走也走不够",
+        "把没说完的明天",
+        "留在你回头的路口"
+      ]
+    },
+    {
+      "id": "interlude",
+      "name": "间奏",
+      "startBar": 24,
+      "bars": 2,
+      "start": 70.2439024390244,
+      "end": 76.09756097560975,
+      "intention": "短暂回落，钢琴接过人声的句尾。",
+      "lyrics": []
+    },
+    {
+      "id": "verse2",
+      "name": "主歌二 · 后来",
+      "startBar": 26,
+      "bars": 8,
+      "start": 76.09756097560975,
+      "end": 99.51219512195122,
+      "intention": "回到主歌旋律，画面转到成年；保留轻鼓推动，不完全退回前奏。",
+      "lyrics": [
+        "旧的号码早已停用",
+        "同学录在箱底泛黄",
+        "你说加班忘了吃饭",
+        "我说这里今晚风很凉"
+      ]
+    },
+    {
+      "id": "pre2",
+      "name": "预副歌 · 后来",
+      "startBar": 34,
+      "bars": 4,
+      "start": 99.51219512195122,
+      "end": 111.21951219512195,
+      "intention": "和第一次相同的旋律承接不同的理解，从“很长”变成“来不及”。",
+      "lyrics": [
+        "后来才懂那段时光",
+        "短得来不及散场"
+      ]
+    },
+    {
+      "id": "chorus2",
+      "name": "副歌 · 回望",
+      "startBar": 38,
+      "bars": 8,
+      "start": 111.21951219512195,
+      "end": 134.6341463414634,
+      "intention": "再次唱起相同主题，让成年后的故事赋予这条路另一层含义。",
+      "lyrics": [
+        "那条放学后的路",
+        "怎么走也走不够",
+        "把没说完的明天",
+        "留在你回头的路口"
+      ]
+    },
+    {
+      "id": "bridge",
+      "name": "桥段 · 留言",
+      "startBar": 46,
+      "bars": 4,
+      "start": 134.6341463414634,
+      "end": 146.34146341463415,
+      "intention": "鼓暂时退出，用更疏的钢琴给一句迟来的留言留出空间。",
+      "lyrics": [
+        "若哪天你经过旧操场",
+        "替我听一听放学的铃响"
+      ]
+    },
+    {
+      "id": "final",
+      "name": "末副歌 · 祝愿",
+      "startBar": 50,
+      "bars": 8,
+      "start": 146.34146341463415,
+      "end": 169.7560975609756,
+      "intention": "保留副歌主题，结尾换成祝愿；完整乐队回来，最后落在主音。",
+      "lyrics": [
+        "那条放学后的路",
+        "如今各自往前走",
+        "愿你在人海奔忙后",
+        "还有想唱就唱的自由"
+      ]
+    },
+    {
+      "id": "outro",
+      "name": "尾奏",
+      "startBar": 58,
+      "bars": 4,
+      "start": 169.7560975609756,
+      "end": 181.46341463414635,
+      "intention": "回到木吉他与钢琴，最后一个和弦自然收尾。",
+      "lyrics": []
+    }
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "section": "verse1",
+      "lyrics": "风把试卷吹过窗台",
+      "start": 11.707317073170731,
+      "end": 17.5609756097561,
+      "notes": [
+        {
+          "lyric": "风",
+          "pinyin": "feng",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 16.5,
+          "beats": 0.5,
+          "start": 12.073170731707316,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "把",
+          "pinyin": "ba",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 17.0,
+          "beats": 0.5,
+          "start": 12.439024390243903,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "试",
+          "pinyin": "shi",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 17.5,
+          "beats": 1,
+          "start": 12.804878048780488,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "卷",
+          "pinyin": "juan",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 18.5,
+          "beats": 0.5,
+          "start": 13.536585365853659,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "吹",
+          "pinyin": "chui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 19.0,
+          "beats": 0.5,
+          "start": 13.902439024390244,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "过",
+          "pinyin": "guo",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 19.5,
+          "beats": 1,
+          "start": 14.268292682926829,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "窗",
+          "pinyin": "chuang",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 20.5,
+          "beats": 1,
+          "start": 15.0,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "台",
+          "pinyin": "tai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 21.5,
+          "beats": 2,
+          "start": 15.73170731707317,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "section": "verse1",
+      "lyrics": "粉笔灰落满你刘海",
+      "start": 17.5609756097561,
+      "end": 23.414634146341463,
+      "notes": [
+        {
+          "lyric": "粉",
+          "pinyin": "fen",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 24.5,
+          "beats": 0.5,
+          "start": 17.926829268292682,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "笔",
+          "pinyin": "bi",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 25.0,
+          "beats": 0.5,
+          "start": 18.29268292682927,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "灰",
+          "pinyin": "hui",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 25.5,
+          "beats": 1,
+          "start": 18.65853658536585,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "落",
+          "pinyin": "luo",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 26.5,
+          "beats": 0.5,
+          "start": 19.390243902439025,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "满",
+          "pinyin": "man",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 27.0,
+          "beats": 0.5,
+          "start": 19.756097560975608,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 27.5,
+          "beats": 1,
+          "start": 20.121951219512194,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "刘",
+          "pinyin": "liu",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 28.5,
+          "beats": 1,
+          "start": 20.853658536585364,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 29.5,
+          "beats": 2,
+          "start": 21.585365853658537,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "section": "verse1",
+      "lyrics": "一副耳机分给两人",
+      "start": 23.414634146341463,
+      "end": 29.268292682926827,
+      "notes": [
+        {
+          "lyric": "一",
+          "pinyin": "yi",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 32.5,
+          "beats": 0.5,
+          "start": 23.78048780487805,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "副",
+          "pinyin": "fu",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 33.0,
+          "beats": 0.5,
+          "start": 24.146341463414632,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "耳",
+          "pinyin": "er",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 33.5,
+          "beats": 1,
+          "start": 24.51219512195122,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "机",
+          "pinyin": "ji",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 34.5,
+          "beats": 0.5,
+          "start": 25.24390243902439,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "分",
+          "pinyin": "fen",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 35.0,
+          "beats": 0.5,
+          "start": 25.609756097560975,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "给",
+          "pinyin": "gei",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 35.5,
+          "beats": 1,
+          "start": 25.975609756097562,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "两",
+          "pinyin": "liang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 36.5,
+          "beats": 1,
+          "start": 26.70731707317073,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "人",
+          "pinyin": "ren",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 37.5,
+          "beats": 2,
+          "start": 27.4390243902439,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "section": "verse1",
+      "lyrics": "放学铃响还舍不得摘",
+      "start": 29.268292682926827,
+      "end": 35.1219512195122,
+      "notes": [
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 40.5,
+          "beats": 0.5,
+          "start": 29.634146341463413,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 41.0,
+          "beats": 0.5,
+          "start": 30.0,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "铃",
+          "pinyin": "ling",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 41.5,
+          "beats": 0.5,
+          "start": 30.365853658536583,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "响",
+          "pinyin": "xiang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 42.0,
+          "beats": 0.5,
+          "start": 30.73170731707317,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "还",
+          "pinyin": "hai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 42.5,
+          "beats": 1,
+          "start": 31.097560975609756,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "舍",
+          "pinyin": "she",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 43.5,
+          "beats": 0.5,
+          "start": 31.829268292682926,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 44.0,
+          "beats": 0.5,
+          "start": 32.19512195121951,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "得",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 44.5,
+          "beats": 1,
+          "start": 32.5609756097561,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "摘",
+          "pinyin": "zhai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 45.5,
+          "beats": 2,
+          "start": 33.292682926829265,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "section": "pre1",
+      "lyrics": "那时以为夏天很长",
+      "start": 35.1219512195122,
+      "end": 40.97560975609756,
+      "notes": [
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 48.5,
+          "beats": 0.5,
+          "start": 35.48780487804878,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "时",
+          "pinyin": "shi",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 49.0,
+          "beats": 0.5,
+          "start": 35.853658536585364,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "以",
+          "pinyin": "yi",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 49.5,
+          "beats": 1,
+          "start": 36.21951219512195,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "为",
+          "pinyin": "wei",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 50.5,
+          "beats": 0.5,
+          "start": 36.951219512195124,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "夏",
+          "pinyin": "xia",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 51.0,
+          "beats": 0.5,
+          "start": 37.3170731707317,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 51.5,
+          "beats": 1,
+          "start": 37.68292682926829,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "很",
+          "pinyin": "hen",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 52.5,
+          "beats": 1,
+          "start": 38.41463414634146,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "长",
+          "pinyin": "zhang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 53.5,
+          "beats": 2,
+          "start": 39.146341463414636,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "section": "pre1",
+      "lyrics": "长到足够慢慢讲",
+      "start": 40.97560975609756,
+      "end": 46.829268292682926,
+      "notes": [
+        {
+          "lyric": "长",
+          "pinyin": "zhang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 56.5,
+          "beats": 0.5,
+          "start": 41.34146341463415,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "到",
+          "pinyin": "dao",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 57.0,
+          "beats": 0.5,
+          "start": 41.70731707317073,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "足",
+          "pinyin": "zu",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 57.5,
+          "beats": 1,
+          "start": 42.073170731707314,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "够",
+          "pinyin": "gou",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 58.5,
+          "beats": 1,
+          "start": 42.80487804878049,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "慢",
+          "pinyin": "man",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 59.5,
+          "beats": 0.5,
+          "start": 43.53658536585366,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "慢",
+          "pinyin": "man",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 60.0,
+          "beats": 0.5,
+          "start": 43.90243902439024,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "讲",
+          "pinyin": "jiang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 60.5,
+          "beats": 3,
+          "start": 44.26829268292683,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "section": "chorus1",
+      "lyrics": "那条放学后的路",
+      "start": 46.829268292682926,
+      "end": 52.68292682926829,
+      "notes": [
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 64.5,
+          "beats": 0.5,
+          "start": 47.19512195121951,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "条",
+          "pinyin": "tiao",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 65.0,
+          "beats": 0.5,
+          "start": 47.5609756097561,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 65.5,
+          "beats": 1,
+          "start": 47.92682926829268,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 66.5,
+          "beats": 1,
+          "start": 48.65853658536585,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 67.5,
+          "beats": 0.5,
+          "start": 49.390243902439025,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 68.0,
+          "beats": 0.5,
+          "start": 49.75609756097561,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 68.5,
+          "beats": 3,
+          "start": 50.12195121951219,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "section": "chorus1",
+      "lyrics": "怎么走也走不够",
+      "start": 52.68292682926829,
+      "end": 58.536585365853654,
+      "notes": [
+        {
+          "lyric": "怎",
+          "pinyin": "zen",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 72.5,
+          "beats": 0.5,
+          "start": 53.048780487804876,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "么",
+          "pinyin": "me",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 73.0,
+          "beats": 0.5,
+          "start": 53.41463414634146,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 73.5,
+          "beats": 1,
+          "start": 53.78048780487805,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "也",
+          "pinyin": "ye",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 74.5,
+          "beats": 1,
+          "start": 54.512195121951216,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 75.5,
+          "beats": 0.5,
+          "start": 55.24390243902439,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 76.0,
+          "beats": 0.5,
+          "start": 55.609756097560975,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "够",
+          "pinyin": "gou",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 76.5,
+          "beats": 3,
+          "start": 55.97560975609756,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "section": "chorus1",
+      "lyrics": "把没说完的明天",
+      "start": 58.536585365853654,
+      "end": 64.39024390243902,
+      "notes": [
+        {
+          "lyric": "把",
+          "pinyin": "ba",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 80.5,
+          "beats": 0.5,
+          "start": 58.90243902439024,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "没",
+          "pinyin": "mei",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 81.0,
+          "beats": 0.5,
+          "start": 59.26829268292683,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 81.5,
+          "beats": 1,
+          "start": 59.63414634146341,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "完",
+          "pinyin": "wan",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 82.5,
+          "beats": 1,
+          "start": 60.36585365853659,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 83.5,
+          "beats": 0.5,
+          "start": 61.09756097560975,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "明",
+          "pinyin": "ming",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 84.0,
+          "beats": 0.5,
+          "start": 61.46341463414634,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 84.5,
+          "beats": 3,
+          "start": 61.829268292682926,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "section": "chorus1",
+      "lyrics": "留在你回头的路口",
+      "start": 64.39024390243902,
+      "end": 70.2439024390244,
+      "notes": [
+        {
+          "lyric": "留",
+          "pinyin": "liu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 88.5,
+          "beats": 0.5,
+          "start": 64.7560975609756,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 89.0,
+          "beats": 0.5,
+          "start": 65.1219512195122,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 89.5,
+          "beats": 1,
+          "start": 65.48780487804878,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "回",
+          "pinyin": "hui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 90.5,
+          "beats": 0.5,
+          "start": 66.21951219512195,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "头",
+          "pinyin": "tou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 91.0,
+          "beats": 0.5,
+          "start": 66.58536585365853,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 91.5,
+          "beats": 1,
+          "start": 66.95121951219512,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 92.5,
+          "beats": 1,
+          "start": 67.6829268292683,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "口",
+          "pinyin": "kou",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 93.5,
+          "beats": 2,
+          "start": 68.41463414634146,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "section": "verse2",
+      "lyrics": "旧的号码早已停用",
+      "start": 76.09756097560975,
+      "end": 81.95121951219512,
+      "notes": [
+        {
+          "lyric": "旧",
+          "pinyin": "jiu",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 104.5,
+          "beats": 0.5,
+          "start": 76.46341463414635,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 105.0,
+          "beats": 0.5,
+          "start": 76.82926829268293,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "号",
+          "pinyin": "hao",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 105.5,
+          "beats": 1,
+          "start": 77.1951219512195,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "码",
+          "pinyin": "ma",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 106.5,
+          "beats": 0.5,
+          "start": 77.92682926829268,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "早",
+          "pinyin": "zao",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 107.0,
+          "beats": 0.5,
+          "start": 78.29268292682927,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "已",
+          "pinyin": "yi",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 107.5,
+          "beats": 1,
+          "start": 78.65853658536585,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "停",
+          "pinyin": "ting",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 108.5,
+          "beats": 1,
+          "start": 79.39024390243902,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "用",
+          "pinyin": "yong",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 109.5,
+          "beats": 2,
+          "start": 80.1219512195122,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "section": "verse2",
+      "lyrics": "同学录在箱底泛黄",
+      "start": 81.95121951219512,
+      "end": 87.80487804878048,
+      "notes": [
+        {
+          "lyric": "同",
+          "pinyin": "tong",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 112.5,
+          "beats": 0.5,
+          "start": 82.3170731707317,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 113.0,
+          "beats": 0.5,
+          "start": 82.6829268292683,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "录",
+          "pinyin": "lu",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 113.5,
+          "beats": 1,
+          "start": 83.04878048780488,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 114.5,
+          "beats": 0.5,
+          "start": 83.78048780487805,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "箱",
+          "pinyin": "xiang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 115.0,
+          "beats": 0.5,
+          "start": 84.14634146341463,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "底",
+          "pinyin": "di",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 115.5,
+          "beats": 1,
+          "start": 84.51219512195122,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "泛",
+          "pinyin": "fan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 116.5,
+          "beats": 1,
+          "start": 85.24390243902438,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "黄",
+          "pinyin": "huang",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 117.5,
+          "beats": 2,
+          "start": 85.97560975609755,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "section": "verse2",
+      "lyrics": "你说加班忘了吃饭",
+      "start": 87.80487804878048,
+      "end": 93.65853658536585,
+      "notes": [
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 120.5,
+          "beats": 0.5,
+          "start": 88.17073170731707,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 121.0,
+          "beats": 0.5,
+          "start": 88.53658536585365,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "加",
+          "pinyin": "jia",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 121.5,
+          "beats": 1,
+          "start": 88.90243902439025,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "班",
+          "pinyin": "ban",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 122.5,
+          "beats": 0.5,
+          "start": 89.6341463414634,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "忘",
+          "pinyin": "wang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 123.0,
+          "beats": 0.5,
+          "start": 90.0,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "了",
+          "pinyin": "le",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 123.5,
+          "beats": 1,
+          "start": 90.36585365853658,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "吃",
+          "pinyin": "chi",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 124.5,
+          "beats": 1,
+          "start": 91.09756097560975,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "饭",
+          "pinyin": "fan",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 125.5,
+          "beats": 2,
+          "start": 91.82926829268293,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "section": "verse2",
+      "lyrics": "我说这里今晚风很凉",
+      "start": 93.65853658536585,
+      "end": 99.51219512195122,
+      "notes": [
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 128.5,
+          "beats": 0.5,
+          "start": 94.02439024390243,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 129.0,
+          "beats": 0.5,
+          "start": 94.39024390243902,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "这",
+          "pinyin": "zhe",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 129.5,
+          "beats": 0.5,
+          "start": 94.7560975609756,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "里",
+          "pinyin": "li",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 130.0,
+          "beats": 0.5,
+          "start": 95.1219512195122,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "今",
+          "pinyin": "jin",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 130.5,
+          "beats": 1,
+          "start": 95.48780487804878,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "晚",
+          "pinyin": "wan",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 131.5,
+          "beats": 0.5,
+          "start": 96.21951219512195,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "风",
+          "pinyin": "feng",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 132.0,
+          "beats": 0.5,
+          "start": 96.58536585365853,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "很",
+          "pinyin": "hen",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 132.5,
+          "beats": 1,
+          "start": 96.95121951219512,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "凉",
+          "pinyin": "liang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 133.5,
+          "beats": 2,
+          "start": 97.6829268292683,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "section": "pre2",
+      "lyrics": "后来才懂那段时光",
+      "start": 99.51219512195122,
+      "end": 105.36585365853658,
+      "notes": [
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 136.5,
+          "beats": 0.5,
+          "start": 99.8780487804878,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 137.0,
+          "beats": 0.5,
+          "start": 100.24390243902438,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "才",
+          "pinyin": "cai",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 137.5,
+          "beats": 1,
+          "start": 100.60975609756098,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "懂",
+          "pinyin": "dong",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 138.5,
+          "beats": 0.5,
+          "start": 101.34146341463415,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 139.0,
+          "beats": 0.5,
+          "start": 101.70731707317073,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "段",
+          "pinyin": "duan",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 139.5,
+          "beats": 1,
+          "start": 102.07317073170732,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "时",
+          "pinyin": "shi",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 140.5,
+          "beats": 1,
+          "start": 102.80487804878048,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "光",
+          "pinyin": "guang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 141.5,
+          "beats": 2,
+          "start": 103.53658536585365,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "section": "pre2",
+      "lyrics": "短得来不及散场",
+      "start": 105.36585365853658,
+      "end": 111.21951219512195,
+      "notes": [
+        {
+          "lyric": "短",
+          "pinyin": "duan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 144.5,
+          "beats": 0.5,
+          "start": 105.73170731707317,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "得",
+          "pinyin": "de",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 145.0,
+          "beats": 0.5,
+          "start": 106.09756097560975,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 145.5,
+          "beats": 1,
+          "start": 106.46341463414633,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 146.5,
+          "beats": 1,
+          "start": 107.1951219512195,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "及",
+          "pinyin": "ji",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 147.5,
+          "beats": 0.5,
+          "start": 107.92682926829268,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "散",
+          "pinyin": "san",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 148.0,
+          "beats": 0.5,
+          "start": 108.29268292682927,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "场",
+          "pinyin": "chang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 148.5,
+          "beats": 3,
+          "start": 108.65853658536585,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "section": "chorus2",
+      "lyrics": "那条放学后的路",
+      "start": 111.21951219512195,
+      "end": 117.07317073170731,
+      "notes": [
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 152.5,
+          "beats": 0.5,
+          "start": 111.58536585365853,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "条",
+          "pinyin": "tiao",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 153.0,
+          "beats": 0.5,
+          "start": 111.95121951219512,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 153.5,
+          "beats": 1,
+          "start": 112.3170731707317,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 154.5,
+          "beats": 1,
+          "start": 113.04878048780488,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 155.5,
+          "beats": 0.5,
+          "start": 113.78048780487805,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 156.0,
+          "beats": 0.5,
+          "start": 114.14634146341463,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 156.5,
+          "beats": 3,
+          "start": 114.51219512195122,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "section": "chorus2",
+      "lyrics": "怎么走也走不够",
+      "start": 117.07317073170731,
+      "end": 122.92682926829268,
+      "notes": [
+        {
+          "lyric": "怎",
+          "pinyin": "zen",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 160.5,
+          "beats": 0.5,
+          "start": 117.4390243902439,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "么",
+          "pinyin": "me",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 161.0,
+          "beats": 0.5,
+          "start": 117.80487804878048,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 161.5,
+          "beats": 1,
+          "start": 118.17073170731707,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "也",
+          "pinyin": "ye",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 162.5,
+          "beats": 1,
+          "start": 118.90243902439025,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 163.5,
+          "beats": 0.5,
+          "start": 119.6341463414634,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 164.0,
+          "beats": 0.5,
+          "start": 120.0,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "够",
+          "pinyin": "gou",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 164.5,
+          "beats": 3,
+          "start": 120.36585365853658,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "section": "chorus2",
+      "lyrics": "把没说完的明天",
+      "start": 122.92682926829268,
+      "end": 128.78048780487805,
+      "notes": [
+        {
+          "lyric": "把",
+          "pinyin": "ba",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 168.5,
+          "beats": 0.5,
+          "start": 123.29268292682927,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "没",
+          "pinyin": "mei",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 169.0,
+          "beats": 0.5,
+          "start": 123.65853658536585,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 169.5,
+          "beats": 1,
+          "start": 124.02439024390243,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "完",
+          "pinyin": "wan",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 170.5,
+          "beats": 1,
+          "start": 124.7560975609756,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 171.5,
+          "beats": 0.5,
+          "start": 125.48780487804878,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "明",
+          "pinyin": "ming",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 172.0,
+          "beats": 0.5,
+          "start": 125.85365853658536,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 172.5,
+          "beats": 3,
+          "start": 126.21951219512195,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "section": "chorus2",
+      "lyrics": "留在你回头的路口",
+      "start": 128.78048780487805,
+      "end": 134.6341463414634,
+      "notes": [
+        {
+          "lyric": "留",
+          "pinyin": "liu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 176.5,
+          "beats": 0.5,
+          "start": 129.14634146341464,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 177.0,
+          "beats": 0.5,
+          "start": 129.5121951219512,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 177.5,
+          "beats": 1,
+          "start": 129.8780487804878,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "回",
+          "pinyin": "hui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 178.5,
+          "beats": 0.5,
+          "start": 130.60975609756096,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "头",
+          "pinyin": "tou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 179.0,
+          "beats": 0.5,
+          "start": 130.97560975609755,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 179.5,
+          "beats": 1,
+          "start": 131.34146341463415,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 180.5,
+          "beats": 1,
+          "start": 132.0731707317073,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "口",
+          "pinyin": "kou",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 181.5,
+          "beats": 2,
+          "start": 132.8048780487805,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "section": "bridge",
+      "lyrics": "若哪天你经过旧操场",
+      "start": 134.6341463414634,
+      "end": 140.4878048780488,
+      "notes": [
+        {
+          "lyric": "若",
+          "pinyin": "ruo",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 184.5,
+          "beats": 0.5,
+          "start": 135.0,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "哪",
+          "pinyin": "na",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 185.0,
+          "beats": 0.5,
+          "start": 135.3658536585366,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 185.5,
+          "beats": 0.5,
+          "start": 135.73170731707316,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 186.0,
+          "beats": 0.5,
+          "start": 136.09756097560975,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "经",
+          "pinyin": "jing",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 186.5,
+          "beats": 1,
+          "start": 136.46341463414635,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "过",
+          "pinyin": "guo",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 187.5,
+          "beats": 0.5,
+          "start": 137.1951219512195,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "旧",
+          "pinyin": "jiu",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 188.0,
+          "beats": 0.5,
+          "start": 137.5609756097561,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "操",
+          "pinyin": "cao",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 188.5,
+          "beats": 1,
+          "start": 137.9268292682927,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "场",
+          "pinyin": "chang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 189.5,
+          "beats": 2,
+          "start": 138.65853658536585,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "section": "bridge",
+      "lyrics": "替我听一听放学的铃响",
+      "start": 140.4878048780488,
+      "end": 146.34146341463415,
+      "notes": [
+        {
+          "lyric": "替",
+          "pinyin": "ti",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 192.5,
+          "beats": 0.5,
+          "start": 140.85365853658536,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 193.0,
+          "beats": 0.5,
+          "start": 141.21951219512195,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "听",
+          "pinyin": "ting",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 193.5,
+          "beats": 0.5,
+          "start": 141.58536585365854,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "一",
+          "pinyin": "yi",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 194.0,
+          "beats": 0.5,
+          "start": 141.9512195121951,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "听",
+          "pinyin": "ting",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 194.5,
+          "beats": 0.5,
+          "start": 142.3170731707317,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 195.0,
+          "beats": 0.5,
+          "start": 142.6829268292683,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 195.5,
+          "beats": 0.5,
+          "start": 143.04878048780486,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 196.0,
+          "beats": 0.5,
+          "start": 143.41463414634146,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "铃",
+          "pinyin": "ling",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 196.5,
+          "beats": 1,
+          "start": 143.78048780487805,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "响",
+          "pinyin": "xiang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 197.5,
+          "beats": 2,
+          "start": 144.5121951219512,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "section": "final",
+      "lyrics": "那条放学后的路",
+      "start": 146.34146341463415,
+      "end": 152.1951219512195,
+      "notes": [
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 200.5,
+          "beats": 0.5,
+          "start": 146.70731707317074,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "条",
+          "pinyin": "tiao",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 201.0,
+          "beats": 0.5,
+          "start": 147.0731707317073,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 201.5,
+          "beats": 1,
+          "start": 147.4390243902439,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 202.5,
+          "beats": 1,
+          "start": 148.17073170731706,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 203.5,
+          "beats": 0.5,
+          "start": 148.90243902439025,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 204.0,
+          "beats": 0.5,
+          "start": 149.2682926829268,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 204.5,
+          "beats": 3,
+          "start": 149.6341463414634,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "section": "final",
+      "lyrics": "如今各自往前走",
+      "start": 152.1951219512195,
+      "end": 158.04878048780486,
+      "notes": [
+        {
+          "lyric": "如",
+          "pinyin": "ru",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 208.5,
+          "beats": 0.5,
+          "start": 152.5609756097561,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "今",
+          "pinyin": "jin",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 209.0,
+          "beats": 0.5,
+          "start": 152.9268292682927,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "各",
+          "pinyin": "ge",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 209.5,
+          "beats": 1,
+          "start": 153.29268292682926,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "自",
+          "pinyin": "zi",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 210.5,
+          "beats": 1,
+          "start": 154.02439024390245,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "往",
+          "pinyin": "wang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 211.5,
+          "beats": 0.5,
+          "start": 154.7560975609756,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "前",
+          "pinyin": "qian",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 212.0,
+          "beats": 0.5,
+          "start": 155.1219512195122,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 212.5,
+          "beats": 3,
+          "start": 155.48780487804876,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "section": "final",
+      "lyrics": "愿你在人海奔忙后",
+      "start": 158.04878048780486,
+      "end": 163.90243902439025,
+      "notes": [
+        {
+          "lyric": "愿",
+          "pinyin": "yuan",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 216.5,
+          "beats": 0.5,
+          "start": 158.41463414634146,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 217.0,
+          "beats": 0.5,
+          "start": 158.78048780487805,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 217.5,
+          "beats": 1,
+          "start": 159.14634146341464,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "人",
+          "pinyin": "ren",
+          "midi": 69,
+          "pitch": "A4",
+          "beat": 218.5,
+          "beats": 0.5,
+          "start": 159.8780487804878,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 219.0,
+          "beats": 0.5,
+          "start": 160.2439024390244,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "奔",
+          "pinyin": "ben",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 219.5,
+          "beats": 1,
+          "start": 160.60975609756096,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "忙",
+          "pinyin": "mang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 220.5,
+          "beats": 1,
+          "start": 161.34146341463415,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 221.5,
+          "beats": 2,
+          "start": 162.0731707317073,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "section": "final",
+      "lyrics": "还有想唱就唱的自由",
+      "start": 163.90243902439025,
+      "end": 169.7560975609756,
+      "notes": [
+        {
+          "lyric": "还",
+          "pinyin": "hai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 224.5,
+          "beats": 0.5,
+          "start": 164.2682926829268,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "有",
+          "pinyin": "you",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 225.0,
+          "beats": 0.5,
+          "start": 164.6341463414634,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "想",
+          "pinyin": "xiang",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 225.5,
+          "beats": 0.5,
+          "start": 165.0,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "唱",
+          "pinyin": "chang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 226.0,
+          "beats": 0.5,
+          "start": 165.3658536585366,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "就",
+          "pinyin": "jiu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 226.5,
+          "beats": 1,
+          "start": 165.73170731707316,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "唱",
+          "pinyin": "chang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 227.5,
+          "beats": 0.5,
+          "start": 166.46341463414635,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 228.0,
+          "beats": 0.5,
+          "start": 166.8292682926829,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "自",
+          "pinyin": "zi",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 228.5,
+          "beats": 1,
+          "start": 167.1951219512195,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "由",
+          "pinyin": "you",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 229.5,
+          "beats": 2,
+          "start": 167.9268292682927,
+          "duration": 1.4634146341463414
+        }
+      ]
+    }
+  ],
+  "lyrics": [
+    "风把试卷吹过窗台",
+    "粉笔灰落满你刘海",
+    "一副耳机分给两人",
+    "放学铃响还舍不得摘",
+    "那时以为夏天很长",
+    "长到足够慢慢讲",
+    "那条放学后的路",
+    "怎么走也走不够",
+    "把没说完的明天",
+    "留在你回头的路口",
+    "旧的号码早已停用",
+    "同学录在箱底泛黄",
+    "你说加班忘了吃饭",
+    "我说这里今晚风很凉",
+    "后来才懂那段时光",
+    "短得来不及散场",
+    "那条放学后的路",
+    "怎么走也走不够",
+    "把没说完的明天",
+    "留在你回头的路口",
+    "若哪天你经过旧操场",
+    "替我听一听放学的铃响",
+    "那条放学后的路",
+    "如今各自往前走",
+    "愿你在人海奔忙后",
+    "还有想唱就唱的自由"
+  ],
+  "harmony": [
+    {
+      "bar": 0,
+      "symbol": "C",
+      "section": "intro"
+    },
+    {
+      "bar": 1,
+      "symbol": "G/B",
+      "section": "intro"
+    },
+    {
+      "bar": 2,
+      "symbol": "Am7",
+      "section": "intro"
+    },
+    {
+      "bar": 3,
+      "symbol": "Fmaj7",
+      "section": "intro"
+    },
+    {
+      "bar": 4,
+      "symbol": "C",
+      "section": "verse1"
+    },
+    {
+      "bar": 5,
+      "symbol": "G/B",
+      "section": "verse1"
+    },
+    {
+      "bar": 6,
+      "symbol": "Am7",
+      "section": "verse1"
+    },
+    {
+      "bar": 7,
+      "symbol": "Em7",
+      "section": "verse1"
+    },
+    {
+      "bar": 8,
+      "symbol": "Fmaj7",
+      "section": "verse1"
+    },
+    {
+      "bar": 9,
+      "symbol": "C/E",
+      "section": "verse1"
+    },
+    {
+      "bar": 10,
+      "symbol": "Dm7",
+      "section": "verse1"
+    },
+    {
+      "bar": 11,
+      "symbol": "G7",
+      "section": "verse1"
+    },
+    {
+      "bar": 12,
+      "symbol": "Dm7",
+      "section": "pre1"
+    },
+    {
+      "bar": 13,
+      "symbol": "Fmaj7",
+      "section": "pre1"
+    },
+    {
+      "bar": 14,
+      "symbol": "G",
+      "section": "pre1"
+    },
+    {
+      "bar": 15,
+      "symbol": "G7",
+      "section": "pre1"
+    },
+    {
+      "bar": 16,
+      "symbol": "C",
+      "section": "chorus1"
+    },
+    {
+      "bar": 17,
+      "symbol": "Am7",
+      "section": "chorus1"
+    },
+    {
+      "bar": 18,
+      "symbol": "F",
+      "section": "chorus1"
+    },
+    {
+      "bar": 19,
+      "symbol": "G",
+      "section": "chorus1"
+    },
+    {
+      "bar": 20,
+      "symbol": "C/E",
+      "section": "chorus1"
+    },
+    {
+      "bar": 21,
+      "symbol": "Fmaj7",
+      "section": "chorus1"
+    },
+    {
+      "bar": 22,
+      "symbol": "G7",
+      "section": "chorus1"
+    },
+    {
+      "bar": 23,
+      "symbol": "C",
+      "section": "chorus1"
+    },
+    {
+      "bar": 24,
+      "symbol": "Am7",
+      "section": "interlude"
+    },
+    {
+      "bar": 25,
+      "symbol": "G",
+      "section": "interlude"
+    },
+    {
+      "bar": 26,
+      "symbol": "C",
+      "section": "verse2"
+    },
+    {
+      "bar": 27,
+      "symbol": "G/B",
+      "section": "verse2"
+    },
+    {
+      "bar": 28,
+      "symbol": "Am7",
+      "section": "verse2"
+    },
+    {
+      "bar": 29,
+      "symbol": "Em7",
+      "section": "verse2"
+    },
+    {
+      "bar": 30,
+      "symbol": "Fmaj7",
+      "section": "verse2"
+    },
+    {
+      "bar": 31,
+      "symbol": "C/E",
+      "section": "verse2"
+    },
+    {
+      "bar": 32,
+      "symbol": "Dm7",
+      "section": "verse2"
+    },
+    {
+      "bar": 33,
+      "symbol": "G7",
+      "section": "verse2"
+    },
+    {
+      "bar": 34,
+      "symbol": "Dm7",
+      "section": "pre2"
+    },
+    {
+      "bar": 35,
+      "symbol": "Fmaj7",
+      "section": "pre2"
+    },
+    {
+      "bar": 36,
+      "symbol": "G",
+      "section": "pre2"
+    },
+    {
+      "bar": 37,
+      "symbol": "G7",
+      "section": "pre2"
+    },
+    {
+      "bar": 38,
+      "symbol": "C",
+      "section": "chorus2"
+    },
+    {
+      "bar": 39,
+      "symbol": "Am7",
+      "section": "chorus2"
+    },
+    {
+      "bar": 40,
+      "symbol": "F",
+      "section": "chorus2"
+    },
+    {
+      "bar": 41,
+      "symbol": "G",
+      "section": "chorus2"
+    },
+    {
+      "bar": 42,
+      "symbol": "C/E",
+      "section": "chorus2"
+    },
+    {
+      "bar": 43,
+      "symbol": "Fmaj7",
+      "section": "chorus2"
+    },
+    {
+      "bar": 44,
+      "symbol": "G7",
+      "section": "chorus2"
+    },
+    {
+      "bar": 45,
+      "symbol": "C",
+      "section": "chorus2"
+    },
+    {
+      "bar": 46,
+      "symbol": "Am7",
+      "section": "bridge"
+    },
+    {
+      "bar": 47,
+      "symbol": "Em7",
+      "section": "bridge"
+    },
+    {
+      "bar": 48,
+      "symbol": "Fmaj7",
+      "section": "bridge"
+    },
+    {
+      "bar": 49,
+      "symbol": "G7",
+      "section": "bridge"
+    },
+    {
+      "bar": 50,
+      "symbol": "C",
+      "section": "final"
+    },
+    {
+      "bar": 51,
+      "symbol": "Am7",
+      "section": "final"
+    },
+    {
+      "bar": 52,
+      "symbol": "F",
+      "section": "final"
+    },
+    {
+      "bar": 53,
+      "symbol": "G",
+      "section": "final"
+    },
+    {
+      "bar": 54,
+      "symbol": "C/E",
+      "section": "final"
+    },
+    {
+      "bar": 55,
+      "symbol": "Fmaj7",
+      "section": "final"
+    },
+    {
+      "bar": 56,
+      "symbol": "G7",
+      "section": "final"
+    },
+    {
+      "bar": 57,
+      "symbol": "C",
+      "section": "final"
+    },
+    {
+      "bar": 58,
+      "symbol": "Fmaj7",
+      "section": "outro"
+    },
+    {
+      "bar": 59,
+      "symbol": "G",
+      "section": "outro"
+    },
+    {
+      "bar": 60,
+      "symbol": "C",
+      "section": "outro"
+    },
+    {
+      "bar": 61,
+      "symbol": "C",
+      "section": "outro"
+    }
+  ],
+  "authorship": "本次对话中创作的原创歌词、旋律与编配小样",
+  "stage": "完整结构演唱小样，等待人工试听打磨"
+}

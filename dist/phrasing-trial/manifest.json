@@ -1,0 +1,79 @@
+{
+  "id": "reunion-phrasing-v1",
+  "title": "追上来",
+  "duration": 10.724126984126984,
+  "bpm": 116,
+  "factor": "lyric-phrasing",
+  "factorLabel": "词句与断句",
+  "question": "哪一版唱得更自然？",
+  "story": "你指出后两句唱得不顺、重复得有些尴尬。这次把重逢写成一个动作：朋友回头喊我，声音没变，仿佛又到了放学那天。",
+  "lyrics": [
+    "你回头喊我声音还没变",
+    "我笑着追过去像放学那天"
+  ],
+  "preserved": [
+    "前两句完整音频",
+    "同一份伴奏",
+    "116 BPM 与绮萱声线"
+  ],
+  "variants": [
+    {
+      "id": "A",
+      "file": "A.wav",
+      "hash": "98e6b2cc52afcc12a9e37392ee15b849ff50c1fc99ffc136a7a8073edc1fe32d",
+      "compositionId": "e68ea465-be24-48ca-a640-61a37aa64e6b",
+      "description": "原版：连续重复追上来，十二字一行",
+      "lyrics": [
+        "你在前面喊我名字快追上来",
+        "追上来追上来我笑着喘口气"
+      ]
+    },
+    {
+      "id": "B",
+      "file": "B.wav",
+      "hash": "7e369fa0f40839168b919e550d2bcf503b48aaa40f1ae729121ef5b42594f5ae",
+      "compositionId": "9c31ad34-1142-409a-83f7-19cc3eeb3c9c",
+      "description": "修改版：十字与十一字两句，按意思停顿并重写旋律",
+      "lyrics": [
+        "你回头喊我，声音还没变",
+        "我笑着追过去，像放学那天"
+      ]
+    }
+  ],
+  "evidence": {
+    "baseline": "e68ea465-be24-48ca-a640-61a37aa64e6b",
+    "revised": "9c31ad34-1142-409a-83f7-19cc3eeb3c9c",
+    "firstTwoPhrasesUnchanged": true,
+    "unchangedAudioOutsideLastTwoPhrases": true,
+    "sameAccompanimentBytes": true,
+    "sameTempoAndVoice": true,
+    "rests": [
+      {
+        "line": 3,
+        "after": "我",
+        "beats": 0.5,
+        "seconds": 0.2586206896551708,
+        "realRestInSingerInput": true
+      },
+      {
+        "line": 4,
+        "after": "去",
+        "beats": 0.5,
+        "seconds": 0.2586206896551726,
+        "realRestInSingerInput": true
+      }
+    ],
+    "clipStartSample": 364966,
+    "clipDuration": 10.724126984126984,
+    "integratedLufs": {
+      "A": -16.4,
+      "B": -16.6
+    },
+    "fullSongHashes": {
+      "A": "e574a270252aae99d35557701535eda441a50831438fa6a98556a298f9f9d491",
+      "B": "f97c680ceb5eadf748405d6544d6e6112c6f59261716cfcd7385fe7539af2890"
+    },
+    "humanQualityAssessment": "awaiting-user-listening"
+  },
+  "assessment": "awaiting-user-choice"
+}

@@ -1,0 +1,2462 @@
+{
+  "format": "expressive-v1",
+  "title": "日历里的海",
+  "description": "以有流动感的叙事流行写搬家时翻出的旧日历。四四拍，电钢琴疏落落键，低音轻推前行。前三句各三小节，末句两小节；句尾留白，不一味拖长。演唱从近似说话的中低音开始，在懂得她等待的疲惫时抬高，祝福时收回。日历上的圈、再次加班和迟来的安稳连成同一段回忆。",
+  "emotionalArc": "生活安稳后翻出旧物，平静里有迟疑；圈起的海边旅行唤回那次加班，也暴露当年总把陪伴推给以后的习惯。情绪在你等得多累处打开，承认错过的是她愿意等待的日子。最后只愿她已经看过那片海，不再要求自己出现在风景里。",
+  "music": {
+    "style": "folk",
+    "bpm": 102,
+    "voice": "ria"
+  },
+  "bpm": 102,
+  "key": "C major / A minor",
+  "meter": "4/4",
+  "sampleRate": 44100,
+  "scoreDuration": 25.88235294117647,
+  "duration": 28,
+  "voice": "Ria · 本机歌声合成",
+  "lyrics": [
+    "日子稳了搬家翻出旧日历",
+    "圈着去海边那天我又加班",
+    "总说以后才懂你等得多累",
+    "愿你已看过那片海"
+  ],
+  "chords": [
+    "C",
+    "Em",
+    "F",
+    "Am",
+    "F",
+    "G",
+    "Em",
+    "Am",
+    "Dm",
+    "F",
+    "C"
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "lyrics": "日子稳了搬家翻出旧日历",
+      "intent": "先交代如今的安稳，再看见旧物。日子稳了轻说，搬家后稍停；旧日历逐字清楚，历短收，像手停在纸页上。",
+      "chords": [
+        "C",
+        "Em",
+        "F"
+      ],
+      "startBeat": 0,
+      "endBeat": 12,
+      "start": 0,
+      "end": 7.0588235294117645,
+      "syllables": [
+        {
+          "lyric": "日",
+          "pinyin": "ri",
+          "beat": 0.5,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "子",
+          "pinyin": "zi",
+          "beat": 1,
+          "notes": [
+            [
+              59,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1.02
+        },
+        {
+          "lyric": "稳",
+          "pinyin": "wen",
+          "beat": 1.5,
+          "notes": [
+            [
+              60,
+              1
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "了",
+          "pinyin": "le",
+          "beat": 2.5,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 1.03
+        },
+        {
+          "lyric": "搬",
+          "pinyin": "ban",
+          "beat": 4,
+          "notes": [
+            [
+              59,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1
+        },
+        {
+          "lyric": "家",
+          "pinyin": "jia",
+          "beat": 4.75,
+          "notes": [
+            [
+              62,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1
+        },
+        {
+          "lyric": "翻",
+          "pinyin": "fan",
+          "beat": 6,
+          "notes": [
+            [
+              64,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1.03
+        },
+        {
+          "lyric": "出",
+          "pinyin": "chu",
+          "beat": 6.5,
+          "notes": [
+            [
+              62,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1.03
+        },
+        {
+          "lyric": "旧",
+          "pinyin": "jiu",
+          "beat": 8,
+          "notes": [
+            [
+              60,
+              1
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "日",
+          "pinyin": "ri",
+          "beat": 9,
+          "notes": [
+            [
+              57,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "历",
+          "pinyin": "li",
+          "beat": 9.75,
+          "notes": [
+            [
+              57,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.4,
+          "velocity": 0.98
+        }
+      ],
+      "notes": [
+        {
+          "lyric": "日",
+          "pinyin": "ri",
+          "syllable": 0,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 0.5,
+          "beats": 0.5,
+          "start": 0.29411764705882354,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "子",
+          "pinyin": "zi",
+          "syllable": 1,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 1,
+          "beats": 0.5,
+          "start": 0.5882352941176471,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "稳",
+          "pinyin": "wen",
+          "syllable": 2,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 1.5,
+          "beats": 1,
+          "start": 0.8823529411764706,
+          "duration": 0.5882352941176471
+        },
+        {
+          "lyric": "了",
+          "pinyin": "le",
+          "syllable": 3,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 2.5,
+          "beats": 0.5,
+          "start": 1.4705882352941178,
+          "duration": 0.29411764705882354,
+          "restAfter": 1
+        },
+        {
+          "lyric": "搬",
+          "pinyin": "ban",
+          "syllable": 4,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 4,
+          "beats": 0.75,
+          "start": 2.3529411764705883,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "家",
+          "pinyin": "jia",
+          "syllable": 5,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 4.75,
+          "beats": 0.75,
+          "start": 2.794117647058824,
+          "duration": 0.4411764705882353,
+          "restAfter": 0.5
+        },
+        {
+          "lyric": "翻",
+          "pinyin": "fan",
+          "syllable": 6,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 6,
+          "beats": 0.5,
+          "start": 3.5294117647058822,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "出",
+          "pinyin": "chu",
+          "syllable": 7,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 6.5,
+          "beats": 0.5,
+          "start": 3.823529411764706,
+          "duration": 0.29411764705882354,
+          "restAfter": 1
+        },
+        {
+          "lyric": "旧",
+          "pinyin": "jiu",
+          "syllable": 8,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 8,
+          "beats": 1,
+          "start": 4.705882352941177,
+          "duration": 0.5882352941176471
+        },
+        {
+          "lyric": "日",
+          "pinyin": "ri",
+          "syllable": 9,
+          "continuation": false,
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 9,
+          "beats": 0.75,
+          "start": 5.294117647058823,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "历",
+          "pinyin": "li",
+          "syllable": 10,
+          "continuation": false,
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 9.75,
+          "beats": 0.75,
+          "start": 5.735294117647059,
+          "duration": 0.4411764705882353
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "lyrics": "圈着去海边那天我又加班",
+      "intent": "沿着日历上的圈认出未成行的旅行。去海边略亮，那天后留出回忆的空隙；又稍着力，加班落回低处，不唱成抱怨。",
+      "chords": [
+        "Am",
+        "F",
+        "G"
+      ],
+      "startBeat": 12,
+      "endBeat": 24,
+      "start": 7.0588235294117645,
+      "end": 14.117647058823529,
+      "syllables": [
+        {
+          "lyric": "圈",
+          "pinyin": "quan",
+          "beat": 12.5,
+          "notes": [
+            [
+              60,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "着",
+          "pinyin": "zhe",
+          "beat": 13.25,
+          "notes": [
+            [
+              59,
+              0.25
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1.05
+        },
+        {
+          "lyric": "去",
+          "pinyin": "qu",
+          "beat": 13.5,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1.02
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "beat": 14,
+          "notes": [
+            [
+              62,
+              0.5
+            ],
+            [
+              64,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "边",
+          "pinyin": "bian",
+          "beat": 15,
+          "notes": [
+            [
+              64,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "beat": 16.5,
+          "notes": [
+            [
+              65,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "beat": 17,
+          "notes": [
+            [
+              64,
+              1
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "beat": 19,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "又",
+          "pinyin": "you",
+          "beat": 19.5,
+          "notes": [
+            [
+              62,
+              1
+            ]
+          ],
+          "breathinessDb": -0.2,
+          "velocity": 0.96
+        },
+        {
+          "lyric": "加",
+          "pinyin": "jia",
+          "beat": 20.5,
+          "notes": [
+            [
+              59,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1.04
+        },
+        {
+          "lyric": "班",
+          "pinyin": "ban",
+          "beat": 21,
+          "notes": [
+            [
+              59,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 1
+        }
+      ],
+      "notes": [
+        {
+          "lyric": "圈",
+          "pinyin": "quan",
+          "syllable": 0,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 12.5,
+          "beats": 0.75,
+          "start": 7.352941176470589,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "着",
+          "pinyin": "zhe",
+          "syllable": 1,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 13.25,
+          "beats": 0.25,
+          "start": 7.794117647058823,
+          "duration": 0.14705882352941177
+        },
+        {
+          "lyric": "去",
+          "pinyin": "qu",
+          "syllable": 2,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 13.5,
+          "beats": 0.5,
+          "start": 7.9411764705882355,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "syllable": 3,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 14,
+          "beats": 0.5,
+          "start": 8.23529411764706,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "syllable": 3,
+          "continuation": true,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 14.5,
+          "beats": 0.5,
+          "start": 8.529411764705882,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "边",
+          "pinyin": "bian",
+          "syllable": 4,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 15,
+          "beats": 0.75,
+          "start": 8.823529411764707,
+          "duration": 0.4411764705882353,
+          "restAfter": 0.75
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "syllable": 5,
+          "continuation": false,
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 16.5,
+          "beats": 0.5,
+          "start": 9.705882352941178,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "天",
+          "pinyin": "tian",
+          "syllable": 6,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 17,
+          "beats": 1,
+          "start": 10,
+          "duration": 0.5882352941176471,
+          "restAfter": 1
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "syllable": 7,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 19,
+          "beats": 0.5,
+          "start": 11.176470588235295,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "又",
+          "pinyin": "you",
+          "syllable": 8,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 19.5,
+          "beats": 1,
+          "start": 11.470588235294118,
+          "duration": 0.5882352941176471
+        },
+        {
+          "lyric": "加",
+          "pinyin": "jia",
+          "syllable": 9,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 20.5,
+          "beats": 0.5,
+          "start": 12.058823529411764,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "班",
+          "pinyin": "ban",
+          "syllable": 10,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 21,
+          "beats": 0.75,
+          "start": 12.352941176470589,
+          "duration": 0.4411764705882353
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "lyrics": "总说以后才懂你等得多累",
+      "intent": "总说以后沿用前句的起势，像重听自己的旧借口。才懂前换气，你等得多累连成一句；累先抬后落，承认她的感受，不求回应。",
+      "chords": [
+        "Em",
+        "Am",
+        "Dm"
+      ],
+      "startBeat": 24,
+      "endBeat": 36,
+      "start": 14.117647058823529,
+      "end": 21.176470588235293,
+      "syllables": [
+        {
+          "lyric": "总",
+          "pinyin": "zong",
+          "beat": 24.5,
+          "notes": [
+            [
+              62,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "beat": 25.25,
+          "notes": [
+            [
+              64,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1.02
+        },
+        {
+          "lyric": "以",
+          "pinyin": "yi",
+          "beat": 25.75,
+          "notes": [
+            [
+              62,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "beat": 26.25,
+          "notes": [
+            [
+              59,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "才",
+          "pinyin": "cai",
+          "beat": 28,
+          "notes": [
+            [
+              60,
+              0.75
+            ]
+          ],
+          "breathinessDb": -0.2,
+          "velocity": 0.96
+        },
+        {
+          "lyric": "懂",
+          "pinyin": "dong",
+          "beat": 28.75,
+          "notes": [
+            [
+              64,
+              1.25
+            ]
+          ],
+          "breathinessDb": -0.3,
+          "velocity": 0.96
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "beat": 30.5,
+          "notes": [
+            [
+              64,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "等",
+          "pinyin": "deng",
+          "beat": 31,
+          "notes": [
+            [
+              65,
+              0.75
+            ]
+          ],
+          "breathinessDb": -0.2,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "得",
+          "pinyin": "de",
+          "beat": 31.75,
+          "notes": [
+            [
+              64,
+              0.25
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1.06
+        },
+        {
+          "lyric": "多",
+          "pinyin": "duo",
+          "beat": 32,
+          "notes": [
+            [
+              65,
+              0.75
+            ]
+          ],
+          "breathinessDb": -0.2,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "累",
+          "pinyin": "lei",
+          "beat": 32.75,
+          "notes": [
+            [
+              67,
+              0.75
+            ],
+            [
+              65,
+              1
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 0.96
+        }
+      ],
+      "notes": [
+        {
+          "lyric": "总",
+          "pinyin": "zong",
+          "syllable": 0,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 24.5,
+          "beats": 0.75,
+          "start": 14.411764705882353,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "syllable": 1,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 25.25,
+          "beats": 0.5,
+          "start": 14.852941176470589,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "以",
+          "pinyin": "yi",
+          "syllable": 2,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 25.75,
+          "beats": 0.5,
+          "start": 15.147058823529413,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "syllable": 3,
+          "continuation": false,
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 26.25,
+          "beats": 0.75,
+          "start": 15.441176470588236,
+          "duration": 0.4411764705882353,
+          "restAfter": 1
+        },
+        {
+          "lyric": "才",
+          "pinyin": "cai",
+          "syllable": 4,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 28,
+          "beats": 0.75,
+          "start": 16.47058823529412,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "懂",
+          "pinyin": "dong",
+          "syllable": 5,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 28.75,
+          "beats": 1.25,
+          "start": 16.911764705882355,
+          "duration": 0.7352941176470589,
+          "restAfter": 0.5
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "syllable": 6,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 30.5,
+          "beats": 0.5,
+          "start": 17.941176470588236,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "等",
+          "pinyin": "deng",
+          "syllable": 7,
+          "continuation": false,
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 31,
+          "beats": 0.75,
+          "start": 18.235294117647058,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "得",
+          "pinyin": "de",
+          "syllable": 8,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 31.75,
+          "beats": 0.25,
+          "start": 18.676470588235293,
+          "duration": 0.14705882352941177
+        },
+        {
+          "lyric": "多",
+          "pinyin": "duo",
+          "syllable": 9,
+          "continuation": false,
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 32,
+          "beats": 0.75,
+          "start": 18.823529411764707,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "累",
+          "pinyin": "lei",
+          "syllable": 10,
+          "continuation": false,
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 32.75,
+          "beats": 0.75,
+          "start": 19.264705882352942,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "累",
+          "pinyin": "lei",
+          "syllable": 10,
+          "continuation": true,
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 33.5,
+          "beats": 1,
+          "start": 19.705882352941178,
+          "duration": 0.5882352941176471
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "lyrics": "愿你已看过那片海",
+      "intent": "愿你轻起，已看过唱得像一句真心的祝愿。那片海回到中低音，海短收；让伴奏完成落地，保留不打扰的温暖。",
+      "chords": [
+        "F",
+        "C"
+      ],
+      "startBeat": 36,
+      "endBeat": 44,
+      "start": 21.176470588235293,
+      "end": 25.88235294117647,
+      "syllables": [
+        {
+          "lyric": "愿",
+          "pinyin": "yuan",
+          "beat": 36.5,
+          "notes": [
+            [
+              65,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 0.97
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "beat": 37.25,
+          "notes": [
+            [
+              64,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 0.98
+        },
+        {
+          "lyric": "已",
+          "pinyin": "yi",
+          "beat": 38.5,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1
+        },
+        {
+          "lyric": "看",
+          "pinyin": "kan",
+          "beat": 39,
+          "notes": [
+            [
+              62,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.1,
+          "velocity": 1.02
+        },
+        {
+          "lyric": "过",
+          "pinyin": "guo",
+          "beat": 39.5,
+          "notes": [
+            [
+              60,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.3,
+          "velocity": 1.03
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "beat": 40.5,
+          "notes": [
+            [
+              64,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1
+        },
+        {
+          "lyric": "片",
+          "pinyin": "pian",
+          "beat": 41,
+          "notes": [
+            [
+              62,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.2,
+          "velocity": 1
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "beat": 41.5,
+          "notes": [
+            [
+              60,
+              1
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 0.97
+        }
+      ],
+      "notes": [
+        {
+          "lyric": "愿",
+          "pinyin": "yuan",
+          "syllable": 0,
+          "continuation": false,
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 36.5,
+          "beats": 0.75,
+          "start": 21.47058823529412,
+          "duration": 0.4411764705882353
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "syllable": 1,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 37.25,
+          "beats": 0.75,
+          "start": 21.911764705882355,
+          "duration": 0.4411764705882353,
+          "restAfter": 0.5
+        },
+        {
+          "lyric": "已",
+          "pinyin": "yi",
+          "syllable": 2,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 38.5,
+          "beats": 0.5,
+          "start": 22.647058823529413,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "看",
+          "pinyin": "kan",
+          "syllable": 3,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 39,
+          "beats": 0.5,
+          "start": 22.941176470588236,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "过",
+          "pinyin": "guo",
+          "syllable": 4,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 39.5,
+          "beats": 0.5,
+          "start": 23.235294117647058,
+          "duration": 0.29411764705882354,
+          "restAfter": 0.5
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "syllable": 5,
+          "continuation": false,
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 40.5,
+          "beats": 0.5,
+          "start": 23.823529411764707,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "片",
+          "pinyin": "pian",
+          "syllable": 6,
+          "continuation": false,
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 41,
+          "beats": 0.5,
+          "start": 24.11764705882353,
+          "duration": 0.29411764705882354
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "syllable": 7,
+          "continuation": false,
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 41.5,
+          "beats": 1,
+          "start": 24.411764705882355,
+          "duration": 0.5882352941176471
+        }
+      ]
+    }
+  ],
+  "arrangementTracks": {
+    "electric_piano": {
+      "program": 4,
+      "channel": 1,
+      "pan": 54,
+      "volume": 90,
+      "notes": [
+        {
+          "beat": 0,
+          "beats": 1.5,
+          "midi": 48,
+          "velocity": 51
+        },
+        {
+          "beat": 0.25,
+          "beats": 1.25,
+          "midi": 55,
+          "velocity": 46
+        },
+        {
+          "beat": 2.75,
+          "beats": 1,
+          "midi": 64,
+          "velocity": 44
+        },
+        {
+          "beat": 4,
+          "beats": 1.5,
+          "midi": 52,
+          "velocity": 49
+        },
+        {
+          "beat": 4.25,
+          "beats": 1.25,
+          "midi": 59,
+          "velocity": 44
+        },
+        {
+          "beat": 6.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 43
+        },
+        {
+          "beat": 8,
+          "beats": 1.5,
+          "midi": 53,
+          "velocity": 50
+        },
+        {
+          "beat": 8.25,
+          "beats": 1.25,
+          "midi": 60,
+          "velocity": 45
+        },
+        {
+          "beat": 10.75,
+          "beats": 0.75,
+          "midi": 69,
+          "velocity": 42
+        },
+        {
+          "beat": 12,
+          "beats": 1.5,
+          "midi": 45,
+          "velocity": 54
+        },
+        {
+          "beat": 12.25,
+          "beats": 1.25,
+          "midi": 52,
+          "velocity": 48
+        },
+        {
+          "beat": 14.75,
+          "beats": 1,
+          "midi": 60,
+          "velocity": 47
+        },
+        {
+          "beat": 16,
+          "beats": 1.5,
+          "midi": 53,
+          "velocity": 53
+        },
+        {
+          "beat": 16.25,
+          "beats": 1.25,
+          "midi": 60,
+          "velocity": 47
+        },
+        {
+          "beat": 18.5,
+          "beats": 1,
+          "midi": 69,
+          "velocity": 46
+        },
+        {
+          "beat": 20,
+          "beats": 1.5,
+          "midi": 55,
+          "velocity": 53
+        },
+        {
+          "beat": 20.25,
+          "beats": 1.25,
+          "midi": 62,
+          "velocity": 46
+        },
+        {
+          "beat": 22,
+          "beats": 1.25,
+          "midi": 67,
+          "velocity": 43
+        },
+        {
+          "beat": 24,
+          "beats": 1.5,
+          "midi": 52,
+          "velocity": 57
+        },
+        {
+          "beat": 24,
+          "beats": 1.5,
+          "midi": 59,
+          "velocity": 51
+        },
+        {
+          "beat": 26.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 52,
+          "velocity": 60
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 57,
+          "velocity": 56
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 60,
+          "velocity": 51
+        },
+        {
+          "beat": 30.25,
+          "beats": 1,
+          "midi": 64,
+          "velocity": 47
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 50,
+          "velocity": 61
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 57,
+          "velocity": 55
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 65,
+          "velocity": 51
+        },
+        {
+          "beat": 34.75,
+          "beats": 0.75,
+          "midi": 69,
+          "velocity": 43
+        },
+        {
+          "beat": 36,
+          "beats": 2,
+          "midi": 53,
+          "velocity": 49
+        },
+        {
+          "beat": 36.25,
+          "beats": 1.75,
+          "midi": 60,
+          "velocity": 43
+        },
+        {
+          "beat": 38.25,
+          "beats": 1.25,
+          "midi": 69,
+          "velocity": 40
+        },
+        {
+          "beat": 40,
+          "beats": 1.75,
+          "midi": 48,
+          "velocity": 47
+        },
+        {
+          "beat": 40.25,
+          "beats": 1.5,
+          "midi": 55,
+          "velocity": 42
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 52,
+          "velocity": 39
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 60,
+          "velocity": 37
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 35
+        }
+      ]
+    },
+    "bass": {
+      "program": 33,
+      "channel": 2,
+      "pan": 64,
+      "volume": 90,
+      "notes": [
+        {
+          "beat": 0,
+          "beats": 2.5,
+          "midi": 36,
+          "velocity": 56
+        },
+        {
+          "beat": 3.25,
+          "beats": 0.5,
+          "midi": 43,
+          "velocity": 43
+        },
+        {
+          "beat": 4,
+          "beats": 2.5,
+          "midi": 40,
+          "velocity": 53
+        },
+        {
+          "beat": 8,
+          "beats": 2.5,
+          "midi": 41,
+          "velocity": 54
+        },
+        {
+          "beat": 11.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 42
+        },
+        {
+          "beat": 12,
+          "beats": 2.5,
+          "midi": 33,
+          "velocity": 58
+        },
+        {
+          "beat": 15.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 45
+        },
+        {
+          "beat": 16,
+          "beats": 2.5,
+          "midi": 41,
+          "velocity": 57
+        },
+        {
+          "beat": 19.25,
+          "beats": 0.5,
+          "midi": 36,
+          "velocity": 44
+        },
+        {
+          "beat": 20,
+          "beats": 2.75,
+          "midi": 43,
+          "velocity": 56
+        },
+        {
+          "beat": 24,
+          "beats": 2.5,
+          "midi": 40,
+          "velocity": 59
+        },
+        {
+          "beat": 27.25,
+          "beats": 0.5,
+          "midi": 35,
+          "velocity": 46
+        },
+        {
+          "beat": 28,
+          "beats": 3,
+          "midi": 33,
+          "velocity": 63
+        },
+        {
+          "beat": 31.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 48
+        },
+        {
+          "beat": 32,
+          "beats": 3.25,
+          "midi": 38,
+          "velocity": 62
+        },
+        {
+          "beat": 36,
+          "beats": 2.75,
+          "midi": 41,
+          "velocity": 52
+        },
+        {
+          "beat": 40,
+          "beats": 3.75,
+          "midi": 36,
+          "velocity": 48
+        }
+      ]
+    }
+  },
+  "authored": {
+    "title": "日历里的海",
+    "description": "以有流动感的叙事流行写搬家时翻出的旧日历。四四拍，电钢琴疏落落键，低音轻推前行。前三句各三小节，末句两小节；句尾留白，不一味拖长。演唱从近似说话的中低音开始，在懂得她等待的疲惫时抬高，祝福时收回。日历上的圈、再次加班和迟来的安稳连成同一段回忆。",
+    "emotionalArc": "生活安稳后翻出旧物，平静里有迟疑；圈起的海边旅行唤回那次加班，也暴露当年总把陪伴推给以后的习惯。情绪在你等得多累处打开，承认错过的是她愿意等待的日子。最后只愿她已经看过那片海，不再要求自己出现在风景里。",
+    "music": {
+      "style": "folk",
+      "bpm": 102,
+      "voice": "ria"
+    },
+    "phrases": [
+      {
+        "lyrics": "日子稳了搬家翻出旧日历",
+        "intent": "先交代如今的安稳，再看见旧物。日子稳了轻说，搬家后稍停；旧日历逐字清楚，历短收，像手停在纸页上。",
+        "bars": 3,
+        "chords": [
+          "C",
+          "Em",
+          "F"
+        ],
+        "syllables": [
+          {
+            "lyric": "日",
+            "pinyin": "ri",
+            "offset": 0.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "子",
+            "pinyin": "zi",
+            "offset": 1,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1.02
+          },
+          {
+            "lyric": "稳",
+            "pinyin": "wen",
+            "offset": 1.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "了",
+            "pinyin": "le",
+            "offset": 2.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 1.03
+          },
+          {
+            "lyric": "搬",
+            "pinyin": "ban",
+            "offset": 4,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1
+          },
+          {
+            "lyric": "家",
+            "pinyin": "jia",
+            "offset": 4.75,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1
+          },
+          {
+            "lyric": "翻",
+            "pinyin": "fan",
+            "offset": 6,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1.03
+          },
+          {
+            "lyric": "出",
+            "pinyin": "chu",
+            "offset": 6.5,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1.03
+          },
+          {
+            "lyric": "旧",
+            "pinyin": "jiu",
+            "offset": 8,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "日",
+            "pinyin": "ri",
+            "offset": 9,
+            "notes": [
+              {
+                "midi": 57,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "历",
+            "pinyin": "li",
+            "offset": 9.75,
+            "notes": [
+              {
+                "midi": 57,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.4,
+            "velocity": 0.98
+          }
+        ]
+      },
+      {
+        "lyrics": "圈着去海边那天我又加班",
+        "intent": "沿着日历上的圈认出未成行的旅行。去海边略亮，那天后留出回忆的空隙；又稍着力，加班落回低处，不唱成抱怨。",
+        "bars": 3,
+        "chords": [
+          "Am",
+          "F",
+          "G"
+        ],
+        "syllables": [
+          {
+            "lyric": "圈",
+            "pinyin": "quan",
+            "offset": 0.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "着",
+            "pinyin": "zhe",
+            "offset": 1.25,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.25
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1.05
+          },
+          {
+            "lyric": "去",
+            "pinyin": "qu",
+            "offset": 1.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 1.02
+          },
+          {
+            "lyric": "海",
+            "pinyin": "hai",
+            "offset": 2,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.5
+              },
+              {
+                "midi": 64,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "边",
+            "pinyin": "bian",
+            "offset": 3,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1
+          },
+          {
+            "lyric": "那",
+            "pinyin": "na",
+            "offset": 4.5,
+            "notes": [
+              {
+                "midi": 65,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1
+          },
+          {
+            "lyric": "天",
+            "pinyin": "tian",
+            "offset": 5,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "我",
+            "pinyin": "wo",
+            "offset": 7,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 1
+          },
+          {
+            "lyric": "又",
+            "pinyin": "you",
+            "offset": 7.5,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": -0.2,
+            "velocity": 0.96
+          },
+          {
+            "lyric": "加",
+            "pinyin": "jia",
+            "offset": 8.5,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 1.04
+          },
+          {
+            "lyric": "班",
+            "pinyin": "ban",
+            "offset": 9,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 1
+          }
+        ]
+      },
+      {
+        "lyrics": "总说以后才懂你等得多累",
+        "intent": "总说以后沿用前句的起势，像重听自己的旧借口。才懂前换气，你等得多累连成一句；累先抬后落，承认她的感受，不求回应。",
+        "bars": 3,
+        "chords": [
+          "Em",
+          "Am",
+          "Dm"
+        ],
+        "syllables": [
+          {
+            "lyric": "总",
+            "pinyin": "zong",
+            "offset": 0.5,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "说",
+            "pinyin": "shuo",
+            "offset": 1.25,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 1.02
+          },
+          {
+            "lyric": "以",
+            "pinyin": "yi",
+            "offset": 1.75,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1
+          },
+          {
+            "lyric": "后",
+            "pinyin": "hou",
+            "offset": 2.25,
+            "notes": [
+              {
+                "midi": 59,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "才",
+            "pinyin": "cai",
+            "offset": 4,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": -0.2,
+            "velocity": 0.96
+          },
+          {
+            "lyric": "懂",
+            "pinyin": "dong",
+            "offset": 4.75,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 1.25
+              }
+            ],
+            "breathinessDb": -0.3,
+            "velocity": 0.96
+          },
+          {
+            "lyric": "你",
+            "pinyin": "ni",
+            "offset": 6.5,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "等",
+            "pinyin": "deng",
+            "offset": 7,
+            "notes": [
+              {
+                "midi": 65,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": -0.2,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "得",
+            "pinyin": "de",
+            "offset": 7.75,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.25
+              }
+            ],
+            "breathinessDb": 0,
+            "velocity": 1.06
+          },
+          {
+            "lyric": "多",
+            "pinyin": "duo",
+            "offset": 8,
+            "notes": [
+              {
+                "midi": 65,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": -0.2,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "累",
+            "pinyin": "lei",
+            "offset": 8.75,
+            "notes": [
+              {
+                "midi": 67,
+                "beats": 0.75
+              },
+              {
+                "midi": 65,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 0.96
+          }
+        ]
+      },
+      {
+        "lyrics": "愿你已看过那片海",
+        "intent": "愿你轻起，已看过唱得像一句真心的祝愿。那片海回到中低音，海短收；让伴奏完成落地，保留不打扰的温暖。",
+        "bars": 2,
+        "chords": [
+          "F",
+          "C"
+        ],
+        "syllables": [
+          {
+            "lyric": "愿",
+            "pinyin": "yuan",
+            "offset": 0.5,
+            "notes": [
+              {
+                "midi": 65,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 0.97
+          },
+          {
+            "lyric": "你",
+            "pinyin": "ni",
+            "offset": 1.25,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.75
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 0.98
+          },
+          {
+            "lyric": "已",
+            "pinyin": "yi",
+            "offset": 2.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1
+          },
+          {
+            "lyric": "看",
+            "pinyin": "kan",
+            "offset": 3,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.1,
+            "velocity": 1.02
+          },
+          {
+            "lyric": "过",
+            "pinyin": "guo",
+            "offset": 3.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.3,
+            "velocity": 1.03
+          },
+          {
+            "lyric": "那",
+            "pinyin": "na",
+            "offset": 4.5,
+            "notes": [
+              {
+                "midi": 64,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1
+          },
+          {
+            "lyric": "片",
+            "pinyin": "pian",
+            "offset": 5,
+            "notes": [
+              {
+                "midi": 62,
+                "beats": 0.5
+              }
+            ],
+            "breathinessDb": 0.2,
+            "velocity": 1
+          },
+          {
+            "lyric": "海",
+            "pinyin": "hai",
+            "offset": 5.5,
+            "notes": [
+              {
+                "midi": 60,
+                "beats": 1
+              }
+            ],
+            "breathinessDb": 0.5,
+            "velocity": 0.97
+          }
+        ]
+      }
+    ],
+    "arrangement": [
+      {
+        "instrument": "electric_piano",
+        "role": "分散和弦保持步行般的流动，避开人声密集处。第三句改用稍厚的同时落键托住领悟，末句重新拉开音距，尾奏轻落主和弦。",
+        "notes": [
+          {
+            "beat": 0,
+            "beats": 1.5,
+            "midi": 48,
+            "velocity": 51
+          },
+          {
+            "beat": 0.25,
+            "beats": 1.25,
+            "midi": 55,
+            "velocity": 46
+          },
+          {
+            "beat": 2.75,
+            "beats": 1,
+            "midi": 64,
+            "velocity": 44
+          },
+          {
+            "beat": 4,
+            "beats": 1.5,
+            "midi": 52,
+            "velocity": 49
+          },
+          {
+            "beat": 4.25,
+            "beats": 1.25,
+            "midi": 59,
+            "velocity": 44
+          },
+          {
+            "beat": 6.75,
+            "beats": 1,
+            "midi": 67,
+            "velocity": 43
+          },
+          {
+            "beat": 8,
+            "beats": 1.5,
+            "midi": 53,
+            "velocity": 50
+          },
+          {
+            "beat": 8.25,
+            "beats": 1.25,
+            "midi": 60,
+            "velocity": 45
+          },
+          {
+            "beat": 10.75,
+            "beats": 0.75,
+            "midi": 69,
+            "velocity": 42
+          },
+          {
+            "beat": 12,
+            "beats": 1.5,
+            "midi": 45,
+            "velocity": 54
+          },
+          {
+            "beat": 12.25,
+            "beats": 1.25,
+            "midi": 52,
+            "velocity": 48
+          },
+          {
+            "beat": 14.75,
+            "beats": 1,
+            "midi": 60,
+            "velocity": 47
+          },
+          {
+            "beat": 16,
+            "beats": 1.5,
+            "midi": 53,
+            "velocity": 53
+          },
+          {
+            "beat": 16.25,
+            "beats": 1.25,
+            "midi": 60,
+            "velocity": 47
+          },
+          {
+            "beat": 18.5,
+            "beats": 1,
+            "midi": 69,
+            "velocity": 46
+          },
+          {
+            "beat": 20,
+            "beats": 1.5,
+            "midi": 55,
+            "velocity": 53
+          },
+          {
+            "beat": 20.25,
+            "beats": 1.25,
+            "midi": 62,
+            "velocity": 46
+          },
+          {
+            "beat": 22,
+            "beats": 1.25,
+            "midi": 67,
+            "velocity": 43
+          },
+          {
+            "beat": 24,
+            "beats": 1.5,
+            "midi": 52,
+            "velocity": 57
+          },
+          {
+            "beat": 24,
+            "beats": 1.5,
+            "midi": 59,
+            "velocity": 51
+          },
+          {
+            "beat": 26.75,
+            "beats": 1,
+            "midi": 67,
+            "velocity": 48
+          },
+          {
+            "beat": 28,
+            "beats": 2,
+            "midi": 52,
+            "velocity": 60
+          },
+          {
+            "beat": 28,
+            "beats": 2,
+            "midi": 57,
+            "velocity": 56
+          },
+          {
+            "beat": 28,
+            "beats": 2,
+            "midi": 60,
+            "velocity": 51
+          },
+          {
+            "beat": 30.25,
+            "beats": 1,
+            "midi": 64,
+            "velocity": 47
+          },
+          {
+            "beat": 32,
+            "beats": 2,
+            "midi": 50,
+            "velocity": 61
+          },
+          {
+            "beat": 32,
+            "beats": 2,
+            "midi": 57,
+            "velocity": 55
+          },
+          {
+            "beat": 32,
+            "beats": 2,
+            "midi": 65,
+            "velocity": 51
+          },
+          {
+            "beat": 34.75,
+            "beats": 0.75,
+            "midi": 69,
+            "velocity": 43
+          },
+          {
+            "beat": 36,
+            "beats": 2,
+            "midi": 53,
+            "velocity": 49
+          },
+          {
+            "beat": 36.25,
+            "beats": 1.75,
+            "midi": 60,
+            "velocity": 43
+          },
+          {
+            "beat": 38.25,
+            "beats": 1.25,
+            "midi": 69,
+            "velocity": 40
+          },
+          {
+            "beat": 40,
+            "beats": 1.75,
+            "midi": 48,
+            "velocity": 47
+          },
+          {
+            "beat": 40.25,
+            "beats": 1.5,
+            "midi": 55,
+            "velocity": 42
+          },
+          {
+            "beat": 42.75,
+            "beats": 1,
+            "midi": 52,
+            "velocity": 39
+          },
+          {
+            "beat": 42.75,
+            "beats": 1,
+            "midi": 60,
+            "velocity": 37
+          },
+          {
+            "beat": 42.75,
+            "beats": 1,
+            "midi": 67,
+            "velocity": 35
+          }
+        ]
+      },
+      {
+        "instrument": "bass",
+        "role": "低八度根音提供稳定落点，少量五音接向下一小节。领悟处延长支撑，祝福处减少移动，给人声留下清晰空间。",
+        "notes": [
+          {
+            "beat": 0,
+            "beats": 2.5,
+            "midi": 36,
+            "velocity": 56
+          },
+          {
+            "beat": 3.25,
+            "beats": 0.5,
+            "midi": 43,
+            "velocity": 43
+          },
+          {
+            "beat": 4,
+            "beats": 2.5,
+            "midi": 40,
+            "velocity": 53
+          },
+          {
+            "beat": 8,
+            "beats": 2.5,
+            "midi": 41,
+            "velocity": 54
+          },
+          {
+            "beat": 11.25,
+            "beats": 0.5,
+            "midi": 40,
+            "velocity": 42
+          },
+          {
+            "beat": 12,
+            "beats": 2.5,
+            "midi": 33,
+            "velocity": 58
+          },
+          {
+            "beat": 15.25,
+            "beats": 0.5,
+            "midi": 40,
+            "velocity": 45
+          },
+          {
+            "beat": 16,
+            "beats": 2.5,
+            "midi": 41,
+            "velocity": 57
+          },
+          {
+            "beat": 19.25,
+            "beats": 0.5,
+            "midi": 36,
+            "velocity": 44
+          },
+          {
+            "beat": 20,
+            "beats": 2.75,
+            "midi": 43,
+            "velocity": 56
+          },
+          {
+            "beat": 24,
+            "beats": 2.5,
+            "midi": 40,
+            "velocity": 59
+          },
+          {
+            "beat": 27.25,
+            "beats": 0.5,
+            "midi": 35,
+            "velocity": 46
+          },
+          {
+            "beat": 28,
+            "beats": 3,
+            "midi": 33,
+            "velocity": 63
+          },
+          {
+            "beat": 31.25,
+            "beats": 0.5,
+            "midi": 40,
+            "velocity": 48
+          },
+          {
+            "beat": 32,
+            "beats": 3.25,
+            "midi": 38,
+            "velocity": 62
+          },
+          {
+            "beat": 36,
+            "beats": 2.75,
+            "midi": 41,
+            "velocity": 52
+          },
+          {
+            "beat": 40,
+            "beats": 3.75,
+            "midi": 36,
+            "velocity": 48
+          }
+        ]
+      }
+    ]
+  },
+  "creativeBrief": {
+    "audience": "曾经一起计划旅行的人，也写给多年后才懂得的自己",
+    "feelingStart": "平静翻旧物，带一点犹豫",
+    "feelingEnd": "承认遗憾，温暖地祝福",
+    "keep": "旧日历上圈着的一次没有成行的旅行"
+  }
+}

@@ -1,0 +1,362 @@
+{
+  "engine": "fluidsynth-generaluser-v1",
+  "style": "folk",
+  "texture": "standard",
+  "bpm": 102,
+  "sampleRate": 44100,
+  "duration": 28,
+  "tracks": {
+    "electric_piano": {
+      "program": 4,
+      "channel": 1,
+      "pan": 54,
+      "volume": 90,
+      "notes": [
+        {
+          "beat": 0,
+          "beats": 1.5,
+          "midi": 48,
+          "velocity": 51
+        },
+        {
+          "beat": 0.25,
+          "beats": 1.25,
+          "midi": 55,
+          "velocity": 46
+        },
+        {
+          "beat": 2.75,
+          "beats": 1,
+          "midi": 64,
+          "velocity": 44
+        },
+        {
+          "beat": 4,
+          "beats": 1.5,
+          "midi": 52,
+          "velocity": 49
+        },
+        {
+          "beat": 4.25,
+          "beats": 1.25,
+          "midi": 59,
+          "velocity": 44
+        },
+        {
+          "beat": 6.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 43
+        },
+        {
+          "beat": 8,
+          "beats": 1.5,
+          "midi": 53,
+          "velocity": 50
+        },
+        {
+          "beat": 8.25,
+          "beats": 1.25,
+          "midi": 60,
+          "velocity": 45
+        },
+        {
+          "beat": 10.75,
+          "beats": 0.75,
+          "midi": 69,
+          "velocity": 42
+        },
+        {
+          "beat": 12,
+          "beats": 1.5,
+          "midi": 45,
+          "velocity": 54
+        },
+        {
+          "beat": 12.25,
+          "beats": 1.25,
+          "midi": 52,
+          "velocity": 48
+        },
+        {
+          "beat": 14.75,
+          "beats": 1,
+          "midi": 60,
+          "velocity": 47
+        },
+        {
+          "beat": 16,
+          "beats": 1.5,
+          "midi": 53,
+          "velocity": 53
+        },
+        {
+          "beat": 16.25,
+          "beats": 1.25,
+          "midi": 60,
+          "velocity": 47
+        },
+        {
+          "beat": 18.5,
+          "beats": 1,
+          "midi": 69,
+          "velocity": 46
+        },
+        {
+          "beat": 20,
+          "beats": 1.5,
+          "midi": 55,
+          "velocity": 53
+        },
+        {
+          "beat": 20.25,
+          "beats": 1.25,
+          "midi": 62,
+          "velocity": 46
+        },
+        {
+          "beat": 22,
+          "beats": 1.25,
+          "midi": 67,
+          "velocity": 43
+        },
+        {
+          "beat": 24,
+          "beats": 1.5,
+          "midi": 52,
+          "velocity": 57
+        },
+        {
+          "beat": 24,
+          "beats": 1.5,
+          "midi": 59,
+          "velocity": 51
+        },
+        {
+          "beat": 26.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 52,
+          "velocity": 60
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 57,
+          "velocity": 56
+        },
+        {
+          "beat": 28,
+          "beats": 2,
+          "midi": 60,
+          "velocity": 51
+        },
+        {
+          "beat": 30.25,
+          "beats": 1,
+          "midi": 64,
+          "velocity": 47
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 50,
+          "velocity": 61
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 57,
+          "velocity": 55
+        },
+        {
+          "beat": 32,
+          "beats": 2,
+          "midi": 65,
+          "velocity": 51
+        },
+        {
+          "beat": 34.75,
+          "beats": 0.75,
+          "midi": 69,
+          "velocity": 43
+        },
+        {
+          "beat": 36,
+          "beats": 2,
+          "midi": 53,
+          "velocity": 49
+        },
+        {
+          "beat": 36.25,
+          "beats": 1.75,
+          "midi": 60,
+          "velocity": 43
+        },
+        {
+          "beat": 38.25,
+          "beats": 1.25,
+          "midi": 69,
+          "velocity": 40
+        },
+        {
+          "beat": 40,
+          "beats": 1.75,
+          "midi": 48,
+          "velocity": 47
+        },
+        {
+          "beat": 40.25,
+          "beats": 1.5,
+          "midi": 55,
+          "velocity": 42
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 52,
+          "velocity": 39
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 60,
+          "velocity": 37
+        },
+        {
+          "beat": 42.75,
+          "beats": 1,
+          "midi": 67,
+          "velocity": 35
+        }
+      ]
+    },
+    "bass": {
+      "program": 33,
+      "channel": 2,
+      "pan": 64,
+      "volume": 90,
+      "notes": [
+        {
+          "beat": 0,
+          "beats": 2.5,
+          "midi": 36,
+          "velocity": 56
+        },
+        {
+          "beat": 3.25,
+          "beats": 0.5,
+          "midi": 43,
+          "velocity": 43
+        },
+        {
+          "beat": 4,
+          "beats": 2.5,
+          "midi": 40,
+          "velocity": 53
+        },
+        {
+          "beat": 8,
+          "beats": 2.5,
+          "midi": 41,
+          "velocity": 54
+        },
+        {
+          "beat": 11.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 42
+        },
+        {
+          "beat": 12,
+          "beats": 2.5,
+          "midi": 33,
+          "velocity": 58
+        },
+        {
+          "beat": 15.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 45
+        },
+        {
+          "beat": 16,
+          "beats": 2.5,
+          "midi": 41,
+          "velocity": 57
+        },
+        {
+          "beat": 19.25,
+          "beats": 0.5,
+          "midi": 36,
+          "velocity": 44
+        },
+        {
+          "beat": 20,
+          "beats": 2.75,
+          "midi": 43,
+          "velocity": 56
+        },
+        {
+          "beat": 24,
+          "beats": 2.5,
+          "midi": 40,
+          "velocity": 59
+        },
+        {
+          "beat": 27.25,
+          "beats": 0.5,
+          "midi": 35,
+          "velocity": 46
+        },
+        {
+          "beat": 28,
+          "beats": 3,
+          "midi": 33,
+          "velocity": 63
+        },
+        {
+          "beat": 31.25,
+          "beats": 0.5,
+          "midi": 40,
+          "velocity": 48
+        },
+        {
+          "beat": 32,
+          "beats": 3.25,
+          "midi": 38,
+          "velocity": 62
+        },
+        {
+          "beat": 36,
+          "beats": 2.75,
+          "midi": 41,
+          "velocity": 52
+        },
+        {
+          "beat": 40,
+          "beats": 3.75,
+          "midi": 36,
+          "velocity": 48
+        }
+      ]
+    }
+  },
+  "source": "model-authored note events for this story; no preset arrangement loop",
+  "assessment": "unreviewed",
+  "roles": [
+    {
+      "instrument": "electric_piano",
+      "role": "分散和弦保持步行般的流动，避开人声密集处。第三句改用稍厚的同时落键托住领悟，末句重新拉开音距，尾奏轻落主和弦。"
+    },
+    {
+      "instrument": "bass",
+      "role": "低八度根音提供稳定落点，少量五音接向下一小节。领悟处延长支撑，祝福处减少移动，给人声留下清晰空间。"
+    }
+  ]
+}

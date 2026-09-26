@@ -1,0 +1,504 @@
+{
+  "note": "Reviewed demonstration material. MP3 preview copies, not source WAV masters. No user listening records or credentials included.",
+  "compositions": [
+    "940817ab-94bc-477b-87c3-ec3a09845892",
+    "566a9bad-5785-459a-8f6d-78c271e970be"
+  ],
+  "files": [
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/arrangement.mid",
+      "bytes": 639,
+      "sha256": "5625687723b1973d790942398381b6c76f88739cc62e09b5350167f3712f6653"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/backing.mp3",
+      "bytes": 561155,
+      "sha256": "6c466ba9f29d857fbef3b4e97cf2d2ea358a7dc015fdf39341f6169762aa4d34"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/guide.mp3",
+      "bytes": 561155,
+      "sha256": "78d9bb40d4a77ab0beb93bd0fe3d6323c0cd8766cb3a961df888c42e9ff93995"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/instruments.json",
+      "bytes": 7549,
+      "sha256": "eac3b3870af475f5d4fb1e75eac05d40f1b64569450ac04cb98ef314b93adc1a"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/lyrics.txt",
+      "bytes": 127,
+      "sha256": "85c5812f0a2007ae226ec4493965bb4ecf920f9c5098ab17fa429787200a3292"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/midi.mid",
+      "bytes": 726,
+      "sha256": "302b2a58e9682791f7fe88706af2e2359cb1ad5e3417e8f0e28e65175dcda8bb"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/score.json",
+      "bytes": 56258,
+      "sha256": "1a9d71b678cc5f4c978ea32e865f4996202f246b69358f079f95b1c4ecf11b64"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/song.mp3",
+      "bytes": 561155,
+      "sha256": "02e755761f2c1c8369ec557e554a41c6825b43141b4d396543a8b3e1ad8bb8e4"
+    },
+    {
+      "file": "compositions/566a9bad-5785-459a-8f6d-78c271e970be/vocal.mp3",
+      "bytes": 561155,
+      "sha256": "f9d2e2af2ce4fdc8327671587d6cdb52cd8eb6bee919ee66d1c327f57f39b1c3"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/arrangement.mid",
+      "bytes": 639,
+      "sha256": "5625687723b1973d790942398381b6c76f88739cc62e09b5350167f3712f6653"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/backing.mp3",
+      "bytes": 561155,
+      "sha256": "6c466ba9f29d857fbef3b4e97cf2d2ea358a7dc015fdf39341f6169762aa4d34"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/guide.mp3",
+      "bytes": 561155,
+      "sha256": "78d9bb40d4a77ab0beb93bd0fe3d6323c0cd8766cb3a961df888c42e9ff93995"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/instruments.json",
+      "bytes": 7549,
+      "sha256": "eac3b3870af475f5d4fb1e75eac05d40f1b64569450ac04cb98ef314b93adc1a"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/lyrics.txt",
+      "bytes": 127,
+      "sha256": "85c5812f0a2007ae226ec4493965bb4ecf920f9c5098ab17fa429787200a3292"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/midi.mid",
+      "bytes": 726,
+      "sha256": "302b2a58e9682791f7fe88706af2e2359cb1ad5e3417e8f0e28e65175dcda8bb"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/score.json",
+      "bytes": 56072,
+      "sha256": "d1362e66115662dbd29f7e160ad633fe33aea3bdef41a7f7b3818effe4c896e1"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/song.mp3",
+      "bytes": 561155,
+      "sha256": "81790842e3aea9d7d48cf1096f4c4301d76811797aeaa16910362a33ac8e6e33"
+    },
+    {
+      "file": "compositions/940817ab-94bc-477b-87c3-ec3a09845892/vocal.mp3",
+      "bytes": 561155,
+      "sha256": "469113a429ecfba20d526efca12354b9c9270e6a54424be1df64f29fedc3376e"
+    },
+    {
+      "file": "listening/A.mp3",
+      "bytes": 215816,
+      "sha256": "6036878922b2cffad71aaec3cc3cc4ea1a595912433288d55f3e9eadea75b8a6"
+    },
+    {
+      "file": "listening/B.mp3",
+      "bytes": 215816,
+      "sha256": "dc56c46ccdd043758b3c859ddbb8b3b7dfc64e3ece577e5795a9488188aac714"
+    },
+    {
+      "file": "media/listening-trial/A.mp3",
+      "bytes": 381432,
+      "sha256": "bc7f8b91b8755a1eae418fe760cc56ca8808f3abc57616b666acac9dc88d58aa"
+    },
+    {
+      "file": "media/listening-trial/B.mp3",
+      "bytes": 381432,
+      "sha256": "b55d943e9b093a759877eeb1f4aca749985f23fb89ed584298b58b1c7fc8b6a0"
+    },
+    {
+      "file": "media/phrasing-trial/A.mp3",
+      "bytes": 215816,
+      "sha256": "6036878922b2cffad71aaec3cc3cc4ea1a595912433288d55f3e9eadea75b8a6"
+    },
+    {
+      "file": "media/phrasing-trial/B.mp3",
+      "bytes": 215816,
+      "sha256": "dc56c46ccdd043758b3c859ddbb8b3b7dfc64e3ece577e5795a9488188aac714"
+    },
+    {
+      "file": "media/score-trial/accompaniment.mp3",
+      "bytes": 521449,
+      "sha256": "2eb0f8bbed6d38bf63cb9cdbdc9de2e1e0d4a7386563014ec783dcaaa4513346"
+    },
+    {
+      "file": "media/score-trial/bass.mp3",
+      "bytes": 521449,
+      "sha256": "d299c69e2f01f5e348401df02c3ab01e4cbb0d58eb56667868094f5b29901b33"
+    },
+    {
+      "file": "media/score-trial/drums.mp3",
+      "bytes": 521449,
+      "sha256": "0ccaea713b53e9f48b6731749e48dc0225d0caacac26239fade5c7f9aa805e60"
+    },
+    {
+      "file": "media/score-trial/keys.mp3",
+      "bytes": 521449,
+      "sha256": "a619ab5cff7e3e7afc512a51145d2a3aad4216f45f9457c1a2535c9c8528900a"
+    },
+    {
+      "file": "media/score-trial/melody-guide.mp3",
+      "bytes": 521449,
+      "sha256": "40509681c8123de6c34593c3c0e1369e63f5ea1031d3bbe0f578fadfbd0e9d95"
+    },
+    {
+      "file": "media/score-trial/song-A.mp3",
+      "bytes": 521449,
+      "sha256": "0786a5a01b24a3cd1cb3c9898268347848c4fd0a7cd385e23beed0db0ae9298a"
+    },
+    {
+      "file": "media/score-trial/song-B.mp3",
+      "bytes": 521449,
+      "sha256": "1fe3985fe952d36973ee7b1442f446fcdf715cccd60d673ec649129cdfa1bf43"
+    },
+    {
+      "file": "media/score-trial/vocal-A.mp3",
+      "bytes": 521449,
+      "sha256": "05f8a7af539b531d5036f2eda9035f82e039b38327138ede41c1c72aa120a416"
+    },
+    {
+      "file": "media/score-trial/vocal-B.mp3",
+      "bytes": 521449,
+      "sha256": "5db5647c474ba239a09a9a0f5ac9fa280984e7f0a89d35d035b969ae417f30e9"
+    },
+    {
+      "file": "media/sound-baseline-v1/original-accompaniment.mp3",
+      "bytes": 469726,
+      "sha256": "e97d695fd4b141f6f0635a04da3e695471576438e4d8a5ca581d9a398afb2eae"
+    },
+    {
+      "file": "media/sound-baseline-v1/original-melody.mp3",
+      "bytes": 469726,
+      "sha256": "084fb61595b793caf7687b1821fc36f21594900a9a5c0f23af57f8c7770c2c87"
+    },
+    {
+      "file": "media/sound-baseline-v1/original-mix.mp3",
+      "bytes": 469726,
+      "sha256": "4ce5e2044856b076696173727de9278ee7d644f46bd71ac92b4e650d7d32ae7a"
+    },
+    {
+      "file": "media/sound-baseline-v1/original-vocal.mp3",
+      "bytes": 469726,
+      "sha256": "651bc783ef3c6609d18f325761b96bfb44370442e283149ce2374c75bbb09fbd"
+    },
+    {
+      "file": "media/sound-baseline-v1/reference-high-melody.mp3",
+      "bytes": 190216,
+      "sha256": "d277015f6f35ee508e6db6868f1c54c10804592f00efa7ce845ffd235bdab5fe"
+    },
+    {
+      "file": "media/sound-baseline-v1/reference-high-vocal.mp3",
+      "bytes": 190216,
+      "sha256": "6f7521a6b3d99afcdba9bf6d6eace4db33ea2275d6f8cd07d2a0bb650698240f"
+    },
+    {
+      "file": "media/sound-baseline-v1/reference-low-melody.mp3",
+      "bytes": 190216,
+      "sha256": "d22c9e381699d59e1611f8f029c669777cbab2dc7056b7cc8cdfcd61b9501995"
+    },
+    {
+      "file": "media/sound-baseline-v1/reference-low-vocal.mp3",
+      "bytes": 190216,
+      "sha256": "e7701067d77a43b4814a604604ce0dc32c8a58de9db669e311ebcea0c1d13b73"
+    },
+    {
+      "file": "media/sound-baseline-v2/original-accompaniment.mp3",
+      "bytes": 469726,
+      "sha256": "e97d695fd4b141f6f0635a04da3e695471576438e4d8a5ca581d9a398afb2eae"
+    },
+    {
+      "file": "media/sound-baseline-v2/original-melody.mp3",
+      "bytes": 469726,
+      "sha256": "c700cec1fdecff88b827b4998599a9a745288880d86d873f444a1619e0aa2974"
+    },
+    {
+      "file": "media/sound-baseline-v2/original-mix.mp3",
+      "bytes": 469726,
+      "sha256": "bd3af6138a789697cfb6de088166b1b557da262442c02e9b07573377982ad73b"
+    },
+    {
+      "file": "media/sound-baseline-v2/original-vocal.mp3",
+      "bytes": 469726,
+      "sha256": "db5201ba526c723c5ac9170034427b9c259cc0ec01c41c5973d851854065298b"
+    },
+    {
+      "file": "media/style-demos/ballad/accompaniment.mp3",
+      "bytes": 481220,
+      "sha256": "570707bf0418d346918ae1aa9e9db36b5c46a376d4ef6a0e5af4193de711d239"
+    },
+    {
+      "file": "media/style-demos/ballad/song.mp3",
+      "bytes": 481220,
+      "sha256": "e92ab5097ecf20e822581debf80a659c207ae2806c2c5f5c0d2f729861e99288"
+    },
+    {
+      "file": "media/style-demos/folk/accompaniment.mp3",
+      "bytes": 441514,
+      "sha256": "31a32a5748cdfa1dcfbca9d688b1e119f930b6ed31fe4efcd44b903456b1a77b"
+    },
+    {
+      "file": "media/style-demos/folk/song.mp3",
+      "bytes": 441514,
+      "sha256": "6a3889218cc61af0beb22d8e7d380fd5cd3a05085eaa0ba52842fd3e3a4186e2"
+    },
+    {
+      "file": "media/style-demos/retro/accompaniment.mp3",
+      "bytes": 381432,
+      "sha256": "50d8beb78608ded38b124bca077456a2964a9e4e206c838e0276a12584d0c22b"
+    },
+    {
+      "file": "media/style-demos/retro/song.mp3",
+      "bytes": 381432,
+      "sha256": "45bbb4efadb5e2a28d2f6abee108b8403b3201ba217c9ca6a475910765d6736c"
+    },
+    {
+      "file": "media/style-demos/rock/accompaniment.mp3",
+      "bytes": 341204,
+      "sha256": "2200042304bad7743228b290bda5a344707325354265682464f12b4a642b6381"
+    },
+    {
+      "file": "media/style-demos/rock/song.mp3",
+      "bytes": 341204,
+      "sha256": "46e1735403f7e261c9df28ca0b6a93ed22cf6fb9e3755d4cb11a07ac92cb89fb"
+    },
+    {
+      "file": "media/youth-song/accompaniment.mp3",
+      "bytes": 3701596,
+      "sha256": "9729d5d41114b48ee561c0b12808306cc1b86a40f34229db77d450835c478dc8"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/ballad/accompaniment-clip.mp3",
+      "bytes": 469726,
+      "sha256": "da28cbe2ae17baca7c9bc48b3b490017bf109999a09789552366b376890f3a99"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/ballad/accompaniment.mp3",
+      "bytes": 3701596,
+      "sha256": "292cee570de14df1590a23c7b9c8174107502faeaaa8f225bc6580352e33d47d"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/ballad/song-clip.mp3",
+      "bytes": 469726,
+      "sha256": "f985c56b871673f5a6a202ec3807e37a836a2f61970c6d0318c532f5797f005d"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/ballad/song.mp3",
+      "bytes": 3701596,
+      "sha256": "bb329799ff3d294af121995f667f396ffebd30160ac289150fbeca10e062fe2a"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/folk/accompaniment-clip.mp3",
+      "bytes": 469726,
+      "sha256": "93754c28711f328decd8d9b2a489951012cb4b4d20504f3979b201172519247b"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/folk/accompaniment.mp3",
+      "bytes": 3701596,
+      "sha256": "63e71e3264bb6d68fa554e3b90ba47e1a803a51aca5d45e3d0aa351c4aea2733"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/folk/song-clip.mp3",
+      "bytes": 469726,
+      "sha256": "28eed51c5e7acf18d9ba03ae43f0f5deeaf86fb45f47ac8f444506e652132e50"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/folk/song.mp3",
+      "bytes": 3701596,
+      "sha256": "773421675bb5534465a28a3e1cc3c2e26c77d0cfc374313077cc1236c1978600"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/retro/accompaniment-clip.mp3",
+      "bytes": 469726,
+      "sha256": "d92657e27fee5e4cb772ec4cfc69ddd69145f155f54bb52d08f6a69a72131295"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/retro/accompaniment.mp3",
+      "bytes": 3701596,
+      "sha256": "757ebe1191cb44516d151c6b0c9cb7af34f9bbf54be412e0607482b11373864a"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/retro/song-clip.mp3",
+      "bytes": 469726,
+      "sha256": "dbfb09a4d891425b0373f2af5e11dedac2aa0a7e16f745463b83f9a76204d1e7"
+    },
+    {
+      "file": "media/youth-song/arrangement-study-v1/retro/song.mp3",
+      "bytes": 3701596,
+      "sha256": "befb217c0c026a522bc04ec01c181580b535e151d28588cd6459dfa844364688"
+    },
+    {
+      "file": "media/youth-song/bass.mp3",
+      "bytes": 3701596,
+      "sha256": "347c34f5c61cc4b643bb59d5f502043fe787b46a58442e15a05dff04793010ab"
+    },
+    {
+      "file": "media/youth-song/drums.mp3",
+      "bytes": 3701596,
+      "sha256": "914acd41135af5fb03882c569bb246738dda698c13af783ca1af75afe035d6e3"
+    },
+    {
+      "file": "media/youth-song/guide.mp3",
+      "bytes": 3701596,
+      "sha256": "0fc27d25d0a4a3de45a5bd5cf3d78df1ea17cee8a29f8d18ba962eaf6ba1b0d5"
+    },
+    {
+      "file": "media/youth-song/guitar.mp3",
+      "bytes": 3701596,
+      "sha256": "9aaf12205d4959f6d05ca4cab6e8cd75f0bbb6a310352de73de52d0bd55e29d3"
+    },
+    {
+      "file": "media/youth-song/piano.mp3",
+      "bytes": 3701596,
+      "sha256": "a9bad0fff2b8f3c3bb43d1896113c873fd0e269bfc47c7f7c4cb17b95fd76489"
+    },
+    {
+      "file": "media/youth-song/song.mp3",
+      "bytes": 3701596,
+      "sha256": "07d2a320ca6bed83ea3b35867438507f0cc31000a3e85ea1592d323cf7d31e87"
+    },
+    {
+      "file": "media/youth-song/strings.mp3",
+      "bytes": 3701596,
+      "sha256": "0533a411aaa4d77928e3075a2b8d9631b9f2163ce22d43051b9779113ee71dc2"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/song-A.mp3",
+      "bytes": 469726,
+      "sha256": "3c1d4906e33be01c338adf33ed717ab0649b0d166cae00c8baa73a9ae73c1289"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/song-B.mp3",
+      "bytes": 469726,
+      "sha256": "c64f3264f155cffb87d14a7c63a933dbf0f537e358c54c37a163ca056b1a90b3"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/song.mp3",
+      "bytes": 3701596,
+      "sha256": "55f523d9c1123388d792d12eae492e07d07b44fe33a866a9e40cf69a4a62e139"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/vocal-A.mp3",
+      "bytes": 469726,
+      "sha256": "4b2856ae2d0134f22bcf084c6f26958ebea19926c01c64d8372a9f7327e961fd"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/vocal-B.mp3",
+      "bytes": 469726,
+      "sha256": "4cc380656a61d01d58fb3c7e9bbccc2b12b1f9109f5f59c52a450cb051cf337d"
+    },
+    {
+      "file": "media/youth-song/vocal-alignment-v1/vocal.mp3",
+      "bytes": 3701596,
+      "sha256": "d3b9c4944b96ee6adb0c093a2a3ebed70e7dc974e153523a6eab9db8c7b8dc94"
+    },
+    {
+      "file": "media/youth-song/vocal.mp3",
+      "bytes": 3701596,
+      "sha256": "4f89304eca6b4dc36c7ba22c63adb1af8c10a9e63da72449d161b83088d7382b"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/chorus/piano.mp3",
+      "bytes": 255522,
+      "sha256": "185993591726dfc0e3b0c39f8ad91fd17d37108acf2a8cb7599e9e739a26bdd5"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/chorus/qixuan-song.mp3",
+      "bytes": 255522,
+      "sha256": "c35821c6db9c83ebde623558b7ece74510ab486823e72a05dcbe4b235030235e"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/chorus/qixuan-vocal.mp3",
+      "bytes": 255522,
+      "sha256": "dd0b60f207a3ea668a0f145e66e41dfd2a351a85da6914b6d1d709294616cdb7"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/chorus/ria-song.mp3",
+      "bytes": 255522,
+      "sha256": "502bc4b16f1bb933d245659aba669039022a4b3bacccd4bda982fe77920844be"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/chorus/ria-vocal.mp3",
+      "bytes": 255522,
+      "sha256": "4b3285f5464233468f95d34a21f503dd1f1ddaa7986368912bd391c563e45eea"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/verse/piano.mp3",
+      "bytes": 255522,
+      "sha256": "f7e9da096ad9e995e7aa0321d6212744a0d9f3a7cad6221d419c8d03169076f9"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/verse/qixuan-song.mp3",
+      "bytes": 255522,
+      "sha256": "338f90284328ba9d42cea505f1d028b588bab5857363cc8b4425024129b679af"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/verse/qixuan-vocal.mp3",
+      "bytes": 255522,
+      "sha256": "0823c0dc3674084aaf226135d9ba22a8d211e4c74590981d43027c3244e13e52"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/verse/ria-song.mp3",
+      "bytes": 255522,
+      "sha256": "fadb30237429fbafb38aa09266687059820354fd13ff6e26b70ff6cc0aaa8046"
+    },
+    {
+      "file": "media/youth-song/voice-comparison-v1/verse/ria-vocal.mp3",
+      "bytes": 255522,
+      "sha256": "6e3e518de7e63b38ae9e48c7a31dce7abf7af8dd83d03c26e8681c51b2e80888"
+    },
+    {
+      "file": "runtime-data.json",
+      "bytes": 226163,
+      "sha256": "ed47488776eb98987b324a678bbb9e3fb41871f2dcaf782944212ab57507a86b"
+    },
+    {
+      "file": "score/A-lyrics.txt",
+      "bytes": 100,
+      "sha256": "21e824a4b390c76071e9f51b73de3a830f2ba86311c006d6e1d059b1e312ce34"
+    },
+    {
+      "file": "score/A-midi.mid",
+      "bytes": 557,
+      "sha256": "804a6e2fc4916dd23920565db547eceb6227fa9af61f7a898e564405263cf9ae"
+    },
+    {
+      "file": "score/A-song.mp3",
+      "bytes": 521449,
+      "sha256": "0786a5a01b24a3cd1cb3c9898268347848c4fd0a7cd385e23beed0db0ae9298a"
+    },
+    {
+      "file": "score/A-vocal.mp3",
+      "bytes": 521449,
+      "sha256": "05f8a7af539b531d5036f2eda9035f82e039b38327138ede41c1c72aa120a416"
+    },
+    {
+      "file": "score/B-lyrics.txt",
+      "bytes": 100,
+      "sha256": "554b3eab7090b94b2f8eac81d39d932939cb2882fa029f1d4106768d0d744b2f"
+    },
+    {
+      "file": "score/B-midi.mid",
+      "bytes": 557,
+      "sha256": "aba21e3b635b71c7b00f41af76a24367ed1ae2619c781e3eaae4e6250cfbd757"
+    },
+    {
+      "file": "score/B-song.mp3",
+      "bytes": 521449,
+      "sha256": "1fe3985fe952d36973ee7b1442f446fcdf715cccd60d673ec649129cdfa1bf43"
+    },
+    {
+      "file": "score/B-vocal.mp3",
+      "bytes": 521449,
+      "sha256": "5db5647c474ba239a09a9a0f5ac9fa280984e7f0a89d35d035b969ae417f30e9"
+    }
+  ]
+}

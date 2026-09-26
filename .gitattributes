@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Preview inventory hashes refer to these exact bytes on every platform.
+published/** -text
+*.mid -text
+*.mp3 -text
+*.png -text
+*.jpg -text

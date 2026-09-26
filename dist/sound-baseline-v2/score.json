@@ -1,0 +1,551 @@
+{
+  "id": "window-reunion-v2",
+  "title": "靠窗那边",
+  "bpm": 108,
+  "key": "F 大调",
+  "sampleRate": 44100,
+  "duration": 23.42222222222222,
+  "voice": "qixuan",
+  "phrases": [
+    {
+      "startBeat": 3,
+      "endBeat": 12,
+      "display": "你又坐在靠窗那边",
+      "intent": "靠窗保持原来的节奏；边字用一个音收住，不再连续转三个音。",
+      "syllables": [
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "beat": 3.5,
+          "notes": [
+            [
+              65,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 1
+        },
+        {
+          "lyric": "又",
+          "pinyin": "you",
+          "beat": 4,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "坐",
+          "pinyin": "zuo",
+          "beat": 4.5,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "beat": 5,
+          "notes": [
+            [
+              65,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "靠",
+          "pinyin": "kao",
+          "beat": 5.5,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "窗",
+          "pinyin": "chuang",
+          "beat": 6,
+          "notes": [
+            [
+              72,
+              1.5
+            ]
+          ],
+          "breathinessDb": -0.5,
+          "velocity": 1.05
+        },
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "beat": 7.5,
+          "notes": [
+            [
+              70,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "边",
+          "pinyin": "bian",
+          "beat": 8,
+          "notes": [
+            [
+              65,
+              1
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 0.95
+        }
+      ]
+    },
+    {
+      "startBeat": 12,
+      "endBeat": 20,
+      "display": "笑着问我这些年",
+      "intent": "这些年保持连贯，年字只停留一拍，随后让伴奏接话。",
+      "syllables": [
+        {
+          "lyric": "笑",
+          "pinyin": "xiao",
+          "beat": 12.5,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "着",
+          "pinyin": "zhe",
+          "beat": 13,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "问",
+          "pinyin": "wen",
+          "beat": 13.5,
+          "notes": [
+            [
+              65,
+              1
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "beat": 14.5,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "这",
+          "pinyin": "zhe",
+          "beat": 15,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "些",
+          "pinyin": "xie",
+          "beat": 15.5,
+          "notes": [
+            [
+              72,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "年",
+          "pinyin": "nian",
+          "beat": 16,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 0.95
+        }
+      ]
+    },
+    {
+      "startBeat": 20,
+      "endBeat": 28,
+      "display": "我说日子忙了点",
+      "intent": "点字缩到四分之三拍，像一句简短的回答。",
+      "syllables": [
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "beat": 20.5,
+          "notes": [
+            [
+              65,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 1
+        },
+        {
+          "lyric": "说",
+          "pinyin": "shuo",
+          "beat": 21,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "日",
+          "pinyin": "ri",
+          "beat": 21.5,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "子",
+          "pinyin": "zi",
+          "beat": 22,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "忙",
+          "pinyin": "mang",
+          "beat": 22.5,
+          "notes": [
+            [
+              65,
+              1.5
+            ]
+          ],
+          "breathinessDb": -0.5,
+          "velocity": 1
+        },
+        {
+          "lyric": "了",
+          "pinyin": "le",
+          "beat": 24,
+          "notes": [
+            [
+              62,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "点",
+          "pinyin": "dian",
+          "beat": 24.5,
+          "notes": [
+            [
+              67,
+              0.75
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 0.95
+        }
+      ]
+    },
+    {
+      "startBeat": 28,
+      "endBeat": 39,
+      "display": "你笑起来，还像从前",
+      "intent": "保留笑起来的展开；前字只作一次短转音，落稳后及时收声。",
+      "syllables": [
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "beat": 28.5,
+          "notes": [
+            [
+              69,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "笑",
+          "pinyin": "xiao",
+          "beat": 29,
+          "notes": [
+            [
+              72,
+              1.5
+            ]
+          ],
+          "breathinessDb": -0.5,
+          "velocity": 1.05
+        },
+        {
+          "lyric": "起",
+          "pinyin": "qi",
+          "beat": 30.5,
+          "notes": [
+            [
+              74,
+              0.5
+            ]
+          ],
+          "breathinessDb": -0.5,
+          "velocity": 1.05
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "beat": 31,
+          "notes": [
+            [
+              72,
+              1
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "还",
+          "pinyin": "hai",
+          "beat": 32.5,
+          "notes": [
+            [
+              70,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "像",
+          "pinyin": "xiang",
+          "beat": 33,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "从",
+          "pinyin": "cong",
+          "beat": 34,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ],
+          "breathinessDb": 0,
+          "velocity": 1
+        },
+        {
+          "lyric": "前",
+          "pinyin": "qian",
+          "beat": 34.5,
+          "notes": [
+            [
+              67,
+              0.25
+            ],
+            [
+              65,
+              1
+            ]
+          ],
+          "breathinessDb": 0.5,
+          "velocity": 0.95
+        }
+      ]
+    }
+  ],
+  "brief": "多年后的重逢，从靠窗的习惯认出老朋友；轻快、亲近，结尾温暖，不强加悲伤。",
+  "authorship": "本轮由对话模型编写词曲、演唱指令与编配；未经过独立音乐人审阅。",
+  "assessment": "awaiting-user-listening",
+  "revision": {
+    "source": "window-reunion-v1",
+    "request": "拖音太长了 感觉不舒服",
+    "changes": [
+      {
+        "line": 1,
+        "lyric": "边",
+        "beforeBeats": 2.5,
+        "afterBeats": 1,
+        "beforeSeconds": 1.389,
+        "afterSeconds": 0.556,
+        "beforeNotes": [
+          [
+            69,
+            1
+          ],
+          [
+            67,
+            0.5
+          ],
+          [
+            65,
+            1
+          ]
+        ],
+        "afterNotes": [
+          [
+            65,
+            1
+          ]
+        ]
+      },
+      {
+        "line": 2,
+        "lyric": "年",
+        "beforeBeats": 2.0,
+        "afterBeats": 1,
+        "beforeSeconds": 1.111,
+        "afterSeconds": 0.556,
+        "beforeNotes": [
+          [
+            70,
+            0.75
+          ],
+          [
+            69,
+            1.25
+          ]
+        ],
+        "afterNotes": [
+          [
+            69,
+            1
+          ]
+        ]
+      },
+      {
+        "line": 3,
+        "lyric": "点",
+        "beforeBeats": 2,
+        "afterBeats": 0.75,
+        "beforeSeconds": 1.111,
+        "afterSeconds": 0.417,
+        "beforeNotes": [
+          [
+            65,
+            1
+          ],
+          [
+            67,
+            1
+          ]
+        ],
+        "afterNotes": [
+          [
+            67,
+            0.75
+          ]
+        ]
+      },
+      {
+        "line": 4,
+        "lyric": "前",
+        "beforeBeats": 3.0,
+        "afterBeats": 1.25,
+        "beforeSeconds": 1.667,
+        "afterSeconds": 0.694,
+        "beforeNotes": [
+          [
+            67,
+            0.75
+          ],
+          [
+            65,
+            2.25
+          ]
+        ],
+        "afterNotes": [
+          [
+            67,
+            0.25
+          ],
+          [
+            65,
+            1
+          ]
+        ]
+      }
+    ],
+    "scope": "缩短四句句尾并减少转音，整句重新合成。歌词、速度、入句时间、声线、伴奏不变。"
+  }
+}

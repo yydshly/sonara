@@ -1,0 +1,184 @@
+{
+  "id": "ode-reference-5",
+  "title": "《欢乐颂》主题开头 · 啦音检查",
+  "bpm": 108,
+  "duration": 9.444444444444445,
+  "sampleRate": 44100,
+  "phrases": [
+    {
+      "startBeat": 0,
+      "endBeat": 17,
+      "display": "啦音旋律检查",
+      "syllables": [
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 0.5,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 1.5,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 2.5,
+          "notes": [
+            [
+              70,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 3.5,
+          "notes": [
+            [
+              72,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 4.5,
+          "notes": [
+            [
+              72,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 5.5,
+          "notes": [
+            [
+              70,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 6.5,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 7.5,
+          "notes": [
+            [
+              67,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 8.5,
+          "notes": [
+            [
+              65,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 9.5,
+          "notes": [
+            [
+              65,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 10.5,
+          "notes": [
+            [
+              67,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 11.5,
+          "notes": [
+            [
+              69,
+              1
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 12.5,
+          "notes": [
+            [
+              69,
+              1.5
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 14.0,
+          "notes": [
+            [
+              67,
+              0.5
+            ]
+          ]
+        },
+        {
+          "lyric": "啦",
+          "pinyin": "la",
+          "beat": 14.5,
+          "notes": [
+            [
+              67,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "source": "https://www.beethoven.de/en/work/view/5556714292117504/?fromArchive=6192829114089472",
+  "transposeSemitones": 5,
+  "purpose": "仅检查熟悉旋律的演唱与声区差异，不作为原创，不推断中文咬字或产品质量已通过。"
+}

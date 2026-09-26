@@ -1,0 +1,48 @@
+{
+  "title": "追上来",
+  "createdAt": "2026-09-26T14:59:39.482Z",
+  "assessment": "unreviewed",
+  "relationship": "same lyrics, pitches and beat durations; tempo and accompaniment change, vocals are re-synthesized",
+  "versions": [
+    {
+      "style": "rock",
+      "bpm": 132,
+      "voice": "qixuan",
+      "audio": "/style-demos/rock/song.wav",
+      "score": "/style-demos/rock/score.json",
+      "sourceVersion": "c0606ee5-99a8-4e70-8456-10e1b991559c",
+      "hash": "c7e8b71d8b212dc175716b8253cd19a9b245f844942339b5a8bf4ea48ff09cd6",
+      "duration": 17
+    },
+    {
+      "style": "folk",
+      "bpm": 100,
+      "voice": "qixuan",
+      "audio": "/style-demos/folk/song.wav",
+      "score": "/style-demos/folk/score.json",
+      "sourceVersion": "0bd8e17a-96cd-4deb-8800-0cd1fadc8398",
+      "hash": "a43658469bbb46449749db91ec2550ecd7140809a044689292536ef8e30aa849",
+      "duration": 22
+    },
+    {
+      "style": "retro",
+      "bpm": 116,
+      "voice": "qixuan",
+      "audio": "/style-demos/retro/song.wav",
+      "score": "/style-demos/retro/score.json",
+      "sourceVersion": "e68ea465-be24-48ca-a640-61a37aa64e6b",
+      "hash": "e574a270252aae99d35557701535eda441a50831438fa6a98556a298f9f9d491",
+      "duration": 19
+    },
+    {
+      "style": "ballad",
+      "bpm": 88,
+      "voice": "qixuan",
+      "audio": "/style-demos/ballad/song.wav",
+      "score": "/style-demos/ballad/score.json",
+      "sourceVersion": "c322246e-e3fd-485d-98dc-570317c7f8b1",
+      "hash": "52f345b1624196c109586a0a9ebc86b5efc318310b62bdf358281548c344bb7b",
+      "duration": 24
+    }
+  ]
+}

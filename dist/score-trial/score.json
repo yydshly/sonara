@@ -1,0 +1,454 @@
+{
+  "title": "晚风来信 · 副歌试作",
+  "bpm": 80,
+  "meter": "4/4",
+  "key": "C major",
+  "duration": 26,
+  "scoreDuration": 24,
+  "sampleRate": 44100,
+  "voice": "Ria / 狸安",
+  "lyrics": [
+    "让晚风替我拥抱你",
+    "把心事唱给星星听",
+    "就让遗憾随风远去",
+    "在天亮以后遇见你"
+  ],
+  "revisedLyrics": [
+    "让晚风替我拥抱你",
+    "把想念藏进晚风里",
+    "就让遗憾随风远去",
+    "在天亮以后遇见你"
+  ],
+  "chords": [
+    "Fmaj7",
+    "G6",
+    "Em7",
+    "Am7",
+    "Dm7",
+    "G7",
+    "Cmaj7",
+    "C"
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "lyrics": "让晚风替我拥抱你",
+      "revisedLyrics": "让晚风替我拥抱你",
+      "start": 0,
+      "end": 6,
+      "notes": [
+        {
+          "lyric": "让",
+          "revisedLyric": "让",
+          "pinyin": "rang",
+          "revisedPinyin": "rang",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 0.5,
+          "beats": 0.5,
+          "start": 0.375,
+          "duration": 0.375
+        },
+        {
+          "lyric": "晚",
+          "revisedLyric": "晚",
+          "pinyin": "wan",
+          "revisedPinyin": "wan",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 1,
+          "beats": 0.5,
+          "start": 0.75,
+          "duration": 0.375
+        },
+        {
+          "lyric": "风",
+          "revisedLyric": "风",
+          "pinyin": "feng",
+          "revisedPinyin": "feng",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 1.5,
+          "beats": 1,
+          "start": 1.125,
+          "duration": 0.75
+        },
+        {
+          "lyric": "替",
+          "revisedLyric": "替",
+          "pinyin": "ti",
+          "revisedPinyin": "ti",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 2.5,
+          "beats": 0.5,
+          "start": 1.875,
+          "duration": 0.375
+        },
+        {
+          "lyric": "我",
+          "revisedLyric": "我",
+          "pinyin": "wo",
+          "revisedPinyin": "wo",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 3,
+          "beats": 0.5,
+          "start": 2.25,
+          "duration": 0.375
+        },
+        {
+          "lyric": "拥",
+          "revisedLyric": "拥",
+          "pinyin": "yong",
+          "revisedPinyin": "yong",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 3.5,
+          "beats": 1,
+          "start": 2.625,
+          "duration": 0.75
+        },
+        {
+          "lyric": "抱",
+          "revisedLyric": "抱",
+          "pinyin": "bao",
+          "revisedPinyin": "bao",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 4.5,
+          "beats": 1,
+          "start": 3.375,
+          "duration": 0.75
+        },
+        {
+          "lyric": "你",
+          "revisedLyric": "你",
+          "pinyin": "ni",
+          "revisedPinyin": "ni",
+          "midi": 55,
+          "pitch": "G3",
+          "beat": 5.5,
+          "beats": 2,
+          "start": 4.125,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "lyrics": "把心事唱给星星听",
+      "revisedLyrics": "把想念藏进晚风里",
+      "start": 6,
+      "end": 12,
+      "notes": [
+        {
+          "lyric": "把",
+          "revisedLyric": "把",
+          "pinyin": "ba",
+          "revisedPinyin": "ba",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 8.5,
+          "beats": 0.5,
+          "start": 6.375,
+          "duration": 0.375
+        },
+        {
+          "lyric": "心",
+          "revisedLyric": "想",
+          "pinyin": "xin",
+          "revisedPinyin": "xiang",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 9,
+          "beats": 0.5,
+          "start": 6.75,
+          "duration": 0.375
+        },
+        {
+          "lyric": "事",
+          "revisedLyric": "念",
+          "pinyin": "shi",
+          "revisedPinyin": "nian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 9.5,
+          "beats": 1,
+          "start": 7.125,
+          "duration": 0.75
+        },
+        {
+          "lyric": "唱",
+          "revisedLyric": "藏",
+          "pinyin": "chang",
+          "revisedPinyin": "cang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 10.5,
+          "beats": 1,
+          "start": 7.875,
+          "duration": 0.75
+        },
+        {
+          "lyric": "给",
+          "revisedLyric": "进",
+          "pinyin": "gei",
+          "revisedPinyin": "jin",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 11.5,
+          "beats": 0.5,
+          "start": 8.625,
+          "duration": 0.375
+        },
+        {
+          "lyric": "星",
+          "revisedLyric": "晚",
+          "pinyin": "xing",
+          "revisedPinyin": "wan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 12,
+          "beats": 0.5,
+          "start": 9,
+          "duration": 0.375
+        },
+        {
+          "lyric": "星",
+          "revisedLyric": "风",
+          "pinyin": "xing",
+          "revisedPinyin": "feng",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 12.5,
+          "beats": 1,
+          "start": 9.375,
+          "duration": 0.75
+        },
+        {
+          "lyric": "听",
+          "revisedLyric": "里",
+          "pinyin": "ting",
+          "revisedPinyin": "li",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 13.5,
+          "beats": 2,
+          "start": 10.125,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "lyrics": "就让遗憾随风远去",
+      "revisedLyrics": "就让遗憾随风远去",
+      "start": 12,
+      "end": 18,
+      "notes": [
+        {
+          "lyric": "就",
+          "revisedLyric": "就",
+          "pinyin": "jiu",
+          "revisedPinyin": "jiu",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 16.5,
+          "beats": 0.5,
+          "start": 12.375,
+          "duration": 0.375
+        },
+        {
+          "lyric": "让",
+          "revisedLyric": "让",
+          "pinyin": "rang",
+          "revisedPinyin": "rang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 17,
+          "beats": 0.5,
+          "start": 12.75,
+          "duration": 0.375
+        },
+        {
+          "lyric": "遗",
+          "revisedLyric": "遗",
+          "pinyin": "yi",
+          "revisedPinyin": "yi",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 17.5,
+          "beats": 1,
+          "start": 13.125,
+          "duration": 0.75
+        },
+        {
+          "lyric": "憾",
+          "revisedLyric": "憾",
+          "pinyin": "han",
+          "revisedPinyin": "han",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 18.5,
+          "beats": 0.5,
+          "start": 13.875,
+          "duration": 0.375
+        },
+        {
+          "lyric": "随",
+          "revisedLyric": "随",
+          "pinyin": "sui",
+          "revisedPinyin": "sui",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 19,
+          "beats": 0.5,
+          "start": 14.25,
+          "duration": 0.375
+        },
+        {
+          "lyric": "风",
+          "revisedLyric": "风",
+          "pinyin": "feng",
+          "revisedPinyin": "feng",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 19.5,
+          "beats": 1,
+          "start": 14.625,
+          "duration": 0.75
+        },
+        {
+          "lyric": "远",
+          "revisedLyric": "远",
+          "pinyin": "yuan",
+          "revisedPinyin": "yuan",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 20.5,
+          "beats": 1,
+          "start": 15.375,
+          "duration": 0.75
+        },
+        {
+          "lyric": "去",
+          "revisedLyric": "去",
+          "pinyin": "qu",
+          "revisedPinyin": "qu",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 21.5,
+          "beats": 2,
+          "start": 16.125,
+          "duration": 1.5
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "lyrics": "在天亮以后遇见你",
+      "revisedLyrics": "在天亮以后遇见你",
+      "start": 18,
+      "end": 24,
+      "notes": [
+        {
+          "lyric": "在",
+          "revisedLyric": "在",
+          "pinyin": "zai",
+          "revisedPinyin": "zai",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 24.5,
+          "beats": 0.5,
+          "start": 18.375,
+          "duration": 0.375
+        },
+        {
+          "lyric": "天",
+          "revisedLyric": "天",
+          "pinyin": "tian",
+          "revisedPinyin": "tian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 25,
+          "beats": 0.5,
+          "start": 18.75,
+          "duration": 0.375
+        },
+        {
+          "lyric": "亮",
+          "revisedLyric": "亮",
+          "pinyin": "liang",
+          "revisedPinyin": "liang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 25.5,
+          "beats": 1,
+          "start": 19.125,
+          "duration": 0.75
+        },
+        {
+          "lyric": "以",
+          "revisedLyric": "以",
+          "pinyin": "yi",
+          "revisedPinyin": "yi",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 26.5,
+          "beats": 0.5,
+          "start": 19.875,
+          "duration": 0.375
+        },
+        {
+          "lyric": "后",
+          "revisedLyric": "后",
+          "pinyin": "hou",
+          "revisedPinyin": "hou",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 27,
+          "beats": 0.5,
+          "start": 20.25,
+          "duration": 0.375
+        },
+        {
+          "lyric": "遇",
+          "revisedLyric": "遇",
+          "pinyin": "yu",
+          "revisedPinyin": "yu",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 27.5,
+          "beats": 1,
+          "start": 20.625,
+          "duration": 0.75
+        },
+        {
+          "lyric": "见",
+          "revisedLyric": "见",
+          "pinyin": "jian",
+          "revisedPinyin": "jian",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 28.5,
+          "beats": 1,
+          "start": 21.375,
+          "duration": 0.75
+        },
+        {
+          "lyric": "你",
+          "revisedLyric": "你",
+          "pinyin": "ni",
+          "revisedPinyin": "ni",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 29.5,
+          "beats": 2,
+          "start": 22.125,
+          "duration": 1.5
+        }
+      ]
+    }
+  ]
+}

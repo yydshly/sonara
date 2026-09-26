@@ -1,0 +1,194 @@
+{
+  "id": "sound-baseline-v1",
+  "title": "靠窗那边",
+  "bpm": 108,
+  "key": "F 大调",
+  "duration": 23.42222222222222,
+  "brief": "多年后的重逢，从靠窗的习惯认出老朋友；轻快、亲近，结尾温暖，不强加悲伤。",
+  "lyrics": [
+    "你又坐在靠窗那边",
+    "笑着问我这些年",
+    "我说日子忙了点",
+    "你笑起来，还像从前"
+  ],
+  "phrases": [
+    {
+      "start": 1.9444444444444444,
+      "end": 6.666666666666667,
+      "text": "你又坐在靠窗那边",
+      "intent": "轻轻认出熟悉的习惯；靠窗连贯，边字顺着旋律落下。"
+    },
+    {
+      "start": 6.944444444444445,
+      "end": 11.11111111111111,
+      "text": "笑着问我这些年",
+      "intent": "像面对面问候；这些年连成一句，年字留下回想的空间。"
+    },
+    {
+      "start": 11.38888888888889,
+      "end": 15.555555555555555,
+      "text": "我说日子忙了点",
+      "intent": "回答时稍收回去；忙字停留，了字经过，点字不夸张。"
+    },
+    {
+      "start": 15.833333333333334,
+      "end": 21.666666666666668,
+      "text": "你笑起来，还像从前",
+      "intent": "笑起来展开到全段最高点；停半拍，再把从前轻轻落稳。"
+    }
+  ],
+  "assessment": "awaiting-user-listening",
+  "authorship": "本轮由对话模型编写词曲、演唱指令与编配；未经过独立音乐人审阅。",
+  "referenceSource": "https://www.beethoven.de/en/work/view/5556714292117504/?fromArchive=6192829114089472",
+  "files": {
+    "arrangement.json": "70fadfbb498f4652290200240f5d62f5b60372e9b2d2bbb999520343a4cd090d",
+    "original-accompaniment.mid": "dd7f189804b626ad6c54dd2f4c16b1c3963291e636bd44e199e4da69af479c05",
+    "original-accompaniment.wav": "b10b73c6e1e9f6dd6f544b0da70056fe6cba687fd8f1c98296044799ec16e0a3",
+    "original-melody.mid": "5f40216a9d5182bfb56f374cf50b24477fd4185407e4593ceaccd1c1a3dd4063",
+    "original-melody.wav": "c2c5537f9f63324472e0af5101ef54f8a2d5aa414b00295814983b931f9fb570",
+    "original-mix.wav": "125f2363f11547814a89c9ebef57bb73e52e9e964ee77d1f3f50864f064ad97a",
+    "original-vocal.wav": "e34d118dc89760b664c74e2f64f893fbd8c265d303db1e72165191ad3026f950",
+    "reference-high-melody.mid": "c92224af6815e5bc7d568cc424a21169a9c159f1c2a7bb11fb46ab357344e5ce",
+    "reference-high-melody.wav": "9b6cfd13a6a5bc74f769e297bf747d9b352974d2a855a43c60fd6c41b71d35ba",
+    "reference-high-score.json": "204cd5748aa7a9cfd4f3a36a4307391689a4ca6b6053f0f2c3a1e5e229519c10",
+    "reference-high-vocal.wav": "7374deca15720efe6dbab17ffcdfe51015aab452975df316a7ca859aeaeae3c8",
+    "reference-low-melody.mid": "b9440834fff42dab4298637f8e0cf8b1686bd3ab32487c46e655b9c91d98cb27",
+    "reference-low-melody.wav": "40d0e13a1ab6773b4eaaeb65edb89435c917e81603fe0013ea23b9274c710cdf",
+    "reference-low-score.json": "ea566ab16dad619b52c55ead3831e3cb9952514d7698ab25bbea90d55c6fa461",
+    "reference-low-vocal.wav": "665c0a5983ee431d552b693b451b085098f9acc921e18f6120d0607bd08e6ef3",
+    "score.json": "e0a07a68eed45b6409477a5c6f795c8fd22d93013ddbe381ea524015ee8e189e"
+  },
+  "evidence": {
+    "engine": "DiffSinger / Qixuan v2.7.0",
+    "voiceIdentity": "qixuan:7b93b7af25648bc282bb0c59ce033da9ae344b4b923e62bd428a1d7a1b28cccd",
+    "qualityAssessment": "awaiting-user-listening",
+    "reviewer": "结构检查由本轮模型及程序完成，未经过独立音乐人审阅。",
+    "rendered": [
+      {
+        "name": "reference-low",
+        "seconds": 9.444444444444445,
+        "continuationNotes": 0,
+        "controls": [],
+        "meter": {
+          "inputLufs": -22.67,
+          "linearGain": 1.211992688774923,
+          "targetLufs": -21,
+          "peakLimited": false
+        }
+      },
+      {
+        "name": "reference-high",
+        "seconds": 9.444444444444445,
+        "continuationNotes": 0,
+        "controls": [],
+        "meter": {
+          "inputLufs": -21.04,
+          "linearGain": 1.004615790278395,
+          "targetLufs": -21,
+          "peakLimited": false
+        }
+      },
+      {
+        "name": "original",
+        "seconds": 23.42222222222222,
+        "continuationNotes": 5,
+        "controls": [
+          {
+            "breathinessDb": {
+              "controlledFrames": 263,
+              "min": -0.4953673469387754,
+              "max": 0.5,
+              "neutralInRests": true
+            },
+            "velocity": {
+              "controlledFrames": 227,
+              "min": 0.95,
+              "max": 1.0495367346938775,
+              "neutralInRests": true
+            },
+            "acousticInputsVerified": true
+          },
+          {
+            "breathinessDb": {
+              "controlledFrames": 108,
+              "min": 0.0,
+              "max": 0.5,
+              "neutralInRests": true
+            },
+            "velocity": {
+              "controlledFrames": 108,
+              "min": 0.95,
+              "max": 1.0,
+              "neutralInRests": true
+            },
+            "acousticInputsVerified": true
+          },
+          {
+            "breathinessDb": {
+              "controlledFrames": 240,
+              "min": -0.4949591836734698,
+              "max": 0.5,
+              "neutralInRests": true
+            },
+            "velocity": {
+              "controlledFrames": 108,
+              "min": 0.95,
+              "max": 1.0,
+              "neutralInRests": true
+            },
+            "acousticInputsVerified": true
+          },
+          {
+            "breathinessDb": {
+              "controlledFrames": 287,
+              "min": -0.5,
+              "max": 0.5,
+              "neutralInRests": true
+            },
+            "velocity": {
+              "controlledFrames": 287,
+              "min": 0.95,
+              "max": 1.05,
+              "neutralInRests": true
+            },
+            "acousticInputsVerified": true
+          }
+        ],
+        "meter": {
+          "inputLufs": -22.86,
+          "linearGain": 1.238796586530369,
+          "targetLufs": -21,
+          "peakLimited": false
+        },
+        "mixPeak": 0.4225664394307107,
+        "mixCommonGain": 1,
+        "backingMeter": {
+          "inputLufs": -33.01,
+          "linearGain": 1.7803279088537283,
+          "targetLufs": -28,
+          "peakLimited": false
+        },
+        "mixedVocalIdenticalToDry": true
+      }
+    ],
+    "renderSeconds": 125.47,
+    "files": {
+      "arrangement.json": "70fadfbb498f4652290200240f5d62f5b60372e9b2d2bbb999520343a4cd090d",
+      "original-accompaniment.mid": "dd7f189804b626ad6c54dd2f4c16b1c3963291e636bd44e199e4da69af479c05",
+      "original-accompaniment.wav": "b10b73c6e1e9f6dd6f544b0da70056fe6cba687fd8f1c98296044799ec16e0a3",
+      "original-melody.mid": "5f40216a9d5182bfb56f374cf50b24477fd4185407e4593ceaccd1c1a3dd4063",
+      "original-melody.wav": "c2c5537f9f63324472e0af5101ef54f8a2d5aa414b00295814983b931f9fb570",
+      "original-mix.wav": "125f2363f11547814a89c9ebef57bb73e52e9e964ee77d1f3f50864f064ad97a",
+      "original-vocal.wav": "e34d118dc89760b664c74e2f64f893fbd8c265d303db1e72165191ad3026f950",
+      "reference-high-melody.mid": "c92224af6815e5bc7d568cc424a21169a9c159f1c2a7bb11fb46ab357344e5ce",
+      "reference-high-melody.wav": "9b6cfd13a6a5bc74f769e297bf747d9b352974d2a855a43c60fd6c41b71d35ba",
+      "reference-high-score.json": "204cd5748aa7a9cfd4f3a36a4307391689a4ca6b6053f0f2c3a1e5e229519c10",
+      "reference-high-vocal.wav": "7374deca15720efe6dbab17ffcdfe51015aab452975df316a7ca859aeaeae3c8",
+      "reference-low-melody.mid": "b9440834fff42dab4298637f8e0cf8b1686bd3ab32487c46e655b9c91d98cb27",
+      "reference-low-melody.wav": "40d0e13a1ab6773b4eaaeb65edb89435c917e81603fe0013ea23b9274c710cdf",
+      "reference-low-score.json": "ea566ab16dad619b52c55ead3831e3cb9952514d7698ab25bbea90d55c6fa461",
+      "reference-low-vocal.wav": "665c0a5983ee431d552b693b451b085098f9acc921e18f6120d0607bd08e6ef3",
+      "score.json": "e0a07a68eed45b6409477a5c6f795c8fd22d93013ddbe381ea524015ee8e189e"
+    }
+  }
+}

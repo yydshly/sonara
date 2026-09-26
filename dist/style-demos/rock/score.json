@@ -1,0 +1,568 @@
+{
+  "title": "追上来",
+  "description": "132 BPM轻快流行摇滚，以半拍弱起和短促切分配合电吉他、电贝斯与有力鼓组。前两句从惦记工作转向老友领路，喊名字时旋律扬起，重复“追上来”作钩子，最后落回中央C，把松口气留在笑着追赶的动作里。",
+  "bpm": 132,
+  "meter": "4/4",
+  "key": "C major",
+  "sampleRate": 44100,
+  "scoreDuration": 14.545454545454545,
+  "duration": 17,
+  "voice": "绮萱 Qixuan",
+  "music": {
+    "style": "rock",
+    "bpm": 132,
+    "voice": "qixuan"
+  },
+  "lyrics": [
+    "周五下班还惦记没改完的稿",
+    "好久不见你带我骑车去看海",
+    "你在前面喊我名字快追上来",
+    "追上来追上来我笑着喘口气"
+  ],
+  "chords": [
+    "C",
+    "Am",
+    "F",
+    "G",
+    "C",
+    "G",
+    "G",
+    "C"
+  ],
+  "phrases": [
+    {
+      "index": 0,
+      "lyrics": "周五下班还惦记没改完的稿",
+      "start": 0,
+      "end": 3.6363636363636362,
+      "chords": [
+        "C",
+        "Am"
+      ],
+      "notes": [
+        {
+          "lyric": "周",
+          "pinyin": "zhou",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 0.5,
+          "beats": 0.5,
+          "start": 0.22727272727272727,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "五",
+          "pinyin": "wu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 1,
+          "beats": 0.5,
+          "start": 0.45454545454545453,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "下",
+          "pinyin": "xia",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 1.5,
+          "beats": 0.5,
+          "start": 0.6818181818181818,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "班",
+          "pinyin": "ban",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 2,
+          "beats": 0.5,
+          "start": 0.9090909090909091,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "还",
+          "pinyin": "hai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 2.5,
+          "beats": 0.75,
+          "start": 1.1363636363636362,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "惦",
+          "pinyin": "dian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 3.25,
+          "beats": 0.75,
+          "start": 1.4772727272727273,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "记",
+          "pinyin": "ji",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 4,
+          "beats": 0.5,
+          "start": 1.8181818181818181,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "没",
+          "pinyin": "mei",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 4.5,
+          "beats": 0.5,
+          "start": 2.0454545454545454,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "改",
+          "pinyin": "gai",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 5,
+          "beats": 0.5,
+          "start": 2.2727272727272725,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "完",
+          "pinyin": "wan",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 5.5,
+          "beats": 0.5,
+          "start": 2.5,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 6,
+          "beats": 0.75,
+          "start": 2.727272727272727,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "稿",
+          "pinyin": "gao",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 6.75,
+          "beats": 0.75,
+          "start": 3.068181818181818,
+          "duration": 0.3409090909090909
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "lyrics": "好久不见你带我骑车去看海",
+      "start": 3.6363636363636362,
+      "end": 7.2727272727272725,
+      "chords": [
+        "F",
+        "G"
+      ],
+      "notes": [
+        {
+          "lyric": "好",
+          "pinyin": "hao",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 8.5,
+          "beats": 0.5,
+          "start": 3.8636363636363633,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "久",
+          "pinyin": "jiu",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 9,
+          "beats": 0.75,
+          "start": 4.090909090909091,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 9.75,
+          "beats": 0.5,
+          "start": 4.431818181818182,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "见",
+          "pinyin": "jian",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 10.25,
+          "beats": 0.75,
+          "start": 4.659090909090909,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 11,
+          "beats": 0.5,
+          "start": 5,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "带",
+          "pinyin": "dai",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 11.5,
+          "beats": 0.5,
+          "start": 5.2272727272727275,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 12,
+          "beats": 0.5,
+          "start": 5.454545454545454,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "骑",
+          "pinyin": "qi",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 12.5,
+          "beats": 0.5,
+          "start": 5.681818181818182,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "车",
+          "pinyin": "che",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 13,
+          "beats": 0.5,
+          "start": 5.909090909090909,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "去",
+          "pinyin": "qu",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 13.5,
+          "beats": 0.5,
+          "start": 6.136363636363636,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "看",
+          "pinyin": "kan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 14,
+          "beats": 0.75,
+          "start": 6.363636363636363,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 14.75,
+          "beats": 0.75,
+          "start": 6.704545454545454,
+          "duration": 0.3409090909090909
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "lyrics": "你在前面喊我名字快追上来",
+      "start": 7.2727272727272725,
+      "end": 10.909090909090908,
+      "chords": [
+        "C",
+        "G"
+      ],
+      "notes": [
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 16.5,
+          "beats": 0.5,
+          "start": 7.5,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "在",
+          "pinyin": "zai",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 17,
+          "beats": 0.5,
+          "start": 7.727272727272727,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "前",
+          "pinyin": "qian",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 17.5,
+          "beats": 0.5,
+          "start": 7.954545454545454,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "面",
+          "pinyin": "mian",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 18,
+          "beats": 0.5,
+          "start": 8.181818181818182,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "喊",
+          "pinyin": "han",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 18.5,
+          "beats": 0.75,
+          "start": 8.409090909090908,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 19.25,
+          "beats": 0.5,
+          "start": 8.75,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "名",
+          "pinyin": "ming",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 19.75,
+          "beats": 0.75,
+          "start": 8.977272727272727,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "字",
+          "pinyin": "zi",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 20.5,
+          "beats": 0.5,
+          "start": 9.318181818181818,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "快",
+          "pinyin": "kuai",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 21,
+          "beats": 0.5,
+          "start": 9.545454545454545,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "追",
+          "pinyin": "zhui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 21.5,
+          "beats": 0.5,
+          "start": 9.772727272727272,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "上",
+          "pinyin": "shang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 22,
+          "beats": 0.75,
+          "start": 10,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 22.75,
+          "beats": 0.75,
+          "start": 10.34090909090909,
+          "duration": 0.3409090909090909
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "lyrics": "追上来追上来我笑着喘口气",
+      "start": 10.909090909090908,
+      "end": 14.545454545454545,
+      "chords": [
+        "G",
+        "C"
+      ],
+      "notes": [
+        {
+          "lyric": "追",
+          "pinyin": "zhui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 24.5,
+          "beats": 0.5,
+          "start": 11.136363636363637,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "上",
+          "pinyin": "shang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 25,
+          "beats": 0.5,
+          "start": 11.363636363636363,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 25.5,
+          "beats": 0.75,
+          "start": 11.59090909090909,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "追",
+          "pinyin": "zhui",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 26.25,
+          "beats": 0.5,
+          "start": 11.931818181818182,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "上",
+          "pinyin": "shang",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 26.75,
+          "beats": 0.5,
+          "start": 12.159090909090908,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "来",
+          "pinyin": "lai",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 27.25,
+          "beats": 0.75,
+          "start": 12.386363636363637,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "我",
+          "pinyin": "wo",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 28,
+          "beats": 0.5,
+          "start": 12.727272727272727,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "笑",
+          "pinyin": "xiao",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 28.5,
+          "beats": 0.75,
+          "start": 12.954545454545453,
+          "duration": 0.3409090909090909
+        },
+        {
+          "lyric": "着",
+          "pinyin": "zhe",
+          "midi": 64,
+          "pitch": "E4",
+          "beat": 29.25,
+          "beats": 0.5,
+          "start": 13.295454545454545,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "喘",
+          "pinyin": "chuan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 29.75,
+          "beats": 0.5,
+          "start": 13.522727272727272,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "口",
+          "pinyin": "kou",
+          "midi": 59,
+          "pitch": "B3",
+          "beat": 30.25,
+          "beats": 0.5,
+          "start": 13.75,
+          "duration": 0.22727272727272727
+        },
+        {
+          "lyric": "气",
+          "pinyin": "qi",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 30.75,
+          "beats": 0.75,
+          "start": 13.977272727272727,
+          "duration": 0.3409090909090909
+        }
+      ]
+    }
+  ],
+  "creativeBrief": {
+    "audience": "忙碌后再次相聚的老朋友",
+    "feelingStart": "心里还有工作，脚步犹豫",
+    "feelingEnd": "追上朋友，松一口气",
+    "keep": "朋友在前面喊我的名字"
+  }
+}

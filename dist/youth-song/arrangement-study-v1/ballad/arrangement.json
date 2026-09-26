@@ -1,0 +1,660 @@
+{
+  "bpm": 82,
+  "chords": [
+    "C",
+    "Am7",
+    "F",
+    "G",
+    "C/E",
+    "Fmaj7",
+    "G7",
+    "C"
+  ],
+  "tracks": {
+    "grand-piano": {
+      "program": 0,
+      "pan": 48,
+      "volume": 104,
+      "channel": 0,
+      "notes": [
+        {
+          "beat": 0,
+          "beats": 2.9,
+          "midi": 48,
+          "velocity": 65
+        },
+        {
+          "beat": 0.03,
+          "beats": 2.5,
+          "midi": 67,
+          "velocity": 56
+        },
+        {
+          "beat": 0.042,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 57
+        },
+        {
+          "beat": 0.054,
+          "beats": 2.5,
+          "midi": 76,
+          "velocity": 58
+        },
+        {
+          "beat": 2.0,
+          "beats": 0.95,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 2.35,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 51
+        },
+        {
+          "beat": 2.7,
+          "beats": 0.95,
+          "midi": 76,
+          "velocity": 54
+        },
+        {
+          "beat": 4,
+          "beats": 2.9,
+          "midi": 57,
+          "velocity": 65
+        },
+        {
+          "beat": 4.03,
+          "beats": 2.5,
+          "midi": 64,
+          "velocity": 56
+        },
+        {
+          "beat": 4.042,
+          "beats": 2.5,
+          "midi": 67,
+          "velocity": 57
+        },
+        {
+          "beat": 4.054,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 58
+        },
+        {
+          "beat": 6.0,
+          "beats": 0.95,
+          "midi": 64,
+          "velocity": 48
+        },
+        {
+          "beat": 6.35,
+          "beats": 0.95,
+          "midi": 67,
+          "velocity": 51
+        },
+        {
+          "beat": 6.7,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 54
+        },
+        {
+          "beat": 8,
+          "beats": 2.9,
+          "midi": 53,
+          "velocity": 65
+        },
+        {
+          "beat": 8.03,
+          "beats": 2.5,
+          "midi": 65,
+          "velocity": 56
+        },
+        {
+          "beat": 8.042,
+          "beats": 2.5,
+          "midi": 69,
+          "velocity": 57
+        },
+        {
+          "beat": 8.054,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 58
+        },
+        {
+          "beat": 10.0,
+          "beats": 0.95,
+          "midi": 65,
+          "velocity": 48
+        },
+        {
+          "beat": 10.35,
+          "beats": 0.95,
+          "midi": 69,
+          "velocity": 51
+        },
+        {
+          "beat": 10.7,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 54
+        },
+        {
+          "beat": 12,
+          "beats": 2.9,
+          "midi": 55,
+          "velocity": 65
+        },
+        {
+          "beat": 12.03,
+          "beats": 2.5,
+          "midi": 67,
+          "velocity": 56
+        },
+        {
+          "beat": 12.042,
+          "beats": 2.5,
+          "midi": 71,
+          "velocity": 57
+        },
+        {
+          "beat": 12.054,
+          "beats": 2.5,
+          "midi": 74,
+          "velocity": 58
+        },
+        {
+          "beat": 14.0,
+          "beats": 0.95,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 14.35,
+          "beats": 0.95,
+          "midi": 71,
+          "velocity": 51
+        },
+        {
+          "beat": 14.7,
+          "beats": 0.95,
+          "midi": 74,
+          "velocity": 54
+        },
+        {
+          "beat": 16,
+          "beats": 2.9,
+          "midi": 52,
+          "velocity": 65
+        },
+        {
+          "beat": 16.03,
+          "beats": 2.5,
+          "midi": 67,
+          "velocity": 56
+        },
+        {
+          "beat": 16.042,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 57
+        },
+        {
+          "beat": 16.054,
+          "beats": 2.5,
+          "midi": 76,
+          "velocity": 58
+        },
+        {
+          "beat": 18.0,
+          "beats": 0.95,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 18.35,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 51
+        },
+        {
+          "beat": 18.7,
+          "beats": 0.95,
+          "midi": 76,
+          "velocity": 54
+        },
+        {
+          "beat": 20,
+          "beats": 2.9,
+          "midi": 53,
+          "velocity": 65
+        },
+        {
+          "beat": 20.03,
+          "beats": 2.5,
+          "midi": 65,
+          "velocity": 56
+        },
+        {
+          "beat": 20.042,
+          "beats": 2.5,
+          "midi": 69,
+          "velocity": 57
+        },
+        {
+          "beat": 20.054,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 58
+        },
+        {
+          "beat": 20.066,
+          "beats": 2.5,
+          "midi": 76,
+          "velocity": 56
+        },
+        {
+          "beat": 22.0,
+          "beats": 0.95,
+          "midi": 65,
+          "velocity": 48
+        },
+        {
+          "beat": 22.35,
+          "beats": 0.95,
+          "midi": 69,
+          "velocity": 51
+        },
+        {
+          "beat": 22.7,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 54
+        },
+        {
+          "beat": 23.05,
+          "beats": 0.95,
+          "midi": 76,
+          "velocity": 57
+        },
+        {
+          "beat": 24,
+          "beats": 2.9,
+          "midi": 55,
+          "velocity": 65
+        },
+        {
+          "beat": 24.03,
+          "beats": 2.5,
+          "midi": 65,
+          "velocity": 56
+        },
+        {
+          "beat": 24.042,
+          "beats": 2.5,
+          "midi": 71,
+          "velocity": 57
+        },
+        {
+          "beat": 24.054,
+          "beats": 2.5,
+          "midi": 74,
+          "velocity": 58
+        },
+        {
+          "beat": 26.0,
+          "beats": 0.95,
+          "midi": 65,
+          "velocity": 48
+        },
+        {
+          "beat": 26.35,
+          "beats": 0.95,
+          "midi": 71,
+          "velocity": 51
+        },
+        {
+          "beat": 26.7,
+          "beats": 0.95,
+          "midi": 74,
+          "velocity": 54
+        },
+        {
+          "beat": 28,
+          "beats": 2.9,
+          "midi": 48,
+          "velocity": 65
+        },
+        {
+          "beat": 28.03,
+          "beats": 2.5,
+          "midi": 67,
+          "velocity": 56
+        },
+        {
+          "beat": 28.042,
+          "beats": 2.5,
+          "midi": 72,
+          "velocity": 57
+        },
+        {
+          "beat": 28.054,
+          "beats": 2.5,
+          "midi": 76,
+          "velocity": 58
+        },
+        {
+          "beat": 30.0,
+          "beats": 0.95,
+          "midi": 67,
+          "velocity": 48
+        },
+        {
+          "beat": 30.35,
+          "beats": 0.95,
+          "midi": 72,
+          "velocity": 51
+        },
+        {
+          "beat": 30.7,
+          "beats": 0.95,
+          "midi": 76,
+          "velocity": 54
+        }
+      ]
+    },
+    "strings": {
+      "program": 48,
+      "pan": 74,
+      "volume": 65,
+      "channel": 1,
+      "notes": [
+        {
+          "beat": 14,
+          "beats": 1.95,
+          "midi": 67,
+          "velocity": 38
+        },
+        {
+          "beat": 14,
+          "beats": 1.95,
+          "midi": 71,
+          "velocity": 39
+        },
+        {
+          "beat": 14,
+          "beats": 1.95,
+          "midi": 74,
+          "velocity": 40
+        },
+        {
+          "beat": 16,
+          "beats": 3.92,
+          "midi": 67,
+          "velocity": 52
+        },
+        {
+          "beat": 16,
+          "beats": 3.92,
+          "midi": 72,
+          "velocity": 53
+        },
+        {
+          "beat": 16,
+          "beats": 3.92,
+          "midi": 76,
+          "velocity": 54
+        },
+        {
+          "beat": 20,
+          "beats": 3.92,
+          "midi": 65,
+          "velocity": 55
+        },
+        {
+          "beat": 20,
+          "beats": 3.92,
+          "midi": 69,
+          "velocity": 56
+        },
+        {
+          "beat": 20,
+          "beats": 3.92,
+          "midi": 72,
+          "velocity": 57
+        },
+        {
+          "beat": 20,
+          "beats": 3.92,
+          "midi": 76,
+          "velocity": 55
+        },
+        {
+          "beat": 24,
+          "beats": 3.92,
+          "midi": 65,
+          "velocity": 58
+        },
+        {
+          "beat": 24,
+          "beats": 3.92,
+          "midi": 71,
+          "velocity": 59
+        },
+        {
+          "beat": 24,
+          "beats": 3.92,
+          "midi": 74,
+          "velocity": 60
+        },
+        {
+          "beat": 28,
+          "beats": 3.92,
+          "midi": 67,
+          "velocity": 61
+        },
+        {
+          "beat": 28,
+          "beats": 3.92,
+          "midi": 72,
+          "velocity": 62
+        },
+        {
+          "beat": 28,
+          "beats": 3.92,
+          "midi": 76,
+          "velocity": 63
+        }
+      ]
+    },
+    "finger-bass": {
+      "program": 33,
+      "pan": 64,
+      "volume": 86,
+      "channel": 2,
+      "notes": [
+        {
+          "beat": 16,
+          "beats": 3.3,
+          "midi": 40,
+          "velocity": 67
+        },
+        {
+          "beat": 20,
+          "beats": 3.3,
+          "midi": 41,
+          "velocity": 67
+        },
+        {
+          "beat": 24,
+          "beats": 3.3,
+          "midi": 43,
+          "velocity": 67
+        },
+        {
+          "beat": 28,
+          "beats": 3.3,
+          "midi": 36,
+          "velocity": 67
+        }
+      ]
+    },
+    "drums": {
+      "program": 0,
+      "pan": 64,
+      "volume": 66,
+      "channel": 9,
+      "notes": [
+        {
+          "beat": 16,
+          "beats": 0.16,
+          "midi": 36,
+          "velocity": 64
+        },
+        {
+          "beat": 18,
+          "beats": 0.14,
+          "midi": 38,
+          "velocity": 44
+        },
+        {
+          "beat": 16,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 17,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 18,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 19,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 20,
+          "beats": 0.16,
+          "midi": 36,
+          "velocity": 64
+        },
+        {
+          "beat": 22,
+          "beats": 0.14,
+          "midi": 38,
+          "velocity": 44
+        },
+        {
+          "beat": 20,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 21,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 22,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 23,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 24,
+          "beats": 0.16,
+          "midi": 36,
+          "velocity": 64
+        },
+        {
+          "beat": 26,
+          "beats": 0.14,
+          "midi": 38,
+          "velocity": 44
+        },
+        {
+          "beat": 24,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 25,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 26,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 27,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 28,
+          "beats": 0.16,
+          "midi": 36,
+          "velocity": 64
+        },
+        {
+          "beat": 30,
+          "beats": 0.14,
+          "midi": 38,
+          "velocity": 44
+        },
+        {
+          "beat": 28,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 29,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 30,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        },
+        {
+          "beat": 31,
+          "beats": 0.08,
+          "midi": 42,
+          "velocity": 30
+        }
+      ]
+    }
+  },
+  "method": "authored arrangement sketch"
+}

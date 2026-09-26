@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+.local/
+node_modules/
+__pycache__/
+*.pyc
+validation/
+build/
+*.zip
+*.log
+# Raw masters stay local; reviewed web previews live under published/.
+dist/**/*.wav
+dist/**/*.mp3
+*.onnx
+*.sf2
+*.ds
+.DS_Store
+Thumbs.db

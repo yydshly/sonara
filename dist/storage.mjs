@@ -1,0 +1,5 @@
+let dbPromise;
+function db(){return dbPromise||=new Promise((resolve,reject)=>{const request=indexedDB.open('sonara-workspace',1);request.onupgradeneeded=()=>{const d=request.result;for(const store of ['projects','assets','meta'])if(!d.objectStoreNames.contains(store))d.createObjectStore(store,{keyPath:'id'});};request.onsuccess=()=>resolve(request.result);request.onerror=()=>reject(new Error('浏览器未允许本机存储，请保留页面并导出重要音频。'));});}
+export async function get(store,id){const d=await db();return new Promise((resolve,reject)=>{const r=d.transaction(store).objectStore(store).get(id);r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
+export async function all(store){const d=await db();return new Promise((resolve,reject)=>{const r=d.transaction(store).objectStore(store).getAll();r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
+export async function put(store,value){const d=await db();return new Promise((resolve,reject)=>{const tx=d.transaction(store,'readwrite');tx.objectStore(store).put(value);tx.oncomplete=()=>resolve(value);tx.onerror=()=>reject(new Error('本机存储失败，可能空间不足。请导出重要音频。'));tx.onabort=()=>reject(new Error('保存未完成，请重试。'));});}

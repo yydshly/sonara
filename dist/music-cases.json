@@ -1,0 +1,15 @@
+{
+  "status": "not_run",
+  "description": "原创评测歌词。尚未生成音频、评分或产生服务费用。每个候选最多尝试三轮，保留所有结果。",
+  "cases": [
+    { "id": "ZH-01", "language": "zh", "title": "晚风来信", "style": "warm", "duration": 60, "lyrics": "[主歌]\n把今天折进旧口袋\n沿着街灯慢慢走回来\n[副歌]\n让晚风经过，带走我的沉默\n让微亮的灯，照见真实的我", "check": ["准确唱出每句", "停顿自然", "人声清晰"] },
+    { "id": "ZH-02", "language": "zh", "title": "出发之前", "style": "bright", "duration": 60, "lyrics": "[主歌]\n车站的钟刚走过七点\n你把明天写在我掌心里面\n[副歌]\n向前一步，再向前一步\n让脚下的路，把勇气留住", "check": ["数字发音", "重复句完整", "副歌情绪推进"] },
+    { "id": "ZH-03", "language": "zh", "title": "小小的回声", "style": "warm", "duration": 30, "lyrics": "[主歌]\n轻轻地问，轻轻地等\n雨落下来，像小小的回声\n[副歌]\n你听，你听\n我把想念，唱给星星", "check": ["短句间呼吸", "叠词清楚", "不把歌词变为旁白"] },
+    { "id": "ZH-04", "language": "zh", "title": "把路走完", "style": "cinematic", "duration": 120, "lyrics": "[主歌]\n那条没有名字的路\n还留着昨天的脚步\n我把没说完的话\n慢慢写成一封信\n[副歌]\n把路走完，把梦点亮\n把远处的灯带回身旁\n如果风还记得方向\n就让我们继续歌唱\n[桥段]\n停一下，再出发\n天会亮，心会回答", "check": ["完整结构", "长段落内音色稳定", "自然收尾"] },
+    { "id": "EN-01", "language": "en", "title": "Window Light", "style": "warm", "duration": 60, "lyrics": "[Verse]\nFold the day into my coat\nFollow lights along the road\n[Chorus]\nLet the night wind carry me\nPast the words I could not speak", "check": ["Exact words", "Natural stress", "Clear consonants"] },
+    { "id": "EN-02", "language": "en", "title": "One More Step", "style": "bright", "duration": 60, "lyrics": "[Verse]\nSeven minutes till the train\nSunlight slipping through the rain\n[Chorus]\nOne more step, one more try\nLeave a little room for sky", "check": ["Numbers and rhythm", "Repeated phrase retained", "Upbeat delivery"] },
+    { "id": "EN-03", "language": "en", "title": "Stay Awhile", "style": "warm", "duration": 30, "lyrics": "[Verse]\nWait, wait, let the silence breathe\nStay, stay, there is time to leave\n[Chorus]\nHere we are, here we stand\nHold the morning in your hands", "check": ["Repetition", "Pauses", "Singing rather than speech"] },
+    { "id": "EN-04", "language": "en", "title": "A Road of Our Own", "style": "cinematic", "duration": 120, "lyrics": "[Verse]\nThere is a road without a name\nIt never takes us home the same\nI leave a letter by the door\nAnd find a reason to explore\n[Chorus]\nWalk with me beyond the light\nKeep a little hope tonight\nEvery turn and every stone\nBuilds a road we call our own\n[Bridge]\nWe can rest and start again\nWe can learn to trust the rain", "check": ["Full song structure", "Vocal consistency", "Natural ending"] }
+  ],
+  "results": []
+}

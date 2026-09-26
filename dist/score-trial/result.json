@@ -1,0 +1,27 @@
+{
+  "status": "rendered",
+  "voice": "Ria / 狸安",
+  "voiceAuthor": "RibosomeK",
+  "engine": "DiffSinger ONNX via diffsinger-utau",
+  "duration": 26,
+  "sampleRate": 44100,
+  "bitDepth": 24,
+  "peak": 0.7123699188232422,
+  "renderSeconds": 83.29,
+  "changedRegion": {
+    "start": 6.0,
+    "end": 12.0
+  },
+  "unchangedOutsideRegion": true,
+  "identicalPitchControl": true,
+  "melodyUnchanged": true,
+  "qualityAssessment": "Awaiting human listening; technical checks are not a quality rating.",
+  "source": "https://github.com/RibosomeK/RiaDiffSinger",
+  "files": {
+    "song-A.wav": "427412115d409beaa168dcf07bfc14e1940dd45544b62d729e599e48d794fab0",
+    "song-B.wav": "25940fcd59430fb69edab6e7ce9c9faa42626094de7d79fc33f61697da0452e2",
+    "vocal-A.wav": "4757b2f2596c7adaa5046e7843f5fee677f281fcb40b72449e837cb04a357583",
+    "vocal-B.wav": "eadca24c8e865ac428fdcdd3592ac7a449aa039fb248b75d254df8609d7da446",
+    "accompaniment.wav": "586da389d106d9b8d35fec42de8219bb31161928d66c084c7a97a5faa2e9a2a0"
+  }
+}

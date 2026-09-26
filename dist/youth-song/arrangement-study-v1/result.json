@@ -1,0 +1,94 @@
+{
+  "status": "rendered",
+  "id": "arrangement-study-v1",
+  "assessment": "unreviewed",
+  "sourceHashes": {
+    "score.json": "f3f87758d6329cdf91589769d2a908c2d42c9524698f45613e74132e656513b1",
+    "song.wav": "e59722964fe4101988ae8eea5c061148cd666698cea5a1459de2462ac83c2fe4",
+    "accompaniment.wav": "c04bdbd302687d5bb6f76725176d1aa1e116212de73380d880d4dc91390fd68a",
+    "vocal-alignment-v1/song.wav": "e62df31779fecc34a5171905dd53dca6614a8cb578ac42a680b036c92155ad85",
+    "vocal-alignment-v1/vocal.wav": "543f75e9bd1a337c281d4014be45926484880f19ee65808469de6a39615a8599"
+  },
+  "sourceVocal": "S1 咬字校正 · 首段副歌",
+  "bpm": 82,
+  "sampleRate": 44100,
+  "duration": 185,
+  "engine": "FluidSynth 2.6.1",
+  "soundBank": "GeneralUser GS 2.0.3 · S. Christian Collins",
+  "soundBankHash": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "arrangements": [
+    {
+      "id": "folk",
+      "name": "校园民谣",
+      "feeling": "亲近、朴素，像把往事讲给一个人听",
+      "detail": "钢弦吉他分解与轻扫弦，木贝斯和稀疏打击乐",
+      "start": 46.82927437641723,
+      "end": 70.24390022675738,
+      "matchedBackingLufs": -26.099074269960724,
+      "originalBackingLufs": -33.53,
+      "backingGain": 2.3525902158216434,
+      "peak": 0.7397669058474823,
+      "vocalResidualError": 0.0,
+      "outsideRegionUnchanged": true,
+      "vocalPreserved": true,
+      "noteEvents": 173,
+      "files": {
+        "accompaniment-clip.wav": "39bb3bfe8fe049504d73080a54495473f63aac381b4750f2a57003566301624a",
+        "accompaniment.wav": "43cb175e8453737fe02d2de0d27ba2fde7804be118266d35a7e9abb4d22d54a2",
+        "arrangement.json": "ff09ff5c7df1d70bbd83d0af14044656edc1538021a4009907c4913be0e98ced",
+        "arrangement.mid": "9c5bb9c6c8b89b5515199f90872ee32da34abcd5a496f3230c5d15dfbc41e832",
+        "song-clip.wav": "fc14a297d7a811812d306d65809b86e9eee01ff90fcfb2d17e0f466fc100940d",
+        "song.wav": "2f90916a5eb84a8df3f2f9ded652977b07e68c63d5b69c122c6553560caea1af"
+      }
+    },
+    {
+      "id": "retro",
+      "name": "复古流行",
+      "feeling": "轻快里带一点怀念，脚步继续向前",
+      "detail": "电钢琴切分、流动贝斯、清音吉他和完整鼓组",
+      "start": 46.82927437641723,
+      "end": 70.24390022675738,
+      "matchedBackingLufs": -26.099074269960724,
+      "originalBackingLufs": -26.02,
+      "backingGain": 0.9909375520112617,
+      "peak": 0.727391242980957,
+      "vocalResidualError": 0.0,
+      "outsideRegionUnchanged": true,
+      "vocalPreserved": true,
+      "noteEvents": 394,
+      "files": {
+        "accompaniment-clip.wav": "03be76c1ae45b5f7f95de8ee5531effbe8c302dc60ee7dfa1084f701e2b2702c",
+        "accompaniment.wav": "8ccb045caa2bde0dc7cb2eff7e7b0cb1cc5a4cd18049c7f7477431ef8120df75",
+        "arrangement.json": "f248c33e96d5072a826ec74f6c747e0590bbd2ded9b5762f4142e91ade5dcd9c",
+        "arrangement.mid": "3c4b69da82360f2b01b14f5ba2c1cb03488a22c033d4e9e9817f29ee1581f19f",
+        "song-clip.wav": "05bb42047e2c316ebeea0ceb546dda266c20c2d069397004a3eb1ecb1b6fc178",
+        "song.wav": "d262e606ebcc0d13f9fcf9deed29ca685a91afa1931cba48a5bf0d0c027cd060"
+      }
+    },
+    {
+      "id": "ballad",
+      "name": "温暖抒情",
+      "feeling": "前半克制，后半展开为温暖的祝愿",
+      "detail": "钢琴留白，弦乐逐步进入，低音与鼓在后半支撑",
+      "start": 46.82927437641723,
+      "end": 70.24390022675738,
+      "matchedBackingLufs": -26.099074269960724,
+      "originalBackingLufs": -31.5,
+      "backingGain": 1.8622856058966277,
+      "peak": 0.727391242980957,
+      "vocalResidualError": 0.0,
+      "outsideRegionUnchanged": true,
+      "vocalPreserved": true,
+      "noteEvents": 102,
+      "files": {
+        "accompaniment-clip.wav": "a5e20207627b6b29a0aa2f429b247b43c5ba5d4cc8a0964b41b4ea01338dd124",
+        "accompaniment.wav": "3320f7f3e5e268c81f31fe4e93f7e268edcf3b48621ff72320d6a302b8592806",
+        "arrangement.json": "338388dfe4ce0221b01418c4a753fdf358aa142fe52b33f437c6ef2c9ec9ca98",
+        "arrangement.mid": "ce2d5a5db3c61608f95705ff93e8b862cbc3975dfbaa5237a1d94207555971f2",
+        "song-clip.wav": "af7ade1b89556d67044de50d358e5aaf7cde6c9928ccdd990971c8e53c70c553",
+        "song.wav": "8097eac8f9c837a65306e48eebf9ea3ba77774e485cff5a189d25b57e685c269"
+      }
+    }
+  ],
+  "renderSeconds": 7.69
+}

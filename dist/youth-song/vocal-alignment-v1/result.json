@@ -1,0 +1,504 @@
+{
+  "id": "vocal-alignment-v1",
+  "label": "S1 咬字校正 · 首段副歌",
+  "status": "rendered",
+  "assessment": "unreviewed",
+  "voice": "Ria / 狸安（RibosomeK）",
+  "policy": "vowel-onset-v1",
+  "start": 46.82927437641723,
+  "end": 70.24390022675738,
+  "scoreAndLyricsUnchanged": true,
+  "backingUnchanged": true,
+  "outsideRegionUnchanged": true,
+  "sourceHashes": {
+    "song.wav": "e59722964fe4101988ae8eea5c061148cd666698cea5a1459de2462ac83c2fe4",
+    "song.mp3": "48dff479b6b676ad3ae41b4299d4de2b0bc71ac4df4507d97ea536638dd88cce",
+    "vocal.wav": "cd2ea9eb659310755d839db68ae82ccd92bcd083f3a6a56a4a3e13087bef4cc7",
+    "vocal.mp3": "e3f6c0f0a00591e653819dd4dff412152b9d53805ed8823b445b999b33a30038",
+    "accompaniment.wav": "c04bdbd302687d5bb6f76725176d1aa1e116212de73380d880d4dc91390fd68a",
+    "score.json": "f3f87758d6329cdf91589769d2a908c2d42c9524698f45613e74132e656513b1",
+    "lyrics.txt": "1b6a7a21f665bce3ff13447dd86c982236cb65b835fa9a68069049fae53d100f",
+    "melody.mid": "251aa39de45e0af12c8c8432160e6d1cca72c0fe72f02eae83d72de1b99d2087"
+  },
+  "renderSeconds": 41.56,
+  "evidence": [
+    {
+      "index": 6,
+      "lyrics": "那条放学后的路",
+      "notes": [
+        {
+          "lyric": "那",
+          "pitch": "E4",
+          "scoreOnset": 0.3658536585365866,
+          "alignedOnset": 0.36585365,
+          "phones": [
+            "aa",
+            "th"
+          ],
+          "durations": [
+            0.26295732,
+            0.10289634
+          ]
+        },
+        {
+          "lyric": "条",
+          "pitch": "G4",
+          "scoreOnset": 0.7317073170731732,
+          "alignedOnset": 0.73170731,
+          "phones": [
+            "y",
+            "ah",
+            ":u",
+            "f"
+          ],
+          "durations": [
+            0.03658537,
+            0.17073171,
+            0.07317073,
+            0.08536585
+          ]
+        },
+        {
+          "lyric": "放",
+          "pitch": "A4",
+          "scoreOnset": 1.0975609756097526,
+          "alignedOnset": 1.09756097,
+          "phones": [
+            "ah",
+            ":g",
+            "x"
+          ],
+          "durations": [
+            0.36004646,
+            0.16260163,
+            0.20905923
+          ]
+        },
+        {
+          "lyric": "学",
+          "pitch": "G4",
+          "scoreOnset": 1.8292682926829258,
+          "alignedOnset": 1.82926829,
+          "phones": [
+            "yv",
+            "eh",
+            "h"
+          ],
+          "durations": [
+            0.09291521,
+            0.56910569,
+            0.06968641
+          ]
+        },
+        {
+          "lyric": "后",
+          "pitch": "E4",
+          "scoreOnset": 2.560975609756099,
+          "alignedOnset": 2.5609756,
+          "phones": [
+            "ox",
+            ":u",
+            "d"
+          ],
+          "durations": [
+            0.19435976,
+            0.10289634,
+            0.06859756
+          ]
+        },
+        {
+          "lyric": "的",
+          "pitch": "D4",
+          "scoreOnset": 2.9268292682926855,
+          "alignedOnset": 2.9268292600000003,
+          "phones": [
+            "ex",
+            "l"
+          ],
+          "durations": [
+            0.29504327,
+            0.07081039
+          ]
+        },
+        {
+          "lyric": "路",
+          "pitch": "E4",
+          "scoreOnset": 3.292682926829265,
+          "alignedOnset": 3.2926829200000003,
+          "phones": [
+            "uw"
+          ],
+          "durations": [
+            2.19512195
+          ]
+        }
+      ],
+      "relativeRmsDb": -1.9286549331065743e-15
+    },
+    {
+      "index": 7,
+      "lyrics": "怎么走也走不够",
+      "notes": [
+        {
+          "lyric": "怎",
+          "pitch": "F4",
+          "scoreOnset": 0.3658536585365866,
+          "alignedOnset": 0.36585365999999997,
+          "phones": [
+            "ex",
+            ":n",
+            "m"
+          ],
+          "durations": [
+            0.16006098,
+            0.08003049,
+            0.1257622
+          ]
+        },
+        {
+          "lyric": "么",
+          "pitch": "F4",
+          "scoreOnset": 0.7317073170731732,
+          "alignedOnset": 0.7317073299999999,
+          "phones": [
+            "ex",
+            "ts"
+          ],
+          "durations": [
+            0.25963808,
+            0.10621558
+          ]
+        },
+        {
+          "lyric": "走",
+          "pitch": "E4",
+          "scoreOnset": 1.0975609756097597,
+          "alignedOnset": 1.0975609899999998,
+          "phones": [
+            "ox",
+            ":u",
+            "y"
+          ],
+          "durations": [
+            0.52264808,
+            0.10452962,
+            0.10452962
+          ]
+        },
+        {
+          "lyric": "也",
+          "pitch": "D4",
+          "scoreOnset": 1.8292682926829258,
+          "alignedOnset": 1.8292683100000002,
+          "phones": [
+            "eh",
+            "ts"
+          ],
+          "durations": [
+            0.6271777,
+            0.10452962
+          ]
+        },
+        {
+          "lyric": "走",
+          "pitch": "E4",
+          "scoreOnset": 2.560975609756099,
+          "alignedOnset": 2.56097563,
+          "phones": [
+            "ox",
+            ":u",
+            "b"
+          ],
+          "durations": [
+            0.1714939,
+            0.08003049,
+            0.11432927
+          ]
+        },
+        {
+          "lyric": "不",
+          "pitch": "G4",
+          "scoreOnset": 2.9268292682926855,
+          "alignedOnset": 2.92682929,
+          "phones": [
+            "uw",
+            "g"
+          ],
+          "durations": [
+            0.29504327,
+            0.07081039
+          ]
+        },
+        {
+          "lyric": "够",
+          "pitch": "G4",
+          "scoreOnset": 3.292682926829272,
+          "alignedOnset": 3.29268295,
+          "phones": [
+            "ox",
+            ":u"
+          ],
+          "durations": [
+            1.96283391,
+            0.23228804
+          ]
+        }
+      ],
+      "relativeRmsDb": 0.0
+    },
+    {
+      "index": 8,
+      "lyrics": "把没说完的明天",
+      "notes": [
+        {
+          "lyric": "把",
+          "pitch": "E4",
+          "scoreOnset": 0.3658536585365866,
+          "alignedOnset": 0.36585365,
+          "phones": [
+            "aa",
+            "m"
+          ],
+          "durations": [
+            0.2972561,
+            0.06859756
+          ]
+        },
+        {
+          "lyric": "没",
+          "pitch": "G4",
+          "scoreOnset": 0.7317073170731732,
+          "alignedOnset": 0.73170731,
+          "phones": [
+            "ih",
+            ":i",
+            "sh"
+          ],
+          "durations": [
+            0.12981904,
+            0.11801731,
+            0.11801731
+          ]
+        },
+        {
+          "lyric": "说",
+          "pitch": "A4",
+          "scoreOnset": 1.0975609756097597,
+          "alignedOnset": 1.09756097,
+          "phones": [
+            "w",
+            "oh",
+            "w"
+          ],
+          "durations": [
+            0.04645761,
+            0.59233449,
+            0.09291521
+          ]
+        },
+        {
+          "lyric": "完",
+          "pitch": "A4",
+          "scoreOnset": 1.829268292682933,
+          "alignedOnset": 1.82926828,
+          "phones": [
+            "aa",
+            ":n",
+            "d"
+          ],
+          "durations": [
+            0.48018293,
+            0.18292683,
+            0.06859756
+          ]
+        },
+        {
+          "lyric": "的",
+          "pitch": "G4",
+          "scoreOnset": 2.560975609756099,
+          "alignedOnset": 2.5609756,
+          "phones": [
+            "ex",
+            "m"
+          ],
+          "durations": [
+            0.32012195,
+            0.04573171
+          ]
+        },
+        {
+          "lyric": "明",
+          "pitch": "E4",
+          "scoreOnset": 2.9268292682926855,
+          "alignedOnset": 2.92682926,
+          "phones": [
+            "iy",
+            ":g",
+            "th"
+          ],
+          "durations": [
+            0.1534225,
+            0.1534225,
+            0.05900865
+          ]
+        },
+        {
+          "lyric": "天",
+          "pitch": "F4",
+          "scoreOnset": 3.292682926829272,
+          "alignedOnset": 3.2926829100000004,
+          "phones": [
+            "y",
+            "eh",
+            ":n"
+          ],
+          "durations": [
+            0.51103368,
+            1.33565621,
+            0.34843206
+          ]
+        }
+      ],
+      "relativeRmsDb": -9.643274665532871e-16
+    },
+    {
+      "index": 9,
+      "lyrics": "留在你回头的路口",
+      "notes": [
+        {
+          "lyric": "留",
+          "pitch": "E4",
+          "scoreOnset": 0.3658536585365795,
+          "alignedOnset": 0.36585365999999997,
+          "phones": [
+            "y",
+            "ox",
+            ":u",
+            "ts"
+          ],
+          "durations": [
+            0.05716463,
+            0.1257622,
+            0.10289634,
+            0.08003049
+          ]
+        },
+        {
+          "lyric": "在",
+          "pitch": "D4",
+          "scoreOnset": 0.7317073170731732,
+          "alignedOnset": 0.7317073199999999,
+          "phones": [
+            "aa",
+            ":i",
+            "n"
+          ],
+          "durations": [
+            0.18882769,
+            0.08261212,
+            0.09441385
+          ]
+        },
+        {
+          "lyric": "你",
+          "pitch": "C4",
+          "scoreOnset": 1.0975609756097526,
+          "alignedOnset": 1.09756098,
+          "phones": [
+            "iy",
+            "h"
+          ],
+          "durations": [
+            0.6387921,
+            0.09291521
+          ]
+        },
+        {
+          "lyric": "回",
+          "pitch": "D4",
+          "scoreOnset": 1.8292682926829258,
+          "alignedOnset": 1.8292682899999997,
+          "phones": [
+            "w",
+            "ih",
+            ":i",
+            "th"
+          ],
+          "durations": [
+            0.03429878,
+            0.1257622,
+            0.13719512,
+            0.06859756
+          ]
+        },
+        {
+          "lyric": "头",
+          "pitch": "E4",
+          "scoreOnset": 2.1951219512195053,
+          "alignedOnset": 2.19512195,
+          "phones": [
+            "ox",
+            ":u",
+            "d"
+          ],
+          "durations": [
+            0.18882769,
+            0.08261212,
+            0.09441385
+          ]
+        },
+        {
+          "lyric": "的",
+          "pitch": "D4",
+          "scoreOnset": 2.560975609756099,
+          "alignedOnset": 2.56097561,
+          "phones": [
+            "ex",
+            "l"
+          ],
+          "durations": [
+            0.6155633,
+            0.11614402
+          ]
+        },
+        {
+          "lyric": "路",
+          "pitch": "B3",
+          "scoreOnset": 3.292682926829272,
+          "alignedOnset": 3.29268293,
+          "phones": [
+            "uw",
+            "kh"
+          ],
+          "durations": [
+            0.6039489,
+            0.12775842
+          ]
+        },
+        {
+          "lyric": "口",
+          "pitch": "C4",
+          "scoreOnset": 4.024390243902431,
+          "alignedOnset": 4.02439025,
+          "phones": [
+            "ox",
+            ":u"
+          ],
+          "durations": [
+            1.2659698,
+            0.19744483
+          ]
+        }
+      ],
+      "relativeRmsDb": -0.512079496250663
+    }
+  ],
+  "files": {
+    "song-A.wav": "10a616543d0eb5e9efccb7555a26208257474d6688d4fe58ef586d2b91e12661",
+    "song-B.wav": "a107d2e155177b56ae6d4c20212fe4ba041f6f0f312a2bb2a0050369c059f0ff",
+    "song.wav": "e62df31779fecc34a5171905dd53dca6614a8cb578ac42a680b036c92155ad85",
+    "vocal-A.wav": "f46676d2550f3acf47d1c3e39bbcfd9e5f39ef745471636cd6c12484c1690e11",
+    "vocal-B.wav": "f34d30bd2d8cd2591ab7eb918e39270c1ded23c2215ba21da8774c3239e8097c",
+    "vocal.wav": "543f75e9bd1a337c281d4014be45926484880f19ee65808469de6a39615a8599"
+  }
+}

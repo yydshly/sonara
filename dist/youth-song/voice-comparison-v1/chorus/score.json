@@ -1,0 +1,171 @@
+{
+  "title": "那条放学后的路",
+  "bpm": 82,
+  "meter": "4/4",
+  "key": "Bb major",
+  "transposeSemitones": -2,
+  "originalStart": 46.829268292682926,
+  "originalEnd": 58.536585365853654,
+  "phrases": [
+    {
+      "index": 6,
+      "section": "chorus1",
+      "lyrics": "那条放学后的路",
+      "start": 0.0,
+      "end": 5.853658536585364,
+      "notes": [
+        {
+          "lyric": "那",
+          "pinyin": "na",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 0.5,
+          "beats": 0.5,
+          "start": 0.3658536585365866,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "条",
+          "pinyin": "tiao",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 1.0,
+          "beats": 0.5,
+          "start": 0.7317073170731732,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "放",
+          "pinyin": "fang",
+          "midi": 67,
+          "pitch": "G4",
+          "beat": 1.5,
+          "beats": 1,
+          "start": 1.0975609756097526,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "学",
+          "pinyin": "xue",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 2.5,
+          "beats": 1,
+          "start": 1.8292682926829258,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "后",
+          "pinyin": "hou",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 3.5,
+          "beats": 0.5,
+          "start": 2.560975609756099,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "的",
+          "pinyin": "de",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 4.0,
+          "beats": 0.5,
+          "start": 2.9268292682926855,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "路",
+          "pinyin": "lu",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 4.5,
+          "beats": 3,
+          "start": 3.292682926829265,
+          "duration": 2.1951219512195124
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "section": "chorus1",
+      "lyrics": "怎么走也走不够",
+      "start": 5.853658536585364,
+      "end": 11.707317073170728,
+      "notes": [
+        {
+          "lyric": "怎",
+          "pinyin": "zen",
+          "midi": 63,
+          "pitch": "D#4",
+          "beat": 8.5,
+          "beats": 0.5,
+          "start": 6.2195121951219505,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "么",
+          "pinyin": "me",
+          "midi": 63,
+          "pitch": "D#4",
+          "beat": 9.0,
+          "beats": 0.5,
+          "start": 6.585365853658537,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 9.5,
+          "beats": 1,
+          "start": 6.951219512195124,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "也",
+          "pinyin": "ye",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 10.5,
+          "beats": 1,
+          "start": 7.68292682926829,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "走",
+          "pinyin": "zou",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 11.5,
+          "beats": 0.5,
+          "start": 8.414634146341463,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "不",
+          "pinyin": "bu",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 12.0,
+          "beats": 0.5,
+          "start": 8.78048780487805,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "够",
+          "pinyin": "gou",
+          "midi": 65,
+          "pitch": "F4",
+          "beat": 12.5,
+          "beats": 3,
+          "start": 9.146341463414636,
+          "duration": 2.1951219512195124
+        }
+      ]
+    }
+  ],
+  "duration": 12.707317073170728,
+  "sampleRate": 44100
+}

@@ -1,0 +1,166 @@
+{
+  "id": "voice-comparison-v1",
+  "status": "rendered",
+  "assessment": "unreviewed",
+  "sampleRate": 44100,
+  "bpm": 82,
+  "key": "Bb major",
+  "transposeSemitones": -2,
+  "sections": [
+    {
+      "id": "verse",
+      "label": "主歌 · 轻声讲述",
+      "lyrics": [
+        "风把试卷吹过窗台",
+        "粉笔灰落满你刘海"
+      ],
+      "duration": 12.707324263038549,
+      "originalStart": 11.707317073170731,
+      "originalEnd": 23.414634146341463,
+      "scoreHash": "2939545853517a46f144a8dd2e98ebdc158670095f5138c60042821909a4c9f4",
+      "vocalTargetLufs": -23,
+      "versions": [
+        {
+          "id": "ria",
+          "label": "A · 狸安 Ria",
+          "gainDb": 0.15999999999999948,
+          "modelIdentity": "c49585d67920b45607fbaf177ae716e38da9b8eb26780fa6e5851aaff43dd2e3",
+          "evidence": [
+            {
+              "phraseIndex": 0,
+              "lyrics": "风把试卷吹过窗台",
+              "notes": "rest A#3 C4 D4 D4 C4 A#3 A3 C4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "1d292e87c0dc9310d28cefad1fe548265b2e4ad9cf515f7da2cfa60093a3899c"
+            },
+            {
+              "phraseIndex": 1,
+              "lyrics": "粉笔灰落满你刘海",
+              "notes": "rest A#3 A3 G3 A#3 C4 D4 C4 A3 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "e14e7d1fb1d8874dbc701c0d29cac5cccbe92d240e670d0f17cb7e7150af15bd"
+            }
+          ]
+        },
+        {
+          "id": "qixuan",
+          "label": "B · 绮萱 Qixuan",
+          "gainDb": 3.59,
+          "modelIdentity": "c06aa6686dc1ea88408059b5f6d9a4647153323f14fdacf39805ce0d94541606",
+          "evidence": [
+            {
+              "phraseIndex": 0,
+              "lyrics": "风把试卷吹过窗台",
+              "notes": "rest A#3 C4 D4 D4 C4 A#3 A3 C4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "69ffbf2d897933c16a325e70cdfa8c6ac1d8d07298ff59bf79236f4a275ec874"
+            },
+            {
+              "phraseIndex": 1,
+              "lyrics": "粉笔灰落满你刘海",
+              "notes": "rest A#3 A3 G3 A#3 C4 D4 C4 A3 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "aaaa807ba0bdce79c23937fcdcbaebb507ee226c6a97825f228a935d98459177"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chorus",
+      "label": "副歌 · 长音与展开",
+      "lyrics": [
+        "那条放学后的路",
+        "怎么走也走不够"
+      ],
+      "duration": 12.707324263038549,
+      "originalStart": 46.829268292682926,
+      "originalEnd": 58.536585365853654,
+      "scoreHash": "eb16f36089e67ea22cb7f7985044f885c9ff9e6b9f44d4bfc1426a0a56620248",
+      "vocalTargetLufs": -23,
+      "versions": [
+        {
+          "id": "ria",
+          "label": "A · 狸安 Ria",
+          "gainDb": 0.19999999999999973,
+          "modelIdentity": "c49585d67920b45607fbaf177ae716e38da9b8eb26780fa6e5851aaff43dd2e3",
+          "evidence": [
+            {
+              "phraseIndex": 6,
+              "lyrics": "那条放学后的路",
+              "notes": "rest D4 F4 G4 F4 D4 C4 D4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "3b7a933b9aca99779a6f527a65a5e66e1c823109aa2a3872e837f6475d0abaeb"
+            },
+            {
+              "phraseIndex": 7,
+              "lyrics": "怎么走也走不够",
+              "notes": "rest D#4 D#4 D4 C4 D4 F4 F4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "9ef73b18cd60bd67c880496b9efbb9d5f3116bf7fb541c59e9275d7b75cee862"
+            }
+          ]
+        },
+        {
+          "id": "qixuan",
+          "label": "B · 绮萱 Qixuan",
+          "gainDb": 0.980000000000001,
+          "modelIdentity": "c06aa6686dc1ea88408059b5f6d9a4647153323f14fdacf39805ce0d94541606",
+          "evidence": [
+            {
+              "phraseIndex": 6,
+              "lyrics": "那条放学后的路",
+              "notes": "rest D4 F4 G4 F4 D4 C4 D4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "35046237de5d8f092a47cad470cb516481828a947e8229bd83d8cbb50617febd"
+            },
+            {
+              "phraseIndex": 7,
+              "lyrics": "怎么走也走不够",
+              "notes": "rest D#4 D#4 D4 C4 D4 F4 F4 rest",
+              "vowelOnsetsAligned": true,
+              "f0Hash": "dc57f20d9117cc1dd912965142f1c0bd548e779ce86e61b0a6db851ef5eddcae"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sameScoreAndLyrics": true,
+  "sameBackingPerSection": true,
+  "originalFilesUnchanged": true,
+  "sourceHashes": {
+    "score.json": "f3f87758d6329cdf91589769d2a908c2d42c9524698f45613e74132e656513b1",
+    "song.wav": "e59722964fe4101988ae8eea5c061148cd666698cea5a1459de2462ac83c2fe4",
+    "vocal.wav": "cd2ea9eb659310755d839db68ae82ccd92bcd083f3a6a56a4a3e13087bef4cc7",
+    "accompaniment.wav": "c04bdbd302687d5bb6f76725176d1aa1e116212de73380d880d4dc91390fd68a",
+    "vocal-alignment-v1/song.wav": "e62df31779fecc34a5171905dd53dca6614a8cb578ac42a680b036c92155ad85"
+  },
+  "files": {
+    "chorus/piano.mid": "bcaae502d0d32cec66191c643658e5f5c0808f3776a21d7d7dc31033e84c52f7",
+    "chorus/piano.wav": "6727c1925ead95767108e984a2e31989c0898b9a890b0d7e953f1745d2ad889f",
+    "chorus/qixuan-song.wav": "bf54ac6594d6ad6edc62428dab6121ab3f48af5fe7c070bbab4facfc7fd71c3e",
+    "chorus/qixuan-vocal.wav": "373cc948198d8c52b2ce8413fe0d2d2628ceb1882410a7164183047f40b85261",
+    "chorus/ria-song.wav": "1e01e36163609363976106e5326cde7ccec28b08c2aaace32031075a0c27f700",
+    "chorus/ria-vocal.wav": "f8d008e7665a1fab2aae2eff08660cecc5b828db568b65ec0343eab87ebace81",
+    "chorus/score.json": "86d3119bd23e0a2ad5f45a7682cad5f2e2ab82cb8194338af9a926a70e2769b8",
+    "verse/piano.mid": "2a5a66d396bd41555c668b6a6f81420eb6d44a5edd2b639633a7baff248256fe",
+    "verse/piano.wav": "ae85759dbdf88a76c1718030c499aa2bc6e8c8a6bb3154a750eeba403ff03e82",
+    "verse/qixuan-song.wav": "30fc3c455a2fe30e93e922123c9d9b2c93cad3e3de4cef4ff78f658b19410944",
+    "verse/qixuan-vocal.wav": "49530312bd700337696df6db418c84f08ea08dc8a36fe9f5156d1ccfc287915e",
+    "verse/ria-song.wav": "56350ef92a626c1186ddacba150920666a744232733b6cc5661ca5d71386a36a",
+    "verse/ria-vocal.wav": "af9b23178036ef235ce26999cfd9047c277cb5a9f3f3b1560f8006f3dd6b61aa",
+    "verse/score.json": "0cc41921d5e41ed0edf65a349833c5d275df28beda34c2b871814adf48207694"
+  },
+  "scope": "Two independent DiffSinger voicebank, singing-model and vocoder chains; not different engine families.",
+  "credits": {
+    "ria": "Ria / 狸安 — RibosomeK; DiffSinger AI singing",
+    "qixuan": "绮萱 Qixuan v2.7.0 — 颜绮萱、YQ之神及制作组; DiffSinger AI singing",
+    "vocoder": "OpenVPI Community PC-NSF-HiFiGAN 2025.02; CC BY-NC-SA 4.0; local evaluation only"
+  },
+  "limitations": [
+    "No human quality verdict yet",
+    "Only two Mandarin excerpts; English and full-song quality not tested",
+    "Pitch and expression are predicted independently by each voicebank; not a timbre-only swap"
+  ]
+}

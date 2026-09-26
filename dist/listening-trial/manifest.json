@@ -1,0 +1,60 @@
+{
+  "id": "reunion-layers-v1",
+  "title": "追上来",
+  "duration": 19,
+  "bpm": 116,
+  "factor": "accompaniment-layers",
+  "factorLabel": "伴奏层次",
+  "question": "哪一版让你更想继续听？",
+  "story": "周五下班，和许久未见的朋友骑车去海边。听见朋友在前面喊自己的名字，终于笑着追上去。",
+  "lyrics": [
+    "周五下班还惦记没改完的稿",
+    "好久不见你带我骑车去看海",
+    "你在前面喊我名字快追上来",
+    "追上来追上来我笑着喘口气"
+  ],
+  "preserved": [
+    "歌词与旋律",
+    "116 BPM 的节奏",
+    "同一份绮萱演唱",
+    "相同的电钢琴、贝斯与鼓音频"
+  ],
+  "variants": [
+    {
+      "id": "A",
+      "file": "A.wav",
+      "hash": "7a248eb064610f7bda0bf3184aca3ebd0cf9f9e829372f6e194a141f596cda83",
+      "description": "简约伴奏：电钢琴、贝斯与鼓",
+      "music": {
+        "style": "retro",
+        "bpm": 116,
+        "voice": "qixuan",
+        "texture": "sparse"
+      }
+    },
+    {
+      "id": "B",
+      "file": "B.wav",
+      "hash": "07d34623286d749cf4cf701fc2ac47659cc54f9edcdf79fb2afdce13727670fa",
+      "description": "增加层次：在相同基础上加入清音吉他和铺底声部",
+      "music": {
+        "style": "retro",
+        "bpm": 116,
+        "voice": "qixuan"
+      }
+    }
+  ],
+  "evidence": {
+    "sourceScoreHash": "6aedec2feab4031f9fba1fad272a8dcf6340a1887af03b9a5561a5a4e8489d31",
+    "sourceVocalHash": "e060fedf8b50634fb070aed512f8c3d7885999ef3e835af11b8e6d50d8f65178",
+    "sameVocalSamples": true,
+    "sameCommonInstrumentSamples": true,
+    "integratedLufs": {
+      "A": -16.69,
+      "B": -16.68
+    },
+    "extraGain": 1.0,
+    "differenceWithinPCM24Tolerance": true
+  },
+  "assessment": "awaiting-user-choice"
+}

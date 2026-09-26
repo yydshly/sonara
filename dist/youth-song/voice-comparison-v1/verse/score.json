@@ -1,0 +1,191 @@
+{
+  "title": "那条放学后的路",
+  "bpm": 82,
+  "meter": "4/4",
+  "key": "Bb major",
+  "transposeSemitones": -2,
+  "originalStart": 11.707317073170731,
+  "originalEnd": 23.414634146341463,
+  "phrases": [
+    {
+      "index": 0,
+      "section": "verse1",
+      "lyrics": "风把试卷吹过窗台",
+      "start": 0.0,
+      "end": 5.8536585365853675,
+      "notes": [
+        {
+          "lyric": "风",
+          "pinyin": "feng",
+          "midi": 58,
+          "pitch": "A#3",
+          "beat": 0.5,
+          "beats": 0.5,
+          "start": 0.3658536585365848,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "把",
+          "pinyin": "ba",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 1.0,
+          "beats": 0.5,
+          "start": 0.7317073170731714,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "试",
+          "pinyin": "shi",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 1.5,
+          "beats": 1,
+          "start": 1.0975609756097562,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "卷",
+          "pinyin": "juan",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 2.5,
+          "beats": 0.5,
+          "start": 1.8292682926829276,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "吹",
+          "pinyin": "chui",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 3.0,
+          "beats": 0.5,
+          "start": 2.1951219512195124,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "过",
+          "pinyin": "guo",
+          "midi": 58,
+          "pitch": "A#3",
+          "beat": 3.5,
+          "beats": 1,
+          "start": 2.560975609756097,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "窗",
+          "pinyin": "chuang",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 4.5,
+          "beats": 1,
+          "start": 3.2926829268292686,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "台",
+          "pinyin": "tai",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 5.5,
+          "beats": 2,
+          "start": 4.024390243902438,
+          "duration": 1.4634146341463414
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "section": "verse1",
+      "lyrics": "粉笔灰落满你刘海",
+      "start": 5.8536585365853675,
+      "end": 11.707317073170731,
+      "notes": [
+        {
+          "lyric": "粉",
+          "pinyin": "fen",
+          "midi": 58,
+          "pitch": "A#3",
+          "beat": 8.5,
+          "beats": 0.5,
+          "start": 6.2195121951219505,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "笔",
+          "pinyin": "bi",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 9.0,
+          "beats": 0.5,
+          "start": 6.585365853658537,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "灰",
+          "pinyin": "hui",
+          "midi": 55,
+          "pitch": "G3",
+          "beat": 9.5,
+          "beats": 1,
+          "start": 6.95121951219512,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "落",
+          "pinyin": "luo",
+          "midi": 58,
+          "pitch": "A#3",
+          "beat": 10.5,
+          "beats": 0.5,
+          "start": 7.682926829268293,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "满",
+          "pinyin": "man",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 11.0,
+          "beats": 0.5,
+          "start": 8.048780487804876,
+          "duration": 0.36585365853658536
+        },
+        {
+          "lyric": "你",
+          "pinyin": "ni",
+          "midi": 62,
+          "pitch": "D4",
+          "beat": 11.5,
+          "beats": 1,
+          "start": 8.414634146341463,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "刘",
+          "pinyin": "liu",
+          "midi": 60,
+          "pitch": "C4",
+          "beat": 12.5,
+          "beats": 1,
+          "start": 9.146341463414632,
+          "duration": 0.7317073170731707
+        },
+        {
+          "lyric": "海",
+          "pinyin": "hai",
+          "midi": 57,
+          "pitch": "A3",
+          "beat": 13.5,
+          "beats": 2,
+          "start": 9.878048780487806,
+          "duration": 1.4634146341463414
+        }
+      ]
+    }
+  ],
+  "duration": 12.707317073170731,
+  "sampleRate": 44100
+}

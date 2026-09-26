@@ -1,0 +1,272 @@
+{
+  "title": "靠窗那边",
+  "bpm": 108,
+  "key": "F 大调",
+  "duration": 23.42222222222222,
+  "brief": "多年后的重逢，从靠窗的习惯认出老朋友；轻快、亲近，结尾温暖，不强加悲伤。",
+  "lyrics": [
+    "你又坐在靠窗那边",
+    "笑着问我这些年",
+    "我说日子忙了点",
+    "你笑起来，还像从前"
+  ],
+  "authorship": "本轮由对话模型编写词曲、演唱指令与编配；未经过独立音乐人审阅。",
+  "referenceSource": "https://www.beethoven.de/en/work/view/5556714292117504/?fromArchive=6192829114089472",
+  "id": "sound-baseline-v2",
+  "label": "少拖音版",
+  "files": {
+    "arrangement.json": "70fadfbb498f4652290200240f5d62f5b60372e9b2d2bbb999520343a4cd090d",
+    "original-accompaniment.mid": "dd7f189804b626ad6c54dd2f4c16b1c3963291e636bd44e199e4da69af479c05",
+    "original-accompaniment.wav": "b10b73c6e1e9f6dd6f544b0da70056fe6cba687fd8f1c98296044799ec16e0a3",
+    "original-melody.mid": "e390300df504ea812908ae33a5d0448e0736ff87a529598923b2a156c43d0529",
+    "original-melody.wav": "736fb1ac4f7515e2c50c37f52f4f2c94f514e0b759fd9a7632a253a683ecf03b",
+    "original-mix.wav": "7c9559f73a0d52e88faea2500d196cfb6f49d062a8dcc4fe2bb0eba4424956bd",
+    "original-vocal.wav": "2abc090097d175a9512ce6692bc43d235564039523895b0f91e146c171986c29",
+    "score.json": "ff06ea73dd9e046027481bc1c9aee9b279fe1f2cb88c9ab00d7389b74648dc4a"
+  },
+  "assessment": "awaiting-user-listening",
+  "changeSummary": "四句句尾缩短到约 0.4–0.7 秒，减少连续转音；速度与伴奏保持相同。",
+  "phrases": [
+    {
+      "start": 1.9444444444444444,
+      "end": 6.666666666666667,
+      "text": "你又坐在靠窗那边",
+      "intent": "靠窗保持原来的节奏；边字用一个音收住，不再连续转三个音。"
+    },
+    {
+      "start": 6.944444444444445,
+      "end": 11.11111111111111,
+      "text": "笑着问我这些年",
+      "intent": "这些年保持连贯，年字只停留一拍，随后让伴奏接话。"
+    },
+    {
+      "start": 11.38888888888889,
+      "end": 15.555555555555555,
+      "text": "我说日子忙了点",
+      "intent": "点字缩到四分之三拍，像一句简短的回答。"
+    },
+    {
+      "start": 15.833333333333334,
+      "end": 21.666666666666668,
+      "text": "你笑起来，还像从前",
+      "intent": "保留笑起来的展开；前字只作一次短转音，落稳后及时收声。"
+    }
+  ],
+  "previous": {
+    "base": "/sound-baseline-v1/",
+    "label": "原版 · 较长收尾",
+    "files": {
+      "arrangement.json": "70fadfbb498f4652290200240f5d62f5b60372e9b2d2bbb999520343a4cd090d",
+      "original-accompaniment.mid": "dd7f189804b626ad6c54dd2f4c16b1c3963291e636bd44e199e4da69af479c05",
+      "original-accompaniment.wav": "b10b73c6e1e9f6dd6f544b0da70056fe6cba687fd8f1c98296044799ec16e0a3",
+      "original-melody.mid": "5f40216a9d5182bfb56f374cf50b24477fd4185407e4593ceaccd1c1a3dd4063",
+      "original-melody.wav": "c2c5537f9f63324472e0af5101ef54f8a2d5aa414b00295814983b931f9fb570",
+      "original-mix.wav": "125f2363f11547814a89c9ebef57bb73e52e9e964ee77d1f3f50864f064ad97a",
+      "original-vocal.wav": "e34d118dc89760b664c74e2f64f893fbd8c265d303db1e72165191ad3026f950",
+      "reference-high-melody.mid": "c92224af6815e5bc7d568cc424a21169a9c159f1c2a7bb11fb46ab357344e5ce",
+      "reference-high-melody.wav": "9b6cfd13a6a5bc74f769e297bf747d9b352974d2a855a43c60fd6c41b71d35ba",
+      "reference-high-score.json": "204cd5748aa7a9cfd4f3a36a4307391689a4ca6b6053f0f2c3a1e5e229519c10",
+      "reference-high-vocal.wav": "7374deca15720efe6dbab17ffcdfe51015aab452975df316a7ca859aeaeae3c8",
+      "reference-low-melody.mid": "b9440834fff42dab4298637f8e0cf8b1686bd3ab32487c46e655b9c91d98cb27",
+      "reference-low-melody.wav": "40d0e13a1ab6773b4eaaeb65edb89435c917e81603fe0013ea23b9274c710cdf",
+      "reference-low-score.json": "ea566ab16dad619b52c55ead3831e3cb9952514d7698ab25bbea90d55c6fa461",
+      "reference-low-vocal.wav": "665c0a5983ee431d552b693b451b085098f9acc921e18f6120d0607bd08e6ef3",
+      "score.json": "e0a07a68eed45b6409477a5c6f795c8fd22d93013ddbe381ea524015ee8e189e"
+    },
+    "phrases": [
+      {
+        "start": 1.9444444444444444,
+        "end": 6.666666666666667,
+        "text": "你又坐在靠窗那边",
+        "intent": "轻轻认出熟悉的习惯；靠窗连贯，边字顺着旋律落下。"
+      },
+      {
+        "start": 6.944444444444445,
+        "end": 11.11111111111111,
+        "text": "笑着问我这些年",
+        "intent": "像面对面问候；这些年连成一句，年字留下回想的空间。"
+      },
+      {
+        "start": 11.38888888888889,
+        "end": 15.555555555555555,
+        "text": "我说日子忙了点",
+        "intent": "回答时稍收回去；忙字停留，了字经过，点字不夸张。"
+      },
+      {
+        "start": 15.833333333333334,
+        "end": 21.666666666666668,
+        "text": "你笑起来，还像从前",
+        "intent": "笑起来展开到全段最高点；停半拍，再把从前轻轻落稳。"
+      }
+    ]
+  },
+  "referenceBase": "/sound-baseline-v1/",
+  "referenceFiles": {
+    "arrangement.json": "70fadfbb498f4652290200240f5d62f5b60372e9b2d2bbb999520343a4cd090d",
+    "original-accompaniment.mid": "dd7f189804b626ad6c54dd2f4c16b1c3963291e636bd44e199e4da69af479c05",
+    "original-accompaniment.wav": "b10b73c6e1e9f6dd6f544b0da70056fe6cba687fd8f1c98296044799ec16e0a3",
+    "original-melody.mid": "5f40216a9d5182bfb56f374cf50b24477fd4185407e4593ceaccd1c1a3dd4063",
+    "original-melody.wav": "c2c5537f9f63324472e0af5101ef54f8a2d5aa414b00295814983b931f9fb570",
+    "original-mix.wav": "125f2363f11547814a89c9ebef57bb73e52e9e964ee77d1f3f50864f064ad97a",
+    "original-vocal.wav": "e34d118dc89760b664c74e2f64f893fbd8c265d303db1e72165191ad3026f950",
+    "reference-high-melody.mid": "c92224af6815e5bc7d568cc424a21169a9c159f1c2a7bb11fb46ab357344e5ce",
+    "reference-high-melody.wav": "9b6cfd13a6a5bc74f769e297bf747d9b352974d2a855a43c60fd6c41b71d35ba",
+    "reference-high-score.json": "204cd5748aa7a9cfd4f3a36a4307391689a4ca6b6053f0f2c3a1e5e229519c10",
+    "reference-high-vocal.wav": "7374deca15720efe6dbab17ffcdfe51015aab452975df316a7ca859aeaeae3c8",
+    "reference-low-melody.mid": "b9440834fff42dab4298637f8e0cf8b1686bd3ab32487c46e655b9c91d98cb27",
+    "reference-low-melody.wav": "40d0e13a1ab6773b4eaaeb65edb89435c917e81603fe0013ea23b9274c710cdf",
+    "reference-low-score.json": "ea566ab16dad619b52c55ead3831e3cb9952514d7698ab25bbea90d55c6fa461",
+    "reference-low-vocal.wav": "665c0a5983ee431d552b693b451b085098f9acc921e18f6120d0607bd08e6ef3",
+    "score.json": "e0a07a68eed45b6409477a5c6f795c8fd22d93013ddbe381ea524015ee8e189e"
+  },
+  "evidence": {
+    "sourceId": "sound-baseline-v1",
+    "voiceIdentity": "qixuan:7b93b7af25648bc282bb0c59ce033da9ae344b4b923e62bd428a1d7a1b28cccd",
+    "changes": [
+      {
+        "line": 1,
+        "lyric": "边",
+        "beforeBeats": 2.5,
+        "afterBeats": 1,
+        "beforeSeconds": 1.389,
+        "afterSeconds": 0.556,
+        "beforeNotes": [
+          [
+            69,
+            1
+          ],
+          [
+            67,
+            0.5
+          ],
+          [
+            65,
+            1
+          ]
+        ],
+        "afterNotes": [
+          [
+            65,
+            1
+          ]
+        ]
+      },
+      {
+        "line": 2,
+        "lyric": "年",
+        "beforeBeats": 2.0,
+        "afterBeats": 1,
+        "beforeSeconds": 1.111,
+        "afterSeconds": 0.556,
+        "beforeNotes": [
+          [
+            70,
+            0.75
+          ],
+          [
+            69,
+            1.25
+          ]
+        ],
+        "afterNotes": [
+          [
+            69,
+            1
+          ]
+        ]
+      },
+      {
+        "line": 3,
+        "lyric": "点",
+        "beforeBeats": 2,
+        "afterBeats": 0.75,
+        "beforeSeconds": 1.111,
+        "afterSeconds": 0.417,
+        "beforeNotes": [
+          [
+            65,
+            1
+          ],
+          [
+            67,
+            1
+          ]
+        ],
+        "afterNotes": [
+          [
+            67,
+            0.75
+          ]
+        ]
+      },
+      {
+        "line": 4,
+        "lyric": "前",
+        "beforeBeats": 3.0,
+        "afterBeats": 1.25,
+        "beforeSeconds": 1.667,
+        "afterSeconds": 0.694,
+        "beforeNotes": [
+          [
+            67,
+            0.75
+          ],
+          [
+            65,
+            2.25
+          ]
+        ],
+        "afterNotes": [
+          [
+            67,
+            0.25
+          ],
+          [
+            65,
+            1
+          ]
+        ]
+      }
+    ],
+    "phraseInputs": [
+      {
+        "line": 1,
+        "releaseSeconds": 5.0,
+        "realTrailingRestSeconds": 1.666666667,
+        "continuationNotes": 0
+      },
+      {
+        "line": 2,
+        "releaseSeconds": 9.444444444444445,
+        "realTrailingRestSeconds": 1.666666667,
+        "continuationNotes": 0
+      },
+      {
+        "line": 3,
+        "releaseSeconds": 14.027777777777779,
+        "realTrailingRestSeconds": 1.527777778,
+        "continuationNotes": 0
+      },
+      {
+        "line": 4,
+        "releaseSeconds": 19.86111111111111,
+        "realTrailingRestSeconds": 1.805555556,
+        "continuationNotes": 1
+      }
+    ],
+    "sameAccompanimentBytes": true,
+    "sourceFilesUnchanged": true,
+    "sameLyricsTempoEntrancesVoice": true,
+    "vocalRerenderScope": "entire four phrases; unchanged vowel waveforms are not guaranteed",
+    "mixMinusBackingVsDryMaxError": 0.0,
+    "mixPeak": 0.4445526599884033,
+    "vocalMeter": {
+      "inputLufs": -22.66,
+      "linearGain": 1.2105981335504823,
+      "targetLufs": -21,
+      "peakLimited": false
+    },
+    "renderSeconds": 97.99,
+    "qualityAssessment": "awaiting-user-listening"
+  }
+}
