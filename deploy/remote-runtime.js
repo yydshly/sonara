@@ -19,7 +19,7 @@
   document.addEventListener('DOMContentLoaded',()=>{
     const bar=document.createElement('aside');bar.className='remote-notice';bar.setAttribute('aria-label','远端部署能力');
     const home=document.createElement('a');home.href=base+'/';home.textContent='声间 · 统一入口 ↗';
-    const copy=document.createElement('span');copy.textContent='远端展示版 · 现有作品可试听，音轨可在浏览器编辑；新歌生成需本机环境。试听下载为 MP3，原始 WAV 保留在本机。';
+    const copy=document.createElement('span');copy.textContent='在线工作台 · 可保存想法、编辑歌词、交接 MiniMax 任务与导入音乐；自动生成需本机服务。公开示范使用 MP3 试听副本。';
     bar.append(home,copy);document.body.prepend(bar);
     const style=document.createElement('style');style.textContent='.remote-notice{display:flex;gap:20px;align-items:center;background:#24351d;border-bottom:1px solid #567044;padding:12px 24px;font:12px/1.8 system-ui;color:#d4e8bd}.remote-notice a{color:inherit;white-space:nowrap;text-decoration:underline}@media(max-width:650px){.remote-notice{display:block;padding:10px 18px}.remote-notice span{display:block;margin-top:4px}}';document.head.append(style);
     document.addEventListener('click',event=>{const link=event.target.closest?.('a[download]');if(link&&new URL(link.href).pathname.endsWith('.mp3'))link.download=link.download.replace(/\.wav$/i,'.mp3');},true);

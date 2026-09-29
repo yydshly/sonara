@@ -15,7 +15,7 @@ GitHub Pages 一个仓库只提供一个站点；本配置在该站点下提供�
 - `scripts/export-web-preview.py` 仅由本机维护者主动运行；不会导出整个 `.local/`，也不在 CI 中调用本机 Codex。
 - `scripts/build-site.mjs` 无需网络、模型或密钥即可从已提交文件构建。
 - `remote-runtime.js` 只在发布包加载，将只读示范映射到静态资源，并拒绝后台写入；原始本机程序不使用该适配器。
-- 浏览器内导入、混音和导出不通过远端后台，仍可使用。新歌生成与重新演唱不在静态站点运行。
+- 新工作台用 IndexedDB 保存当前浏览器的草稿、任务、听感和导入的音频，不调用公共写入后台。可以导出 MiniMax 任务并导回真实结果；自动生成与重新演唱不在静态站点运行。浏览器内音轨混音和导出继续可用。
 
 源码提交排除 `.env`、`.local/`、声库、模型、原始 WAV、诊断日志和本机验证资料。仓库权限与网页访问权限分别由托管平台控制，不能把“私有源码”理解为“网页也私有”。
 
@@ -31,7 +31,7 @@ GitHub Pages 支持范围以[官方说明](https://docs.github.com/en/pages/gett
 
 - 源码仓库：[yydshly/sonara](https://github.com/yydshly/sonara)，已按拥有者确认设为公开。
 - 统一入口：[声间音乐创作室](https://yydshly.github.io/sonara/)。
-- 独立功能地址：[故事与歌曲](https://yydshly.github.io/sonara/studio/)、[青春歌曲](https://yydshly.github.io/sonara/song/)、[声音与风格](https://yydshly.github.io/sonara/lab/)、[按谱试唱](https://yydshly.github.io/sonara/score/)、[音轨工作台](https://yydshly.github.io/sonara/tools/)。
+- 独立功能地址：[我的音乐工作台](https://yydshly.github.io/sonara/studio/)、[青春歌曲](https://yydshly.github.io/sonara/song/)、[声音与风格](https://yydshly.github.io/sonara/lab/)、[按谱试唱](https://yydshly.github.io/sonara/score/)、[音轨工作台](https://yydshly.github.io/sonara/tools/)。
 - 进展页：[当前进展与能力边界](https://yydshly.github.io/sonara/progress.html)。
 - 首次源码提交：`7953b7fa9a02840b00a5804668ae39750e8db255`。
 - [首次远端检查](https://github.com/yydshly/sonara/actions/runs/36261639539)与[首次部署](https://github.com/yydshly/sonara/actions/runs/36261732010)成功，网页已实际打开验证。

@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const target=process.env.SONARA_SITE_TARGET||'portal';
-const entries={portal:'index.html',studio:'compose.html?view=home',song:'youth-song.html',lab:'sound-lab.html',score:'score-trial.html',tools:'audio-tools.html'};
+const entries={portal:'index.html',studio:'studio.html',song:'youth-song.html',lab:'sound-lab.html',score:'score-trial.html',tools:'audio-tools.html'};
 if(!Object.hasOwn(entries,target))throw Error('Unknown deployment target');
 const base=(process.env.SONARA_BASE_PATH||'').replace(/\/$/,'');
 if(base&&!/^\/[a-zA-Z0-9_/-]+$/.test(base))throw Error('Invalid base path');

@@ -4,6 +4,7 @@ import { resolve, extname, sep } from 'node:path';
 import { randomUUID } from 'node:crypto';
 import { ServiceError } from './generation-service.mjs';
 import { scoreMidi } from './score-midi.mjs';
+import { StudioError } from '../dist/studio-core.mjs';
 const mime = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.mjs': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.wav': 'audio/wav', '.mp3': 'audio/mpeg', '.mid': 'audio/midi', '.txt': 'text/plain; charset=utf-8' };
 const headers = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff', 'Content-Security-Policy': "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; worker-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'self'" };
 function json(res, status, body) { res.writeHead(status, { ...headers, 'Content-Type': 'application/json; charset=utf-8' }); res.end(JSON.stringify(body)); }
@@ -26,7 +27,7 @@ function sendFile(req,res,data,type){
   }
   res.writeHead(200,{...fileHeaders,'Content-Length':data.length});res.end(req.method==='HEAD'?undefined:data);
 }
-export function createServer({ root, service, scoreService, compositionService, songProjectService, phrasingService, listeningService, exportDirectory = resolve(root, '../.local/exports') }) {
+export function createServer({ root, service, studioService, scoreService, compositionService, songProjectService, phrasingService, listeningService, exportDirectory = resolve(root, '../.local/exports') }) {
   return http.createServer(async (req, res) => {
     try {
       const port = req.socket.localPort, allowedHosts = [`127.0.0.1:${port}`, `localhost:${port}`];
@@ -36,6 +37,23 @@ export function createServer({ root, service, scoreService, compositionService, 
       if (req.headers['sec-fetch-site'] === 'cross-site') throw new ServiceError('禁止跨站请求。', 403);
       const url = new URL(req.url, expectedOrigin), pathname = decodeURIComponent(url.pathname);
       if (pathname.startsWith('/api/')) {
+        if(studioService&&pathname.startsWith('/api/studio/')){
+          if(req.method==='GET'&&pathname==='/api/studio/status')return json(res,200,studioService.status());
+          if(req.method==='POST'&&pathname==='/api/studio/connection'){await body(req);return json(res,200,await studioService.refreshConnection());}
+          if(req.method==='GET'&&pathname==='/api/studio/projects')return json(res,200,studioService.list());
+          if(req.method==='POST'&&pathname==='/api/studio/projects')return json(res,201,await studioService.create(await body(req)));
+          const project=pathname.match(/^\/api\/studio\/projects\/([a-f\d-]{36})(?:\/(tasks))?$/);
+          if(project){const id=project[1];if(req.method==='GET'&&!project[2])return json(res,200,studioService.get(id));if(req.method==='PUT'&&!project[2])return json(res,200,await studioService.save(id,await body(req)));if(req.method==='POST'&&project[2])return json(res,202,await studioService.prepare(id,await body(req)));}
+          const task=pathname.match(/^\/api\/studio\/projects\/([a-f\d-]{36})\/tasks\/([a-f\d-]{36})\/(run|cancel|review|audio)$/);
+          if(task){const [,id,taskId,action]=task;
+            if(['GET','HEAD'].includes(req.method)&&action==='audio'){const file=await studioService.audio(id,taskId);return sendFile(req,res,file.data,file.type);}
+            if(req.method==='POST'&&action==='audio'){
+              if(!['audio/wav','audio/x-wav','audio/mpeg','application/octet-stream'].includes(req.headers['content-type']?.split(';')[0]))throw new StudioError('请上传 MP3 或 WAV 音频。',415);
+              const chunks=[];let size=0;for await(const chunk of req){size+=chunk.length;if(size>50*1024*1024)throw new StudioError('音频不能超过 50 MB。',413);chunks.push(chunk);}return json(res,201,await studioService.importAudio(id,taskId,Buffer.concat(chunks)));
+            }
+            if(req.method==='POST'&&action!=='audio')return json(res,200,await studioService[action](id,taskId,await body(req)));
+          }
+        }
         if(listeningService&&pathname.startsWith('/api/listening-trial')){
           if(req.method==='GET'&&pathname==='/api/listening-trial')return json(res,200,await listeningService.snapshot());
           if(req.method==='POST'&&pathname==='/api/listening-trial/choice')return json(res,200,await listeningService.choose(await body(req)));
@@ -110,6 +128,6 @@ export function createServer({ root, service, scoreService, compositionService, 
       if (!path.startsWith(root + sep)) throw new ServiceError('无法访问该文件。', 403);
       if (!(await stat(path)).isFile()) throw new ServiceError('找不到文件。', 404);
       return sendFile(req,res,await readFile(path),mime[extname(path)]||'application/octet-stream');
-    } catch (e) { json(res, e instanceof ServiceError ? e.status : e.code === 'ENOENT' ? 404 : 500, { error: e instanceof ServiceError ? e.message : e.code === 'ENOENT' ? '找不到文件。' : '本机服务处理失败，请检查服务状态。' }); }
+    } catch (e) { const known=e instanceof ServiceError||e instanceof StudioError;json(res, known ? e.status : e.code === 'ENOENT' ? 404 : 500, { error: known ? e.message : e.code === 'ENOENT' ? '找不到文件。' : '本机服务处理失败，请检查服务状态。' }); }
   });
 }
