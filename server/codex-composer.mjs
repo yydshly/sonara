@@ -1,4 +1,5 @@
-import {spawn} from 'node:child_process';
+import {runProcess} from './process-runner.mjs';
+export {runProcess} from './process-runner.mjs';
 import {mkdir,writeFile,readFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import {compositionSchema,compositionPrompt} from './composition-score.mjs';
@@ -13,21 +14,6 @@ export function codexArguments({work,schema,output,model}){
     '-c','agents.enabled=false','-c','web_search="disabled"','-c','project_doc_max_bytes=0'];
   for(const feature of ['shell_tool','unified_exec','code_mode_host','apps','plugins','browser_use','computer_use','image_generation','hooks','multi_agent'])args.push('--disable',feature);
   if(model)args.push('--model',model);args.push('-');return args;
-}
-export function runProcess(command,args,{cwd,input,signal,timeout=240000,onEvent}={}){
-  return new Promise((resolve,reject)=>{
-    if(signal?.aborted)return reject(Error('Cancelled'));
-    const child=spawn(command,args,{cwd,windowsHide:true,shell:false,stdio:['pipe','pipe','pipe']});
-    let stdout='',stderr='',timedOut=false;
-    const abort=()=>child.kill();signal?.addEventListener('abort',abort,{once:true});
-    const timer=setTimeout(()=>{timedOut=true;child.kill();},timeout);
-    child.stdout.on('data',chunk=>{stdout+=chunk;if(stdout.length>2000000)child.kill();onEvent?.(String(chunk));});
-    child.stderr.on('data',chunk=>{stderr=(stderr+chunk).slice(-16000);});
-    const cleanup=()=>{clearTimeout(timer);signal?.removeEventListener('abort',abort);};
-    child.on('error',error=>{cleanup();reject(error);});
-    child.on('close',code=>{cleanup();if(signal?.aborted)return reject(Error('Cancelled'));if(timedOut)return reject(Error('Process timed out'));resolve({code,stdout,stderr});});
-    child.stdin.on('error',()=>{});child.stdin.end(input||'');
-  });
 }
 export class CodexComposer{
   constructor({binary=process.env.SONARA_CODEX_BIN||'codex',model=process.env.SONARA_CODEX_MODEL,run=runProcess}={}){Object.assign(this,{binary,model,run});}

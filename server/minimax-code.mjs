@@ -1,8 +1,8 @@
 import {mkdir,writeFile,readFile,realpath,stat} from 'node:fs/promises';
-import {join,resolve,sep} from 'node:path';
+import {join,resolve,sep,delimiter} from 'node:path';
 import {existsSync} from 'node:fs';
 import {fileURLToPath} from 'node:url';
-import {runProcess} from './codex-composer.mjs';
+import {runProcess} from './process-runner.mjs';
 import {StudioError,handoffPrompt} from '../dist/studio-core.mjs';
 import {inspectAudio} from './studio-media.mjs';
 const resultSchema={type:'object',additionalProperties:false,properties:{taskId:{type:'string'},status:{type:'string',enum:['completed','unavailable']},audioFile:{type:'string'},note:{type:'string'}},required:['taskId','status','audioFile','note']};
@@ -14,6 +14,11 @@ export function minimaxArguments({path,schema,output,music=false,model}){
 export class MiniMaxCode {
   constructor({binary=process.env.SONARA_MCODE_BIN,entry=process.env.SONARA_MCODE_ENTRY,model=process.env.SONARA_MCODE_MODEL,run=runProcess}={}){
     if(!binary&&!entry&&existsSync(localEntry)){binary=process.execPath;entry=localEntry;}
+    // Windows npm installs expose a .cmd shim, which spawn(shell:false) cannot run.
+    if(!binary&&!entry&&process.platform==='win32'){
+      entry=(process.env.PATH||'').split(delimiter).map(p=>join(p,'node_modules/@minimax-ai/code/cli.js')).find(p=>existsSync(p));
+      if(entry)binary=process.execPath;
+    }
     Object.assign(this,{binary:binary||(entry?process.execPath:'mcode'),entry,model,run});
   }
   invoke(args,options){return this.run(this.binary,this.entry?[this.entry,...args]:args,options);}

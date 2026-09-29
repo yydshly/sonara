@@ -17,3 +17,7 @@ dist/**/*.mp3
 *.ds
 .DS_Store
 Thumbs.db
+
+# Downloaded LAN pairing credentials are private and short-lived.
+connection.json
+worker.lock

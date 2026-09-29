@@ -10,6 +10,8 @@ export const studioStore={
   browserOnly,
   status:()=>browserOnly?Promise.resolve(browserStatus()):api('/status'),
   connection:()=>browserOnly?Promise.resolve(browserStatus()):api('/connection','POST',{}),
+  remoteEnable:address=>api('/remote/enable','POST',{address}),
+  remoteDisable:()=>api('/remote/disable','POST',{}),
   list:async()=>browserOnly?(await read('projects')).sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt)).map(p=>({id:p.id,title:p.draft.title||'未命名作品',idea:p.draft.idea,mode:p.draft.mode,updatedAt:p.updatedAt,revision:p.revision,takes:p.tasks.filter(t=>t.type==='music'&&t.state==='succeeded').length})):api('/projects'),
   get:async id=>{const p=browserOnly?await read('projects',id):await api('/projects/'+id);if(!p)throw new StudioError('找不到这首作品。',404);return p;},
   create:(draft,id=crypto.randomUUID())=>browserOnly?edit(id,old=>old||makeProject(id,draft)):api('/projects','POST',{id,draft}),
@@ -21,7 +23,7 @@ export const studioStore={
     if(p.revision!==input.revision)throw new StudioError('请先保存最新歌词与方向。',409);
     const task=makeTask(p,{id:crypto.randomUUID(),requestId:input.requestId,type:'music'});return {...p,tasks:[...p.tasks,task],updatedAt:new Date().toISOString()};
   }):api('/projects/'+id+'/tasks','POST',input),
-  run:(id,taskId)=>api(`/projects/${id}/tasks/${taskId}/run`,'POST',{}),
+  run:(id,taskId,execution='local')=>api(`/projects/${id}/tasks/${taskId}/run`,'POST',{execution}),
   cancel:(id,taskId)=>browserOnly?edit(id,p=>({...p,tasks:p.tasks.map(t=>t.id===taskId&&t.state==='prepared'?{...t,state:'cancelled'}:t)})):api(`/projects/${id}/tasks/${taskId}/cancel`,'POST',{}),
   importAudio:(id,taskId,file,metadata)=>browserOnly?edit(id,p=>{
     const task=p.tasks.find(t=>t.id===taskId);if(!task||task.type!=='music'||!['prepared','failed','interrupted'].includes(task.state))throw new StudioError('此版本已有音频或仍在运行，请创建新版本。',409);

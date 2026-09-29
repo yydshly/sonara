@@ -38,6 +38,9 @@ export function createServer({ root, service, studioService, scoreService, compo
       const url = new URL(req.url, expectedOrigin), pathname = decodeURIComponent(url.pathname);
       if (pathname.startsWith('/api/')) {
         if(studioService&&pathname.startsWith('/api/studio/')){
+          if(req.method==='GET'&&pathname==='/api/studio/remote/package'){const data=await studioService.remote.package();res.writeHead(200,{...headers,'Content-Type':'application/zip','Content-Disposition':'attachment; filename="sonara-windows-worker.zip"','Content-Length':data.length});return res.end(data);}
+          if(req.method==='POST'&&pathname==='/api/studio/remote/enable')return json(res,200,await studioService.remote.enable(await body(req)));
+          if(req.method==='POST'&&pathname==='/api/studio/remote/disable'){await body(req);return json(res,200,await studioService.remote.disable());}
           if(req.method==='GET'&&pathname==='/api/studio/status')return json(res,200,studioService.status());
           if(req.method==='POST'&&pathname==='/api/studio/connection'){await body(req);return json(res,200,await studioService.refreshConnection());}
           if(req.method==='GET'&&pathname==='/api/studio/projects')return json(res,200,studioService.list());
