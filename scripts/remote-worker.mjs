@@ -1,13 +1,23 @@
 import {mkdir,readFile,writeFile,rename,readdir,open,unlink} from 'node:fs/promises';
+import {appendFileSync,statSync,renameSync} from 'node:fs';
 import {resolve,join,dirname} from 'node:path';
 import {hostname} from 'node:os';
 import {randomUUID,createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import {setTimeout as delay} from 'node:timers/promises';
-import {MiniMaxCode} from '../server/minimax-code.mjs';
+import {MiniMaxCode,redactDiagnostic} from '../server/minimax-code.mjs';
 import {StudioError,validateDraft,assertReady,lyricsPrompt,lyricsSchema,validateLyricsOutput} from '../dist/studio-core.mjs';
 
 const uuid=/^[a-f\d-]{36}$/i;
+export const workerVersion='0.3.3';
+export function createWorkerLogger(file,output=console.log){
+  let warned=false;
+  return message=>{
+    const line=`[${new Date().toISOString()}] ${redactDiagnostic(message).slice(0,4000)}`;output(line);
+    try{try{if(statSync(file).size>1024*1024)renameSync(file,file+'.previous');}catch(e){if(e.code!=='ENOENT')throw e;}appendFileSync(file,line+'\n',{encoding:'utf8',mode:0o600});}
+    catch{if(!warned){warned=true;output('日志文件写入失败，请检查解压目录是否可写；上方窗口仍会显示运行提示。');}}
+  };
+}
 export function validateConnection(config){
   let url;try{url=new URL(config?.url);}catch{throw Error('连接包地址无效，请重新下载。');}
   if(config.format!=='sonara-worker-connection-v1'||url.protocol!=='http:'||url.username||url.password||url.search||url.hash||url.pathname!=='/'||!url.port||!(/^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(url.hostname)||url.hostname==='127.0.0.1')||!/^\d+\.\d+\.\d+\.\d+$/.test(url.hostname)||!/^[a-f\d]{64}$/.test(config.token))throw Error('连接包不符合局域网格式，请重新下载。');
@@ -22,12 +32,14 @@ async function saveJSON(path,value){const temporary=path+'.'+randomUUID()+'.tmp'
 
 export class RemoteWorker {
   constructor({config,directory,minimax=new MiniMaxCode(),fetcher=fetch,log=console.log}={}){
-    Object.assign(this,{config:validateConnection(config),directory,minimax,fetcher,log});this.stopped=false;this.current=null;this.connectionId=createHash('sha256').update(config.url+config.token).digest('hex');
+    Object.assign(this,{config:validateConnection(config),directory,minimax,fetcher,log});this.stopped=false;this.current=null;this.lastIdleLog=Date.now();this.connectionId=createHash('sha256').update(config.url+config.token).digest('hex');
   }
   async init(){
     await mkdir(join(this.directory,'tasks'),{recursive:true});const identity=join(this.directory,'identity.json');
     try{this.id=JSON.parse(await readFile(identity,'utf8')).id;if(!uuid.test(this.id))throw Error('连接身份文件损坏。');}catch(e){if(e.code!=='ENOENT')throw e;this.id=randomUUID();await saveJSON(identity,{id:this.id});}
-    this.available=(await this.minimax.status()).available;await this.request('/worker/hello',{name:hostname(),available:this.available});
+    this.log('正在检查 MiniMax Code 命令入口…');this.available=(await this.minimax.status()).available;
+    this.log(this.available?'已识别 MiniMax Code，正在连接声间…':'未找到 MiniMax Code，正在向声间报告连接状态…');
+    await this.request('/worker/hello',{name:hostname(),available:this.available,version:workerVersion});
     this.log(this.available?'已连接声间，等待你在平台提交任务。音乐权限将在实际任务中验证。':'已连接声间，但未找到 MiniMax Code。请检查安装后重新启动此程序。');return this;
   }
   async request(path,input={},lease,raw=false){
@@ -41,25 +53,27 @@ export class RemoteWorker {
     // Reserve on disk before invoking the model. Even after a crash this task is never generated twice.
     const record={connectionId:this.connectionId,job,state:'running'};
     try{await writeFile(journal,JSON.stringify(record),{flag:'wx',mode:0o600});}catch(e){if(e.code==='EEXIST'){this.log('任务已有本机记录，仅核查或回传，不会再次生成。');return;}throw e;}
-    const controller=new AbortController();this.current=controller;let lastContact=Date.now(),heartbeating=false;
+    const controller=new AbortController();this.current=controller;let lastContact=Date.now(),heartbeating=false;const started=Date.now();
     const heartbeat=setInterval(async()=>{if(heartbeating)return;heartbeating=true;try{
       const result=await this.request(this.endpoint(job,'heartbeat'),{},job.lease);lastContact=Date.now();if(result.state!=='running')controller.abort();
     }catch(e){if([401,403,404,409].includes(e.status)||Date.now()-lastContact>75000)controller.abort();}finally{heartbeating=false;}},5000);
-    this.log(`正在生成${job.task.type==='music'?'音乐':'歌词'}：${job.task.snapshot.title||'未命名作品'}。`);
+    const progress=setInterval(()=>this.log(`MiniMax Code 仍在执行，已等待 ${Math.round((Date.now()-started)/1000)} 秒；没有重新提交任务。`),30000);
+    this.log(`正在生成${job.task.type==='music'?'音乐':'歌词'}：${redactDiagnostic(job.task.snapshot.title||'未命名作品')}。`);
+    this.log(`任务 ${job.task.id}；诊断目录：${folder}`);
     try{
       if(job.task.type==='lyrics')record.output=validateLyricsOutput(await this.minimax.generate({path:folder,prompt:lyricsPrompt(job.task.snapshot),schemaValue:lyricsSchema,signal:controller.signal}));
       else{const result=await this.minimax.music({path:folder,project:{id:job.projectId},task:job.task,signal:controller.signal});await writeFile(join(folder,'delivery.audio'),result.data,{mode:0o600});}
       record.state='ready';
-    }catch(e){record.state='failed';this.log(e instanceof StudioError?e.message:'任务未完成。请核查 MiniMax Code 记录；不会自动重新生成。');}
+    }catch(e){record.state='failed';record.failure={code:typeof e.code==='string'?e.code.replace(/[^a-zA-Z0-9_-]/g,'').slice(0,80):'WORKER_ERROR',message:redactDiagnostic(e instanceof StudioError?e.message:e.message||'任务未完成，请核查本机记录。').slice(0,2000)};this.log('生成未完成：'+record.failure.message);}
     try{await saveJSON(journal,record);await this.deliver(record,folder);}
-    finally{clearInterval(heartbeat);this.current=null;}
+    finally{clearInterval(heartbeat);clearInterval(progress);this.current=null;}
   }
   async deliver(record,folder){
     const {job}=record;
     try{
       if(record.state==='ready'&&job.task.type==='music')await this.request(this.endpoint(job,'audio'),await readFile(join(folder,'delivery.audio')),job.lease,true);
-      else await this.request(this.endpoint(job,record.state==='ready'?'lyrics':'failure'),record.output||{},job.lease);
-      record.state='delivered';await saveJSON(join(folder,'journal.json'),record);this.log('任务结果已回到声间。');return true;
+      else await this.request(this.endpoint(job,record.state==='ready'?'lyrics':'failure'),record.state==='ready'?record.output:{failure:record.failure},job.lease);
+      const failed=record.state!=='ready';record.state='delivered';record.outcome=failed?'failed':'succeeded';await saveJSON(join(folder,'journal.json'),record);this.log(failed?'失败状态已送回声间，未重新生成。':'生成结果已回到声间。');return true;
     }catch(e){if([401,403,404,409,410,413,415,422].includes(e.status)){
       record.state='needs-review';await saveJSON(join(folder,'journal.json'),record);this.log('平台未接收这份结果。文件已留在任务目录，可核查后手动导入音频。');return true;
     }throw e;}
@@ -74,7 +88,7 @@ export class RemoteWorker {
       await this.deliver(record,folder);
     }
   }
-  async tick(){await this.recover();const {job}=await this.request('/worker/claim');if(job)await this.generate(job);return !!job;}
+  async tick(){await this.recover();const {job}=await this.request('/worker/claim');if(job)await this.generate(job);else if(Date.now()-this.lastIdleLog>=30000){this.log(this.available?'连接正常，等待平台提交新任务。':'连接正常，但未检测到 MiniMax Code；安装或配置后请重启连接程序。');this.lastIdleLog=Date.now();}return !!job;}
   stop(){this.stopped=true;this.current?.abort();}
   async loop(){let disconnected=false;while(!this.stopped){try{await this.tick();disconnected=false;}catch(e){if(!disconnected)this.log(e.message);disconnected=true;if([401,403,409].includes(e.status))throw e;}if(!this.stopped)await delay(5000);}}
 }
@@ -85,9 +99,14 @@ async function lockDirectory(directory){
   const handle=await open(path,'wx');await handle.writeFile(String(process.pid));return async()=>{await handle.close();await unlink(path).catch(()=>{});};
 }
 async function main(){
-  const [major,minor]=process.versions.node.split('.').map(Number);if(major<22||(major===22&&minor<19))throw Error('请安装 Node.js 24 LTS 后再启动连接程序。');
-  const configPath=resolve(process.argv[2]||'connection.json'),config=JSON.parse(await readFile(configPath,'utf8')),directory=join(dirname(configPath),'.local/remote-worker');
-  const unlock=await lockDirectory(directory);let worker;
-  try{worker=new RemoteWorker({config,directory});for(const s of ['SIGINT','SIGTERM'])process.once(s,()=>worker.stop());await worker.init();await worker.loop();}finally{worker?.stop();await unlock();}
+  const configPath=resolve(process.argv[2]||'connection.json'),log=createWorkerLogger(join(dirname(configPath),'worker.log'));let worker,unlock;
+  log(`声间连接程序 v${workerVersion} 启动 · Node.js ${process.versions.node}`);log('运行记录同时写入同目录 worker.log；双击 view-logs.cmd 可查看。');
+  try{
+    const [major,minor]=process.versions.node.split('.').map(Number);if(major<22||(major===22&&minor<19))throw Error('请安装 Node.js 24 LTS 后再启动连接程序。');
+    let config;try{config=JSON.parse(await readFile(configPath,'utf8'));}catch{throw Error('无法读取 connection.json。请完整解压连接包，更新时保留原来的 connection.json。');}
+    const directory=join(dirname(configPath),'.local/remote-worker');unlock=await lockDirectory(directory);
+    worker=new RemoteWorker({config,directory,log});for(const s of ['SIGINT','SIGTERM'])process.once(s,()=>{log('正在停止连接程序，已开始的外部任务需要核查。');worker.stop();});await worker.init();await worker.loop();
+  }catch(e){log('连接程序未能继续：'+redactDiagnostic(e.message));process.exitCode=1;}
+  finally{worker?.stop();if(unlock)await unlock();log('连接程序已退出。记录保存在 worker.log。');}
 }
 if(process.argv[1]&&resolve(process.argv[1])===fileURLToPath(import.meta.url))main().catch(e=>{console.error(e.message);process.exitCode=1;});

@@ -2,6 +2,8 @@ import {readdir,readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
 import {resolve,join,dirname,extname,relative} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {spawnSync} from 'node:child_process';
+import {workerUpdatePackage} from '../server/worker-package.mjs';
+import {workerVersion} from './remote-worker.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const target=process.env.SONARA_SITE_TARGET||'portal';
 const entries={portal:'index.html',studio:'studio.html',song:'youth-song.html',lab:'sound-lab.html',score:'score-trial.html',tools:'audio-tools.html'};
@@ -38,4 +40,7 @@ if(target!=='portal')await writeFile(join(output,'index.html'),`<!doctype html><
 for(const [id,entry] of Object.entries(entries))if(id!=='portal'){await mkdir(join(output,id),{recursive:true});await writeFile(join(output,id,'index.html'),`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=${base}/${entry}"><title>声间 · ${id}</title></head><body><a href="${base}/${entry}">打开此创作空间</a></body></html>`);}
 await writeFile(join(output,'.nojekyll'),'');
 await writeFile(join(output,'deployment.json'),JSON.stringify({target,base,mode:'preview',entries},null,2));
+// This update contains code only, never pairing credentials or saved projects.
+await mkdir(join(output,'downloads'),{recursive:true});
+await writeFile(join(output,'downloads',`sonara-worker-update-${workerVersion}.zip`),await workerUpdatePackage());
 console.log(`Built ${target} with ${Object.keys(entries).length} entry points in ${relative(root,output)} (${base||'/'}).`);

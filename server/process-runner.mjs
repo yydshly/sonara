@@ -6,13 +6,15 @@ export function runProcess(command,args,{cwd,input,signal,timeout=240000,onEvent
     if(signal?.aborted)return reject(Error('Cancelled'));
     const child=spawn(command,args,{cwd,windowsHide:true,shell:false,stdio:['pipe','pipe','pipe']});
     let stdout='',stderr='',timedOut=false;
+    child.stdout.setEncoding('utf8');child.stderr.setEncoding('utf8');
     const abort=()=>child.kill();signal?.addEventListener('abort',abort,{once:true});
     const timer=setTimeout(()=>{timedOut=true;child.kill();},timeout);
     child.stdout.on('data',chunk=>{stdout+=chunk;if(stdout.length>2000000)child.kill();onEvent?.(String(chunk));});
     child.stderr.on('data',chunk=>{stderr=(stderr+chunk).slice(-16000);});
     const cleanup=()=>{clearTimeout(timer);signal?.removeEventListener('abort',abort);};
-    child.on('error',error=>{cleanup();reject(error);});
-    child.on('close',code=>{cleanup();if(signal?.aborted)return reject(Error('Cancelled'));if(timedOut)return reject(Error('Process timed out'));resolve({code,stdout,stderr});});
+    const failure=(error,code,reason)=>{error.processResult={code,stdout,stderr,reason};return error;};
+    child.on('error',error=>{cleanup();reject(failure(error,null,'spawn'));});
+    child.on('close',code=>{cleanup();if(signal?.aborted)return reject(failure(Error('Cancelled'),code,'cancelled'));if(timedOut)return reject(failure(Error('Process timed out'),code,'timeout'));resolve({code,stdout,stderr});});
     child.stdin.on('error',()=>{});child.stdin.end(input||'');
   });
 }
