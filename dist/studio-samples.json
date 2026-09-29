@@ -1,0 +1,270 @@
+{
+  "format": "sonara-studio-samples-v1",
+  "generatedAt": "2026-09-29T10:59:28.090Z",
+  "notice": "虚构故事的创作样例。模型歌词仍需确认；全部样例尚无新生成音频，不代表试听认可。",
+  "cases": [
+    {
+      "id": "late-shift",
+      "label": "城市生活",
+      "focus": "检验中速律动下的中文咬字，副歌能否展开又不喊口号。",
+      "draft": {
+        "title": "晚班的便利店",
+        "idea": "一个在城市里工作的九零后，晚上十点下班，在便利店热一份饭。店员已经记得他不要辣，他接起朋友的电话，绕了一站路走回家。写疲惫里的小小善意，不写成功学。",
+        "style": "城市流行 / City Pop；电钢琴、干净吉他、弹性贝斯、轻巧鼓组",
+        "voice": "自然的中低音，主歌像说话，副歌明亮但不喊",
+        "tempo": "108 BPM，中速偏轻快，有切分律动，句尾利落",
+        "emotionStart": "下班后的疲惫，有一点孤单",
+        "emotionPeak": "被记住的小习惯，让心情亮起来",
+        "emotionEnd": "今天也算好好过完了，轻松地回家",
+        "revisionNotes": "",
+        "details": "便利店微波炉、不要辣的饭、朋友打来的电话、多走一站路",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\n十点整，关掉了电脑\n工牌塞进外套一角\n电梯里松一松肩膀\n晚饭还没着落\n推开门，冷气迎面来\n挑份饭，站到柜台\n还没开口，他就问我\n不要辣，对吧\n\n[Chorus]\n原来有人记得我不要辣\n这一天忽然没那么差\n微波炉叮一声，我接过饭\n隔着袋子暖了手掌\n坐一会儿，再回家\n吃完这一口，慢慢来吧\n\n[Verse 2]\n手机贴着纸杯震动\n老朋友问我吃了没有\n我说刚吃上，你呢\n他说明天又要早起\n聊到从前租的房子\n那扇关不严的窗\n最后一口饭吃完了\n我们还没舍得挂\n\n[Chorus]\n原来有人记得我不要辣\n这一天忽然没那么差\n微波炉叮一声，我接过饭\n隔着袋子暖了手掌\n坐一会儿，再回家\n吃完这一口，慢慢来吧\n\n[Bridge]\n走到站牌，车刚好来\n我说还早，再聊一会儿吧\n沿着熟悉的那条街\n多走一站，也就到家\n\n[Final Chorus]\n原来有人记得我不要辣\n还有人问我吃了没有啊\n今天的事，没全做完\n这顿饭倒吃得很暖\n电话那头说，到家说一声\n我笑着答，好，你也早点睡吧\n\n[Outro]\n钥匙转半圈，灯亮了\n今天也算好好过完了",
+        "mode": "song",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:53:52.595Z",
+        "elapsedSeconds": 30,
+        "direction": "约120秒，108 BPM，城市流行。电钢琴铺底，干净吉他切分，弹性贝斯配轻巧鼓组；短前奏与段间留白让呼吸自然。中低音主歌像聊天，从十点下班的疲惫展开；副歌在“记得我不要辣”处变亮，不喊、不拖长音。朋友的电话延续暖意，末段收轻，落在开门亮灯的踏实里。"
+      },
+      "wordingRevision": null
+    },
+    {
+      "id": "station-home",
+      "label": "亲情",
+      "focus": "检验克制情绪能否通过动作和细节表达，避免过长拖音。",
+      "draft": {
+        "title": "到家再说",
+        "idea": "离家工作几年后坐末班火车回县城，母亲在出站口提着一袋剥好的橘子。她没有追问过得好不好，只说锅里还留着汤。想表达成年以后终于可以在家人面前松一口气。",
+        "style": "温暖民谣流行；木吉他、轻钢琴、刷鼓，副歌加入温暖弦乐",
+        "voice": "亲近、松弛的女中音，少气声，不刻意哭腔",
+        "tempo": "88 BPM，叙事有呼吸但不拖沓，停顿留给句子",
+        "emotionStart": "一路逞强，见面时还故作轻松",
+        "emotionPeak": "听见锅里留着汤，才肯放下防备",
+        "emotionEnd": "平静安心，今晚不必解释自己",
+        "revisionNotes": "",
+        "details": "末班火车、剥好的橘子、出站口、锅里留下的汤",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\n末班火车停在熟悉的县城\n我把没回的消息锁进屏幕\n离家几年，练熟了那句还行\n下车前又把嘴角往上提\n\n[Verse 2]\n你站在出站口，踮脚找我\n提着一袋剥好的橘子\n我笑着说，箱子没多沉\n你还是伸手接了一程\n\n[Pre-Chorus]\n你没问我最近过得怎样\n只说锅里还给我留着汤\n我捏着橘子，低头应了一声\n再开口，不用再装作没事\n\n[Chorus]\n到家再说，到家再说\n这一路，我有一点累了\n你把热汤往我面前挪\n说慢点喝，喝完还有呢\n那些没想好怎么说的话\n今晚就先放着吧\n\n[Verse 3]\n外套搭上那把旧木椅\n手机在口袋里亮了又熄\n你坐在桌边，讲楼下的小事\n我听着听着，肩膀松下去\n\n[Chorus]\n到家再说，到家再说\n这一回，不急着说我很好\n你把热汤往我面前挪\n说慢点喝，喝完还有呢\n那些没想好怎么说的话\n今晚就先放着吧\n\n[Outro]\n碗底还留着一点温热\n我说，妈，再给我盛半碗吧",
+        "mode": "song",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:58:41.949Z",
+        "elapsedSeconds": 29,
+        "direction": "仅将指定句改为“再开口，不用再装作没事”，保留原有故事、段落与核心副歌。从见面时强撑笑容，到听见母亲留汤后松口承认疲惫，最后用主动再要半碗汤落在安心上。按约120秒、88 BPM安排，前奏与间奏从简；木吉他、轻钢琴和刷鼓托住叙述，副歌加入温暖弦乐。女中音亲近松弛，句间留呼吸，尾句像对母亲说话一样自然收住，不刻意拖长或带哭腔。"
+      },
+      "wordingRevision": {
+        "reason": "只润色明显不自然的说法，不改变人物、故事、段落和核心副歌。“再开口，终于不用装得响亮”说得别扭，请换成普通人会说、也好唱的话。保留母亲、橘子、留汤和添半碗汤的动作，不添新意象，不为押韵硬凑句子。",
+        "originalLyrics": "[Verse 1]\n末班火车停在熟悉的县城\n我把没回的消息锁进屏幕\n离家几年，练熟了那句还行\n下车前又把嘴角往上提\n\n[Verse 2]\n你站在出站口，踮脚找我\n提着一袋剥好的橘子\n我笑着说，箱子没多沉\n你还是伸手接了一程\n\n[Pre-Chorus]\n你没问我最近过得怎样\n只说锅里还给我留着汤\n我捏着橘子，低头应了一声\n再开口，终于不用装得响亮\n\n[Chorus]\n到家再说，到家再说\n这一路，我有一点累了\n你把热汤往我面前挪\n说慢点喝，喝完还有呢\n那些没想好怎么说的话\n今晚就先放着吧\n\n[Verse 3]\n外套搭上那把旧木椅\n手机在口袋里亮了又熄\n你坐在桌边，讲楼下的小事\n我听着听着，肩膀松下去\n\n[Chorus]\n到家再说，到家再说\n这一回，不急着说我很好\n你把热汤往我面前挪\n说慢点喝，喝完还有呢\n那些没想好怎么说的话\n今晚就先放着吧\n\n[Outro]\n碗底还留着一点温热\n我说，妈，再给我盛半碗吧",
+        "originalGeneratedAt": "2026-09-29T10:54:19.347Z",
+        "reviewer": "助手文字审阅；不是试听评价"
+      }
+    },
+    {
+      "id": "last-school-bus",
+      "label": "青春友情",
+      "focus": "检验快节奏中文可唱性与副歌记忆点，避免青春口号。",
+      "draft": {
+        "title": "最后一班校车",
+        "idea": "三十岁那年几个高中朋友再聚，翻到毕业当天最后一班校车的合影。有人记得借来的耳机，有人记得没写完的留言册；现在各有生活，还会为同一个老笑话笑出声。是有冲劲的青春友情，不把怀念写成悲伤。",
+        "style": "明亮流行摇滚；清晰电吉他、贝斯、真实鼓组，副歌适量和声",
+        "voice": "清爽、有少年感的自然人声，轻微沙感，不挤高音",
+        "tempo": "128 BPM，向前走的八分音符节奏，副歌短句有力",
+        "emotionStart": "重逢时一点生疏，笑着翻旧照片",
+        "emotionPeak": "笑话接上了，像又坐回同一排",
+        "emotionEnd": "各自向前，但随时可以再见",
+        "revisionNotes": "",
+        "details": "校车合影、单边耳机、没写完的留言册、同一个老笑话",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\n三十岁这年，终于坐齐\n开场先问，最近忙不忙\n手机翻到校车那张合影\n你笑我还穿同款衣裳\n\n最后一班，谁喊快上车\n我挤过书包，坐到你身旁\n借来的耳机，一人戴一边\n下错了站，还一路唱\n\n[Pre-Chorus]\n那本没写完的留言册\n你说还压在书柜最下格\n正想问，当年要写什么\n你又讲起那个老笑话了\n\n[Chorus]\n笑出声，还是我们\n半句就有人接上后半段\n往里坐，再挪一点\n像又坐回校车同一排\n你拍拍我，我笑弯腰\n筷子都快拿不牢\n服务员也跟着笑了起来\n\n[Verse 2]\n你把孩子照片递过来\n他说明早还得赶早班\n聊到最近那次不顺心\n这回我们，都没急着打断\n\n[Chorus]\n笑出声，还是我们\n半句就有人接上后半段\n往里坐，再挪一点\n像又坐回校车同一排\n你拍拍我，我笑弯腰\n筷子都快拿不牢\n服务员也跟着笑了起来\n\n[Outro]\n门口合影，这次别闭眼\n数到二，你又故意做鬼脸\n车到了，各自往前\n下次有空，群里喊一声",
+        "mode": "song",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:59:05.281Z",
+        "elapsedSeconds": 22,
+        "direction": "仅调整两处：两遍副歌的拍肩笑闹拆成短乐句，结尾改成朋友间自然的邀约。保留从重逢的微微生疏，到老笑话唤回默契，再到轻松道别的情绪走向。按约120秒、128 BPM构想，以清晰电吉他、贝斯和真实鼓组向前推进；自然略带沙感的人声，副歌适量和声，短句间留出呼吸，不拖长尾音。"
+      },
+      "wordingRevision": {
+        "reason": "保持青春重逢、校车合影、老笑话和轻快摇滚方向。只改两处：副歌“你拍着我，我笑得筷子都拿不稳”在128 BPM偏长，请拆成自然的短乐句；结尾“下次想见，群里喊一声见”不顺口，请换成真实朋友会说的话。尽量保留其他歌词，不加口号。",
+        "originalLyrics": "[Verse 1]\n三十岁这年，终于坐齐\n开场先问，最近忙不忙\n手机翻到校车那张合影\n你笑我还穿同款衣裳\n\n最后一班，谁喊快上车\n我挤过书包，坐到你身旁\n借来的耳机，一人戴一边\n下错了站，还一路唱\n\n[Pre-Chorus]\n那本没写完的留言册\n你说还压在书柜最下格\n正想问，当年要写什么\n你又讲起那个老笑话了\n\n[Chorus]\n笑出声，还是我们\n半句就有人接上后半段\n往里坐，再挪一点\n像又坐回校车同一排\n你拍着我，我笑得筷子都拿不稳\n服务员也跟着笑了起来\n\n[Verse 2]\n你把孩子照片递过来\n他说明早还得赶早班\n聊到最近那次不顺心\n这回我们，都没急着打断\n\n[Chorus]\n笑出声，还是我们\n半句就有人接上后半段\n往里坐，再挪一点\n像又坐回校车同一排\n你拍着我，我笑得筷子都拿不稳\n服务员也跟着笑了起来\n\n[Outro]\n门口合影，这次别闭眼\n数到二，你又故意做鬼脸\n车到了，各自往前\n下次想见，群里喊一声见",
+        "originalGeneratedAt": "2026-09-29T10:54:43.862Z",
+        "reviewer": "助手文字审阅；不是试听评价"
+      }
+    },
+    {
+      "id": "old-mugs",
+      "label": "感情遗憾",
+      "focus": "检验遗憾是否具体而不煽情，R&B 转音会不会损害语义。",
+      "draft": {
+        "title": "两只旧杯子",
+        "idea": "搬家时发现两只旧杯子，其中一只杯沿有缺口。年轻时两个人挤在出租屋里，后来因为不会好好说话而分开。现在懂得照顾人了，也明白不该再去打扰。用收拾物件的过程写遗憾，不复述任何已有歌曲。",
+        "style": "克制的华语 R&B；Rhodes 电钢琴、松弛的鼓、圆润贝斯，副歌温和铺开",
+        "voice": "温柔中低音，连贯而清楚，少转音，不模仿特定歌手",
+        "tempo": "94 BPM，轻微后拍感，主歌有留白，副歌不刻意拉长句尾",
+        "emotionStart": "收拾旧物时若无其事",
+        "emotionPeak": "终于承认当时没学会好好相处",
+        "emotionEnd": "把杯子包好，也把祝福留给对方",
+        "revisionNotes": "",
+        "details": "杯沿缺口、旧报纸、搬家纸箱、过去的出租屋",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\n搬家纸箱摊在脚边\n杂物分好，搁到一边\n两只旧杯还在柜里\n有缺口那只，朝着墙面\n旧报纸铺开一整张\n我擦掉杯底那圈灰\n本来收拾得很顺手\n到这里，坐了一会\n\n[Chorus]\n那时没学会，好好说话\n一句关心，绕成了气话\n你等我回答，我低头刷牙\n水一直流着，谁也没说话\n如今懂得，先听完再答\n却不该找你，试着说一遍\n把两只杯子慢慢包好\n愿有人听你，把一天讲完\n\n[Verse 2]\n出租屋只够摆一张床\n杯子挨着，放在窗台上\n你说杯沿缺了，别划着嘴\n我说知道，却嫌你话长\n后来学会把热水晾凉\n也会问人，今天累不累\n翻到你的名字，停了一下\n还是放下手机，继续装箱\n\n[Bridge]\n那时总说，是日子太难\n仿佛这样就与你我无关\n其实你坐在我身旁\n我也没问，你为什么不安\n\n[Chorus]\n那时没学会，好好说话\n一句关心，绕成了气话\n你等我回答，我低头刷牙\n水一直流着，谁也没说话\n如今懂得，先听完再答\n就让这句话，留在我这边\n把两只杯子慢慢包好\n愿有人听你，把一天讲完\n\n[Outro]\n缺口那里，多垫一层纸\n封好箱子，轻轻放下",
+        "mode": "song",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:55:10.846Z",
+        "elapsedSeconds": 27,
+        "direction": "约120秒，94 BPM。以 Rhodes 电钢琴、松弛的鼓和圆润贝斯铺底，温柔中低音略靠后拍，少转音。主歌从平常的整理动作进入回忆，副歌温和展开，在流水声与沉默中承认当时不会相处；桥段卸下对生活的推托，末段收回联系的冲动，以包杯、封箱留下祝福。短句间留呼吸，尾字自然收住，前奏与间奏补足篇幅。"
+      },
+      "wordingRevision": null
+    },
+    {
+      "id": "sunday-room",
+      "label": "轻快日常",
+      "focus": "检验轻快情绪与幽默感，避免所有作品都唱成慢情歌。",
+      "draft": {
+        "title": "星期天晒被子",
+        "idea": "独居的人周日把房间打扫了一遍，给自己做了稍微丰盛的早饭，在阳台把被子晒到太阳里。没有突然变好的人生，只是终于有心情照顾自己。想写轻盈、幽默、可以跟着摇摆的歌。",
+        "style": "轻快复古流行 / 轻 Disco；跳跃贝斯、节奏吉他、轻鼓和少量合成器",
+        "voice": "明亮松弛的女声，像笑着聊天，避免幼态和夸张卖萌",
+        "tempo": "122 BPM，松弛的四拍律动，短句不赶字",
+        "emotionStart": "周末睡醒，有一点懒散",
+        "emotionPeak": "小房间变亮，自己也愿意跟着动起来",
+        "emotionEnd": "满足但不过分，今天就这样很好",
+        "revisionNotes": "",
+        "details": "阳台晾衣夹、煎蛋边缘、干净床单、被太阳晒暖的被子",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\n醒来先翻个身\n再跟拖鞋相认\n闹钟今天没上班\n我也慢半拍起身\n煎蛋边缘脆了一圈\n多烤片面包，算盛宴\n\n[Pre-Chorus]\n桌子擦好，椅子归位\n袜子从床底出来集合\n窗帘一拉，眯起眼睛\n这屋子还挺适合我\n\n[Chorus]\n星期天，晒被子\n顺手把自己晒一晒\n晾衣夹夹住四个角\n我空出手，扭两拍\n日子没突然变厉害\n地板倒是亮了起来\n被子翻面，我伸个懒腰\n今天有空，对自己好\n\n[Verse 2]\n换上干净床单\n抚平中间那道折\n拖把靠墙歇一歇\n我给自己倒杯水\n阳台只够转半个圈\n刚好转回太阳这边\n\n[Chorus]\n星期天，晒被子\n顺手把自己晒一晒\n晾衣夹夹住四个角\n我空出手，扭两拍\n日子没突然变厉害\n地板倒是亮了起来\n被子翻面，我伸个懒腰\n今天有空，对自己好\n\n[Bridge]\n还有几件没做完\n先在纸上放一放\n等到太阳挪过栏杆\n抱回被子，暖得刚刚好\n\n[Outro]\n下巴埋进被子里\n嗯，今天这样就可以",
+        "mode": "song",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:55:37.895Z",
+        "elapsedSeconds": 27,
+        "direction": "以约120秒设计，122 BPM、松弛四拍。跳跃贝斯搭配节奏吉他、轻鼓，少量合成器在句间回应；短句留出呼吸，副歌尾句轻收，不拉长音。明亮松弛的女声从刚睡醒的懒散聊起，随着打扫和晾晒渐渐带出笑意，副歌自然摇摆，最后收在抱回暖被子的微小满足里。"
+      },
+      "wordingRevision": null
+    },
+    {
+      "id": "green-light",
+      "label": "英文夜行",
+      "focus": "检验英文自然重音、断句和韵脚，避免为了押韵牺牲意思。",
+      "draft": {
+        "title": "One More Green Light",
+        "idea": "Two old friends drive home after a late shift, taking the long road along the river. One is moving away next week. A coffee cup rattles in the holder; neither knows how to say goodbye, so they let one more green light carry them forward. Quiet affection, no grand promise.",
+        "style": "Warm indie synth-pop; muted guitar, rounded bass, soft analog pads, steady live-feeling drums",
+        "voice": "Natural intimate mid-range vocal, clear English consonants, restrained chorus lift",
+        "tempo": "112 BPM, a gentle driving pulse, conversational verses and concise chorus endings",
+        "emotionStart": "Tired, comfortable silence between old friends",
+        "emotionPeak": "An ordinary drive becomes a goodbye neither can say",
+        "emotionEnd": "Grateful, still moving, leaving room for another visit",
+        "revisionNotes": "",
+        "details": "Rattling coffee cup, river road, changing traffic lights, a move next week",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "[Verse 1]\nYou drop your apron by your feet,\nI turn the heater down.\nYour coffee rattles in the cup holder\nAs we leave the loading bay.\nThe short way home is on the left;\nYou point along the river.\nI take the turn without a word.\nWe've still got coffee to finish.\n\n[Chorus]\nOne more green light,\nLet this one take us through.\nI know the way home;\nI like the long way with you.\nYour street can wait\nFor another turn or two.\nOne more green light,\nA little more time with you.\n\n[Verse 2]\nNext week you're moving away;\nYour boxes crowd the hall.\nYou ask if I could keep your plant.\nI say, “I'll try, that's all.”\nYou laugh and brace the paper cup\nBefore it shakes apart.\nI almost ask when you'll be back.\nThe light changes. We start.\n\n[Chorus]\nOne more green light,\nLet this one take us through.\nI know the way home;\nI like the long way with you.\nYour street can wait\nFor another turn or two.\nOne more green light,\nA little more time with you.\n\n[Bridge]\n“Thanks for the ride,” you say too soon.\nI nod and shift gears.\nWe pass the place we used to eat.\n“Still good?” “We'll go next time.”\n\n[Outro]\nOne more green light,\nYour window halfway down.\nYou hold the cup between your hands.\nWe take the next turn home.",
+        "mode": "song",
+        "language": "en",
+        "duration": 120
+      },
+      "lyricsStatus": "generated-draft",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "Codex",
+        "generatedAt": "2026-09-29T10:59:26.457Z",
+        "elapsedSeconds": 19,
+        "direction": "Keep the verses conversational and the chorus lift restrained, with muted guitar, rounded bass, soft analog pads and steady drums at 112 BPM. Aim for roughly two minutes with a brief intro and compact transitions. The familiar silence gives way to the approaching move; the casual exchange about eating together again leaves gratitude and room for another visit. Edits preserve the structure and chorus while making the flagged phrases more natural."
+      },
+      "wordingRevision": {
+        "reason": "Edit only awkward English phrases while keeping the story, section structure and main chorus. “loading ground” is not natural for the place behind a workplace; “your keys change pockets” makes the move unclear; “change the gear” and “Still good. Next time we are here” sound forced. Use idiomatic conversational English. Preserve the river road, rattling coffee cup, move next week and restrained goodbye. Do not force rhymes or add elaborate metaphors.",
+        "originalLyrics": "[Verse 1]\nYou drop your apron by your feet,\nI turn the heater down.\nYour coffee rattles in the cup holder\nAs we leave the loading ground.\nThe short way home is on the left;\nYou point along the river.\nI take the turn without a word.\nWe've still got coffee to finish.\n\n[Chorus]\nOne more green light,\nLet this one take us through.\nI know the way home;\nI like the long way with you.\nYour street can wait\nFor another turn or two.\nOne more green light,\nA little more time with you.\n\n[Verse 2]\nNext week your keys change pockets;\nYour boxes crowd the hall.\nYou ask if I could keep your plant.\nI say, “I'll try, that's all.”\nYou laugh and brace the paper cup\nBefore it shakes apart.\nI almost ask when you'll be back.\nThe light changes. We start.\n\n[Chorus]\nOne more green light,\nLet this one take us through.\nI know the way home;\nI like the long way with you.\nYour street can wait\nFor another turn or two.\nOne more green light,\nA little more time with you.\n\n[Bridge]\n“Thanks for the ride,” you say too soon.\nI nod and change the gear.\nWe pass the place we used to eat.\n“Still good.” “Next time we're here.”\n\n[Outro]\nOne more green light,\nYour window halfway down.\nYou hold the cup between your hands.\nWe take the next turn home.",
+        "originalGeneratedAt": "2026-09-29T10:56:05.646Z",
+        "reviewer": "助手文字审阅；不是试听评价"
+      }
+    },
+    {
+      "id": "after-rain",
+      "label": "纯音乐 · 松弛",
+      "focus": "检验无人声约束、旋律发展与配器层次，避免机械循环。",
+      "draft": {
+        "title": "雨停以后的街",
+        "idea": "雨刚停，晚高峰的街道慢慢安静。路灯映在积水里，脚步从匆忙变得放松。做一段适合夜晚散步的原创纯音乐，有旋律和发展，不是循环同一小节。",
+        "style": "Lo-fi / 氛围爵士；柔和电钢琴、拨弦贝斯、刷鼓、少量街道雨后氛围",
+        "voice": "无演唱、无哼唱",
+        "tempo": "92 BPM，松弛的律动，前半克制、后半有和声展开",
+        "emotionStart": "雨后潮湿、稍显疲惫",
+        "emotionPeak": "灯光倒影中有一点明亮，步子渐渐轻快",
+        "emotionEnd": "平静放松，自然收束",
+        "revisionNotes": "",
+        "details": "电钢琴为主旋律，街道氛围轻到不影响音乐；必须有一次发展和回归",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "",
+        "mode": "instrumental",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "not-needed",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "创作方向设计",
+        "generatedAt": null,
+        "elapsedSeconds": null,
+        "direction": "纯音乐方案，无歌词；未生成音频。"
+      },
+      "wordingRevision": null
+    },
+    {
+      "id": "ridge-wind",
+      "label": "纯音乐 · 开阔",
+      "focus": "检验较快速度中的情绪曲线、动态层次与干净低频。",
+      "draft": {
+        "title": "风从山脊过",
+        "idea": "天亮前徒步上山，开始只能听见自己的呼吸，走到山脊时云层被晨光打开。做一首有推进感但不喧闹的电子纯音乐，从窄到宽，从紧到松，最后留下风的空间。",
+        "style": "旋律电子 / Cinematic Electronica；短音琶音、深而干净的贝斯、分层打击乐与宽阔合成器",
+        "voice": "无演唱、无采样人声、无合唱",
+        "tempo": "136 BPM，清楚的推进脉冲，约中段形成一次展开，不用持续满编配制造张力",
+        "emotionStart": "天未亮，专注、有一点紧张",
+        "emotionPeak": "登上山脊，空间突然变开阔",
+        "emotionEnd": "放松而明亮，保留呼吸感",
+        "revisionNotes": "",
+        "details": "前段窄声场，中段打开；给鼓组与旋律留下空间，结尾自然消散",
+        "avoid": "避免口号、堆砌意象和过长拖音",
+        "lyrics": "",
+        "mode": "instrumental",
+        "language": "zh",
+        "duration": 120
+      },
+      "lyricsStatus": "not-needed",
+      "musicStatus": "not-generated",
+      "provenance": {
+        "provider": "创作方向设计",
+        "generatedAt": null,
+        "elapsedSeconds": null,
+        "direction": "纯音乐方案，无歌词；未生成音频。"
+      },
+      "wordingRevision": null
+    }
+  ]
+}

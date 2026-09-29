@@ -1,5 +1,8 @@
 import {emptyDraft,validateDraft,taskStates,handoffPrompt,musicRequest,isActive} from './studio-core.mjs';
 import {studioStore as store} from './studio-store.mjs';
+import {createInspirationPicker,inspirationDraft} from './studio-inspirations.mjs';
+import {mountSampleLibrary,sampleCopy} from './studio-sample-library.mjs';
+const randomInspiration=createInspirationPicker();
 const $=id=>document.getElementById(id),fields=[...document.querySelectorAll('[data-draft]')];
 let project=null,connection=null,dirty=false,busy=false,step='idea',selectedTask=null,proposalTask=null,pollTimer=null,audioURL=null,playingTask=null,draftRevision=1;
 const heard=new Map();let previousTime=0;
@@ -43,7 +46,19 @@ for(const button of document.querySelectorAll('[data-style]'))button.onclick=()=
 for(const button of document.querySelectorAll('[data-step]'))button.onclick=()=>act(async()=>{if(dirty)await save();showStep(button.dataset.step);});
 $('save-project').onclick=()=>act(async()=>{await save();message('作品已保存。');});
 $('new-project').onclick=()=>act(async()=>{if(dirty)await save();clearTimeout(pollTimer);stopAudio();project=null;selectedTask=null;fill(emptyDraft());history.replaceState(null,'',location.pathname);showStep('idea');await renderTasks();await renderLibrary();message('');});
-$('fill-example').onclick=()=>{$('idea').value='多年后回到家乡，发现父亲还留着我小时候的旧自行车。车铃已经不响了，后座绑着的绳子却还在。以前嫌他接我放学来得早，现在才懂那些没说出口的爱。想写得温暖、克制，副歌有一点打开的感觉。';$('details').value='旧自行车、不响的车铃、后座留下的绳子';$('emotion-start').value='像回家聊天，亲近而克制';$('emotion-peak').value='长大后才懂得，心里一酸';$('emotion-end').value='温暖、想多陪他一会儿';changed();};
+async function startSample(draft){
+  if(dirty)await save();
+  const created=await store.create(draft);
+  clearTimeout(pollTimer);await openProject(created.id);
+}
+$('fill-example').onclick=()=>act(async()=>{const sample=randomInspiration();await startSample(inspirationDraft(sample));message('已从不同场景中随机选出一个新方向。原作品保留；可以修改这个故事，再让模型写歌词。');});
+mountSampleLibrary({onUse:async(sample,includeLyrics)=>{
+  if(busy)throw new Error('当前操作尚未完成，请稍后再创建样例。');
+  busy=true;renderButtons();
+  try{await startSample(sampleCopy(sample,includeLyrics));message(includeLyrics&&sample.draft.lyrics?'已复制样例的故事与歌词，请确认或改成自己的表达。原作品保留，未自动提交音乐生成。':'已复制创作方向。可以继续改故事，再使用已连接的模型写词或准备纯音乐。');}
+  finally{busy=false;renderButtons();}
+}});
+
 $('to-lyrics').onclick=()=>act(async()=>{await save();showStep('lyrics');message('');});
 $('lyrics-provider').onchange=renderConnections;
 $('generate-lyrics').onclick=()=>act(async()=>{await save();project=await store.prepare(project.id,{requestId:crypto.randomUUID(),revision:project.revision,type:'lyrics',provider:$('lyrics-provider').value});await renderTasks();schedulePoll();message('正在创作候选歌词，完成后由你决定是否采用。');});
